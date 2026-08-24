@@ -10,12 +10,23 @@
 
     <meta
         name="description"
-        content="Current annual tournament player ranking"
+        content="Złota Bila annual player ranking"
     >
 
-    <meta name="theme-color" content="#123c30">
+    <meta name="theme-color" content="#001b3e">
 
-    <title>Annual Player Ranking</title>
+    <title>Annual Ranking — Złota Bila</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Heebo:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
@@ -24,23 +35,49 @@
 <body>
     <header class="hero">
         <div class="container">
-            <p class="eyebrow">Official standings</p>
+            <div class="brand-bar">
+                <a
+                    class="brand"
+                    href="https://zlotabila.com/"
+                    aria-label="Złota Bila home page"
+                >
+                    <img
+                        class="brand-logo"
+                        src="zlota.svg"
+                        alt="Złota Bila"
+                    >
+                </a>
 
-            <h1>Annual Player Ranking</h1>
+                <a
+                    class="club-link"
+                    href="https://zlotabila.com/"
+                >
+                    ZLOTABILA.COM
+                </a>
+            </div>
 
-            <p id="season" class="season">
-                Loading season…
-            </p>
+            <div class="hero-content">
+                <p class="eyebrow">Official standings</p>
 
-            <div class="statistics" aria-label="Ranking statistics">
-                <div class="statistic">
-                    <strong id="player-count">—</strong>
-                    <span>Players</span>
-                </div>
+                <h1>Annual Player Ranking</h1>
 
-                <div class="statistic">
-                    <strong id="tournament-count">—</strong>
-                    <span>Tournaments</span>
+                <p id="season" class="season">
+                    Loading season…
+                </p>
+
+                <div
+                    class="statistics"
+                    aria-label="Ranking statistics"
+                >
+                    <div class="statistic">
+                        <strong id="player-count">—</strong>
+                        <span>Players</span>
+                    </div>
+
+                    <div class="statistic">
+                        <strong id="tournament-count">—</strong>
+                        <span>Tournaments</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,9 +85,12 @@
 
     <main class="container main-content">
         <section class="ranking-card">
+            <div class="gold-line"></div>
+
             <div class="toolbar">
                 <div>
-                    <h2>Current standings</h2>
+                    <p class="section-label">Standings</p>
+                    <h2>Current ranking</h2>
 
                     <p id="updated" class="updated">
                         Loading ranking…
@@ -111,9 +151,17 @@
     </main>
 
     <footer>
-        <div class="container">
-            Results are calculated from published tournament
-            standings.
+        <div class="container footer-content">
+            <img
+                class="footer-logo"
+                src="zlota.svg"
+                alt=""
+            >
+
+            <p>
+                Rankings are calculated from published tournament
+                standings.
+            </p>
         </div>
     </footer>
 </body>
