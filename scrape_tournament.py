@@ -1,7 +1,7 @@
+import argparse
 import csv
 import html
 import json
-import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -18,6 +18,21 @@ REQUEST_HEADERS = {
         "contact: mienko.alex@gmail.com)"
     )
 }
+
+CSV_FIELDNAMES = [
+    "tournament_id",
+    "tournament_date",
+    "player_id",
+    "surname",
+    "given_name",
+    "player_name",
+    "country",
+    "city",
+    "place",
+    "points",
+    "source_url",
+    "scraped_at",
+]
 
 
 def clean_value(value) -> str:
@@ -61,9 +76,8 @@ def scrape_tournament(
 
     # Tournament Service uses UTF-8, but requests may occasionally
     # detect a different encoding.
-    response.encoding = "utf-8"
-
-    soup = BeautifulSoup(response.text, "html.parser")
+    page_text = response.content.decode("utf-8", errors="replace")
+    soup = BeautifulSoup(page_text, "html.parser")
 
     tournament_name = (
         soup.title.get_text(" ", strip=True)
@@ -117,3 +131,121 @@ def scrape_tournament(
 
         if not player or len(player) < 7:
             continue
+
+        surname = clean_value(player[0])
+        given_name = clean_value(player[1])
+        country = clean_value(player[2])
+        city = clean_value(player[3])
+        place = (
+            clean_value(player[10])
+            if len(player) > 10
+            else ""
+        )
+
+        if not place:
+            place_element = row.select_one("td")
+            place = (
+                place_element.get_text(" ", strip=True)
+                if place_element
+                else ""
+            )
+
+        points = points_element.get_text(" ", strip=True).replace(
+            ",",
+            ".",
+        )
+
+        try:
+            float(points)
+        except ValueError:
+            continue
+
+        results.append(
+            {
+                "tournament_id": tournament_id,
+                "tournament_date": tournament_date.isoformat(),
+                "player_id": player_id,
+                "surname": surname,
+                "given_name": given_name,
+                "player_name": " ".join(
+                    value
+                    for value in (surname, given_name)
+                    if value
+                ),
+                "country": country,
+                "city": city,
+                "place": place,
+                "points": points,
+                "source_url": url,
+                "scraped_at": scraped_at,
+            }
+        )
+
+    if not results:
+        raise RuntimeError(
+            "No player results were found in the standings table."
+        )
+
+    print(f"Tournament: {tournament_name}")
+    print(f"Players found: {len(results)}")
+    return results
+
+
+def save_results(
+    results: list[dict],
+    tournament_id: int,
+    tournament_date: date,
+) -> Path:
+    output_directory = Path("data") / str(tournament_date.year)
+    output_directory.mkdir(parents=True, exist_ok=True)
+    output_path = output_directory / f"tournament_{tournament_id}.csv"
+
+    with output_path.open(
+        "w",
+        encoding="utf-8-sig",
+        newline="",
+    ) as file:
+        writer = csv.DictWriter(file, fieldnames=CSV_FIELDNAMES)
+        writer.writeheader()
+        writer.writerows(results)
+
+    return output_path
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Download tournament standings to a CSV file."
+    )
+    parser.add_argument(
+        "tournament_id",
+        type=int,
+        help="Tournament Service tournament ID, for example 55931.",
+    )
+    parser.add_argument(
+        "tournament_date",
+        type=parse_date,
+        help="Tournament date in YYYY-MM-DD format.",
+    )
+    arguments = parser.parse_args()
+
+    if arguments.tournament_id <= 0:
+        parser.error("The tournament ID must be a positive integer.")
+
+    try:
+        results = scrape_tournament(
+            arguments.tournament_id,
+            arguments.tournament_date,
+        )
+        output_path = save_results(
+            results,
+            arguments.tournament_id,
+            arguments.tournament_date,
+        )
+    except (OSError, csv.Error, RuntimeError) as error:
+        parser.exit(1, f"Error: {error}\n")
+
+    print(f"Saved: {output_path}")
+
+
+if __name__ == "__main__":
+    main()

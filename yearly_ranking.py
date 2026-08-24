@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 SEASON_START_MONTH = 8
-SEASON_START_DAY = 24
+SEASON_START_DAY = 1
 
 
 def season_dates(
