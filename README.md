@@ -5,8 +5,8 @@ Tournament Service standings.
 
 ## Season dates
 
-A season starts on 1 August and ends on 31 July of the
-following year.
+The current ranking season follows the calendar year, from
+1 January through 31 December.
 
 ## Installation
 
@@ -31,3 +31,6 @@ Then rebuild the website ranking for the season that starts in 2026:
 ```bash
 python3 yearly_ranking.py 2026
 ```
+
+This generates the annual ranking together with winter, spring,
+and summer rankings for the website.

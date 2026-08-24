@@ -77,6 +77,24 @@ PLAYER_PROFILES = {
     },
 }
 
+RANKING_PERIODS = (
+    {
+        "id": "winter",
+        "label": "Winter",
+        "months": (1, 2),
+    },
+    {
+        "id": "spring",
+        "label": "Spring",
+        "months": (3, 4, 5),
+    },
+    {
+        "id": "summer",
+        "label": "Summer",
+        "months": (6, 7, 8),
+    },
+)
+
 
 def season_dates(
     season_year: int,
@@ -287,6 +305,11 @@ def build_ranking(season_year: int) -> None:
         ),
         season_start=season_start,
         display_end=display_end,
+        ranking_periods=build_period_rankings(
+            ranking=ranking,
+            tournaments=list(included_tournaments.values()),
+            season_year=season_year,
+        ),
     )
 
     print()
@@ -344,11 +367,105 @@ def save_ranking_csv(
             )
 
 
+def build_period_rankings(
+    ranking: list[dict],
+    tournaments: list[dict],
+    season_year: int,
+) -> list[dict]:
+    periods = []
+
+    for period_definition in RANKING_PERIODS:
+        months = period_definition["months"]
+        period_players = []
+
+        for annual_player in ranking:
+            results = [
+                result
+                for result in annual_player["results"]
+                if date.fromisoformat(
+                    result["tournament_date"]
+                ).month in months
+                and date.fromisoformat(
+                    result["tournament_date"]
+                ).year == season_year
+            ]
+
+            if not results:
+                continue
+
+            period_players.append(
+                {
+                    "player_id": annual_player["player_id"],
+                    "player_name": annual_player["player_name"],
+                    "country": annual_player["country"],
+                    "tournaments": len(results),
+                    "total_points": round(
+                        sum(result["points"] for result in results),
+                        2,
+                    ),
+                    "annual_rank": annual_player["rank"],
+                    "results": results,
+                }
+            )
+
+        period_players.sort(
+            key=lambda player: (
+                -player["total_points"],
+                -player["tournaments"],
+                player["player_name"].casefold(),
+            )
+        )
+
+        for position, player in enumerate(
+            period_players,
+            start=1,
+        ):
+            player["rank"] = position
+
+        period_tournaments = [
+            tournament
+            for tournament in tournaments
+            if date.fromisoformat(
+                tournament["tournament_date"]
+            ).month in months
+            and date.fromisoformat(
+                tournament["tournament_date"]
+            ).year == season_year
+        ]
+
+        start_month = months[0]
+        end_month = months[-1]
+        period_start = date(season_year, start_month, 1)
+        next_month = date(
+            season_year + (end_month == 12),
+            end_month % 12 + 1,
+            1,
+        )
+        period_end = next_month - timedelta(days=1)
+
+        periods.append(
+            {
+                "id": period_definition["id"],
+                "label": period_definition["label"],
+                "date_range": (
+                    f"{period_start:%d.%m.%Y}"
+                    f"–{period_end:%d.%m.%Y}"
+                ),
+                "tournament_count": len(period_tournaments),
+                "player_count": len(period_players),
+                "players": period_players,
+            }
+        )
+
+    return periods
+
+
 def save_website_json(
     ranking: list[dict],
     tournaments: list[dict],
     season_start: date,
     display_end: date,
+    ranking_periods: list[dict],
 ) -> None:
     website_directory = Path("docs")
     website_directory.mkdir(exist_ok=True)
@@ -376,6 +493,7 @@ def save_website_json(
         "player_count": len(ranking),
         "tournaments": tournaments,
         "players": ranking,
+        "periods": ranking_periods,
     }
 
     output_path = website_directory / "ranking.json"
