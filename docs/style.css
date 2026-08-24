@@ -92,10 +92,12 @@ a {
     border-bottom: 1px solid rgb(255 255 255 / 10%);
 }
 
-.brand-group {
+.ranking-navigation-row {
+    position: relative;
+    z-index: 3;
     display: flex;
     align-items: center;
-    gap: 22px;
+    padding-top: 22px;
 }
 
 .site-navigation {
@@ -207,7 +209,7 @@ a {
 .hero-content {
     position: relative;
     z-index: 1;
-    padding: 62px 0 120px;
+    padding: 36px 0 120px;
 }
 
 .eyebrow,
@@ -294,34 +296,46 @@ h1 {
 }
 
 .period-tabs {
-    display: flex;
-    gap: 8px;
+    display: inline-flex;
+    gap: 3px;
+    padding: 4px;
+    border: 1px solid rgb(179 134 65 / 45%);
+    border-radius: 999px;
+    background: rgb(179 134 65 / 7%);
 }
 
 .period-tab {
     min-width: 100px;
-    padding: 10px 18px;
-    border: 1px solid var(--border);
-    border-radius: 2px;
+    padding: 9px 18px;
+    border: 0;
+    border-radius: 999px;
     background: transparent;
-    color: var(--muted);
+    color: var(--gold-light);
     cursor: pointer;
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 0.05em;
+    opacity: 0.72;
     text-transform: uppercase;
+    transition:
+        background 150ms ease,
+        color 150ms ease,
+        opacity 150ms ease,
+        box-shadow 150ms ease;
 }
 
 .period-tab:hover,
 .period-tab:focus-visible {
-    border-color: var(--gold);
     outline: none;
-    color: var(--white);
+    background: rgb(179 134 65 / 14%);
+    color: var(--gold-light);
+    opacity: 1;
 }
 
 .period-tab[aria-selected="true"] {
-    border-color: var(--gold);
-    background: var(--gold);
+    background: linear-gradient(135deg, var(--gold-light), var(--gold));
+    box-shadow: 0 5px 18px rgb(179 134 65 / 24%);
     color: var(--navy-dark);
+    opacity: 1;
 }
 
 .comparison-note {
@@ -566,8 +580,8 @@ footer {
         width: 150px;
     }
 
-    .brand-group {
-        gap: 13px;
+    .ranking-navigation-row {
+        padding-top: 16px;
     }
 
     .menu-button {
@@ -584,7 +598,7 @@ footer {
     }
 
     .hero-content {
-        padding: 48px 0 105px;
+        padding: 28px 0 105px;
     }
 
     .statistics {
@@ -612,6 +626,7 @@ footer {
     .period-tabs {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: 100%;
     }
 
     .period-tab {
