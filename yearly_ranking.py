@@ -5,8 +5,77 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 
-SEASON_START_MONTH = 8
+SEASON_START_MONTH = 1
 SEASON_START_DAY = 1
+
+# Tournament Service may assign more than one player ID to the same
+# person. Map duplicate IDs to the ID used for the combined ranking.
+PLAYER_ID_ALIASES = {
+    85: 91311,
+    10378: 94439,
+    56346: 17811,
+    76844: 53373,
+    79229: 96995,
+    85155: 45929,
+    87663: 100787,
+    99885: 99887,
+    96997: 87815,
+    100786: 45956,
+    100957: 53373,
+    103855: 87816,
+    87818: 53732,
+}
+
+PLAYER_PROFILES = {
+    17811: {
+        "player_name": "Dementii Danylo",
+        "country": "POL",
+    },
+    45929: {
+        "player_name": "Havadziuk Serhii",
+        "country": "UKR",
+    },
+    45956: {
+        "player_name": "Bikmetov Maxim",
+        "country": "UKR",
+    },
+    53373: {
+        "player_name": "Олексій Мієнко",
+        "country": "UKR",
+    },
+    53732: {
+        "player_name": "Kondratiuk Alexandr",
+        "country": "POL",
+    },
+    87815: {
+        "player_name": "Klubkov Dmytro",
+        "country": "POL",
+    },
+    87816: {
+        "player_name": "Kurchevskyi Daniil",
+        "country": "POL",
+    },
+    91311: {
+        "player_name": "Міщенко Адріан",
+        "country": "UKR",
+    },
+    94439: {
+        "player_name": "Дмитрюк Андрій",
+        "country": "POL",
+    },
+    96995: {
+        "player_name": "Lobov Maksym",
+        "country": "CYP",
+    },
+    99887: {
+        "player_name": "Papou Vladimir",
+        "country": "POL",
+    },
+    100787: {
+        "player_name": "Zhygimont Aleh",
+        "country": "POL",
+    },
+}
 
 
 def season_dates(
@@ -122,6 +191,11 @@ def build_ranking(season_year: int) -> None:
                 )
                 continue
 
+            player_id = PLAYER_ID_ALIASES.get(
+                player_id,
+                player_id,
+            )
+
             # Prevent an accidental duplicate player row inside one
             # tournament file.
             if player_id in seen_players_in_file:
@@ -133,15 +207,25 @@ def build_ranking(season_year: int) -> None:
 
             seen_players_in_file.add(player_id)
 
+            canonical_profile = PLAYER_PROFILES.get(player_id)
+
             player = players.setdefault(
                 player_id,
                 {
                     "player_id": player_id,
-                    "player_name": row.get(
-                        "player_name",
-                        f"Player {player_id}",
+                    "player_name": (
+                        canonical_profile["player_name"]
+                        if canonical_profile
+                        else row.get(
+                            "player_name",
+                            f"Player {player_id}",
+                        )
                     ),
-                    "country": row.get("country", ""),
+                    "country": (
+                        canonical_profile["country"]
+                        if canonical_profile
+                        else row.get("country", "")
+                    ),
                     "tournaments": 0,
                     "total_points": 0.0,
                     "results": [],
@@ -149,10 +233,10 @@ def build_ranking(season_year: int) -> None:
             )
 
             # Use the most recent non-empty name and country.
-            if row.get("player_name"):
+            if not canonical_profile and row.get("player_name"):
                 player["player_name"] = row["player_name"]
 
-            if row.get("country"):
+            if not canonical_profile and row.get("country"):
                 player["country"] = row["country"]
 
             player["total_points"] += points

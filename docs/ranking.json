@@ -1,11 +1,11 @@
 {
   "title": "Annual Player Ranking",
-  "season": "01.08.2026–31.07.2027",
-  "season_start": "2026-08-01",
-  "season_end": "2027-07-31",
-  "updated_at": "2026-08-24T14:24:50.746341+00:00",
-  "tournament_count": 2,
-  "player_count": 38,
+  "season": "01.01.2026–31.12.2026",
+  "season_start": "2026-01-01",
+  "season_end": "2026-12-31",
+  "updated_at": "2026-08-24T15:07:05.753543+00:00",
+  "tournament_count": 13,
+  "player_count": 116,
   "tournaments": [
     {
       "tournament_id": "55931",
@@ -16,15 +16,411 @@
       "tournament_id": "55755",
       "tournament_name": "Tournament 55755",
       "tournament_date": "2026-08-09"
+    },
+    {
+      "tournament_id": "55634",
+      "tournament_name": "Tournament 55634",
+      "tournament_date": "2026-07-26"
+    },
+    {
+      "tournament_id": "55565",
+      "tournament_name": "Tournament 55565",
+      "tournament_date": "2026-07-12"
+    },
+    {
+      "tournament_id": "55159",
+      "tournament_name": "Tournament 55159",
+      "tournament_date": "2026-05-24"
+    },
+    {
+      "tournament_id": "55047",
+      "tournament_name": "Tournament 55047",
+      "tournament_date": "2026-05-10"
+    },
+    {
+      "tournament_id": "54767",
+      "tournament_name": "Tournament 54767",
+      "tournament_date": "2026-04-25"
+    },
+    {
+      "tournament_id": "54702",
+      "tournament_name": "Tournament 54702",
+      "tournament_date": "2026-03-29"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Tournament 54570",
+      "tournament_date": "2026-03-15"
+    },
+    {
+      "tournament_id": "54379",
+      "tournament_name": "Tournament 54379",
+      "tournament_date": "2026-02-22"
+    },
+    {
+      "tournament_id": "54257",
+      "tournament_name": "Tournament 54257",
+      "tournament_date": "2026-02-08"
+    },
+    {
+      "tournament_id": "53955",
+      "tournament_name": "Tournament 53955",
+      "tournament_date": "2026-01-24"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Tournament 53998",
+      "tournament_date": "2026-01-11"
     }
   ],
   "players": [
     {
+      "player_id": 68408,
+      "player_name": "Трачук Кірілл",
+      "country": "UKR",
+      "tournaments": 11,
+      "total_points": 187.0,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "5-8",
+          "points": 12.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "3-4",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "5-8",
+          "points": 13.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "1",
+          "points": 34.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "3-4",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "9-12",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "1",
+          "points": 35.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "3-4",
+          "points": 14.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "player_id": 64943,
+      "player_name": "Собачинский Владислав",
+      "country": "UKR",
+      "tournaments": 11,
+      "total_points": 158.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "3-4",
+          "points": 14.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "9-16",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "2",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "5-8",
+          "points": 13.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "5-8",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "5-8",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "1",
+          "points": 31.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "player_id": 87816,
+      "player_name": "Kurchevskyi Daniil",
+      "country": "POL",
+      "tournaments": 10,
+      "total_points": 151.5,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "9-16",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "1",
+          "points": 35.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "5-8",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "2",
+          "points": 18.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "5-8",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "1",
+          "points": 32.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "player_id": 10481,
+      "player_name": "Баблюк Евгений",
+      "country": "UKR",
+      "tournaments": 11,
+      "total_points": 127.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "5-8",
+          "points": 12.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "5-8",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "3-4",
+          "points": 12.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "3-4",
+          "points": 17.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "5-8",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "2",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 4
+    },
+    {
       "player_id": 43938,
       "player_name": "Таланенко Олександр",
       "country": "POL",
-      "tournaments": 2,
-      "total_points": 48.0,
+      "tournaments": 9,
+      "total_points": 125.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -39,16 +435,138 @@
           "tournament_date": "2026-08-09",
           "place": "3-4",
           "points": 16.0
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "13-16",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "5-8",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "3-4",
+          "points": 14.0
         }
       ],
-      "rank": 1
+      "rank": 5
+    },
+    {
+      "player_id": 87815,
+      "player_name": "Klubkov Dmytro",
+      "country": "POL",
+      "tournaments": 9,
+      "total_points": 114.5,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "5-8",
+          "points": 12.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "5-8",
+          "points": 13.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "1",
+          "points": 28.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "5-8",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 6
     },
     {
       "player_id": 53373,
-      "player_name": "Мієнко Олексій",
+      "player_name": "Олексій Мієнко",
       "country": "UKR",
-      "tournaments": 2,
-      "total_points": 42.0,
+      "tournaments": 8,
+      "total_points": 113.5,
       "results": [
         {
           "tournament_id": "55931",
@@ -63,23 +581,131 @@
           "tournament_date": "2026-08-09",
           "place": "1",
           "points": 34.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "5-8",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "5-8",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
         }
       ],
-      "rank": 2
+      "rank": 7
     },
     {
-      "player_id": 64943,
-      "player_name": "Собачинский Владислав",
-      "country": "UKR",
-      "tournaments": 2,
-      "total_points": 24.0,
+      "player_id": 87671,
+      "player_name": "Скукіс Володимир",
+      "country": "POL",
+      "tournaments": 8,
+      "total_points": 110.0,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "25-28",
+          "points": 2.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "3-4",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "3-4",
+          "points": 16.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "13-16",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "2",
+          "points": 20.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "1",
+          "points": 32.0
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": 97675,
+      "player_name": "Бугаєць Роман",
+      "country": "POL",
+      "tournaments": 11,
+      "total_points": 92.5,
       "results": [
         {
           "tournament_id": "55931",
           "tournament_name": "Tournament 55931",
           "tournament_date": "2026-08-24",
-          "place": "3-4",
-          "points": 14.0
+          "place": "17-24",
+          "points": 4.0
         },
         {
           "tournament_id": "55755",
@@ -87,40 +713,204 @@
           "tournament_date": "2026-08-09",
           "place": "9-16",
           "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "5-8",
+          "points": 13.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "13-16",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "13-16",
+          "points": 5.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
         }
       ],
-      "rank": 3
+      "rank": 9
     },
     {
-      "player_id": 10481,
-      "player_name": "Баблюк Евгений",
+      "player_id": 96995,
+      "player_name": "Lobov Maksym",
+      "country": "CYP",
+      "tournaments": 9,
+      "total_points": 89.0,
+      "results": [
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "5-8",
+          "points": 12.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "2",
+          "points": 16.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "5-8",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "player_id": 38885,
+      "player_name": "Бурлака Валерій",
       "country": "UKR",
-      "tournaments": 2,
-      "total_points": 22.0,
+      "tournaments": 6,
+      "total_points": 83.5,
       "results": [
         {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "5-8",
-          "points": 10.0
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "2",
+          "points": 22.5
         },
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "5-8",
-          "points": 12.0
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
         }
       ],
-      "rank": 4
+      "rank": 11
     },
     {
-      "player_id": 89180,
-      "player_name": "Лапко Алексей",
+      "player_id": 87813,
+      "player_name": "Polovko Volodymyr",
       "country": "POL",
-      "tournaments": 2,
-      "total_points": 22.0,
+      "tournaments": 10,
+      "total_points": 83.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -133,18 +923,518 @@
           "tournament_id": "55755",
           "tournament_name": "Tournament 55755",
           "tournament_date": "2026-08-09",
+          "place": "17-24",
+          "points": 6.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "3-4",
+          "points": 17.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "9-12",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
           "place": "5-8",
-          "points": 12.0
+          "points": 9.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "5-8",
+          "points": 10.0
         }
       ],
-      "rank": 5
+      "rank": 12
     },
     {
-      "player_id": 56346,
+      "player_id": 87908,
+      "player_name": "Тихонов Роман",
+      "country": "POL",
+      "tournaments": 10,
+      "total_points": 82.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "17-21",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "5-8",
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "3-4",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "player_id": 100787,
+      "player_name": "Zhygimont Aleh",
+      "country": "POL",
+      "tournaments": 5,
+      "total_points": 82.5,
+      "results": [
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "5-8",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "2",
+          "points": 23.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "3-4",
+          "points": 16.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "3-4",
+          "points": 14.0
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "player_id": 94439,
+      "player_name": "Дмитрюк Андрій",
+      "country": "POL",
+      "tournaments": 11,
+      "total_points": 78.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "17-24",
+          "points": 6.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "25-29",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "5-8",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "9-12",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "player_id": 26032,
+      "player_name": "Попов Олександр",
+      "country": "UKR",
+      "tournaments": 5,
+      "total_points": 72.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "1",
+          "points": 31.5
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "5-8",
+          "points": 12.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "3-4",
+          "points": 12.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "player_id": 9707,
+      "player_name": "Вишневский Денис",
+      "country": "UKR",
+      "tournaments": 4,
+      "total_points": 66.5,
+      "results": [
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "1",
+          "points": 30.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "2",
+          "points": 20.0
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "player_id": 45956,
+      "player_name": "Bikmetov Maxim",
+      "country": "UKR",
+      "tournaments": 4,
+      "total_points": 64.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "3-4",
+          "points": 25.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "player_id": 88403,
+      "player_name": "Lavryk Yevgen",
+      "country": "POL",
+      "tournaments": 8,
+      "total_points": 60.0,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "9-16",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "9-12",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "5-8",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "player_id": 97235,
+      "player_name": "Сливинский Андрей",
+      "country": "POL",
+      "tournaments": 5,
+      "total_points": 54.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "9-16",
+          "points": 10.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "3-4",
+          "points": 17.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "player_id": 17811,
       "player_name": "Dementii Danylo",
       "country": "POL",
-      "tournaments": 1,
-      "total_points": 22.0,
+      "tournaments": 3,
+      "total_points": 51.0,
       "results": [
         {
           "tournament_id": "55755",
@@ -152,33 +1442,61 @@
           "tournament_date": "2026-08-09",
           "place": "2",
           "points": 22.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "5-8",
+          "points": 21.5
         }
       ],
-      "rank": 6
+      "rank": 21
     },
     {
-      "player_id": 76085,
-      "player_name": "Гайдеров Максим",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 20.0,
+      "player_id": 98039,
+      "player_name": "Одарюк Михаил",
+      "country": "ESP",
+      "tournaments": 3,
+      "total_points": 48.5,
       "results": [
         {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
           "place": "2",
-          "points": 20.0
+          "points": 23.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
         }
       ],
-      "rank": 7
+      "rank": 22
     },
     {
-      "player_id": 97235,
-      "player_name": "Сливинский Андрей",
+      "player_id": 97445,
+      "player_name": "Кепич Тарас",
       "country": "POL",
-      "tournaments": 2,
-      "total_points": 18.0,
+      "tournaments": 8,
+      "total_points": 48.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -191,18 +1509,60 @@
           "tournament_id": "55755",
           "tournament_name": "Tournament 55755",
           "tournament_date": "2026-08-09",
+          "place": "17-24",
+          "points": 6.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
           "place": "9-16",
-          "points": 10.0
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "13-16",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "13-16",
+          "points": 5.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
         }
       ],
-      "rank": 8
+      "rank": 23
     },
     {
-      "player_id": 87813,
-      "player_name": "Polovko Volodymyr",
+      "player_id": 89180,
+      "player_name": "Лапко Алексей",
       "country": "POL",
-      "tournaments": 2,
-      "total_points": 16.0,
+      "tournaments": 6,
+      "total_points": 48.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -215,35 +1575,91 @@
           "tournament_id": "55755",
           "tournament_name": "Tournament 55755",
           "tournament_date": "2026-08-09",
+          "place": "5-8",
+          "points": 12.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
           "place": "17-24",
-          "points": 6.0
+          "points": 7.0
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
         }
       ],
-      "rank": 9
+      "rank": 24
     },
     {
-      "player_id": 58151,
-      "player_name": "Єфремов Олексій",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 16.0,
+      "player_id": 92409,
+      "player_name": "Конишев Никита",
+      "country": "POL",
+      "tournaments": 5,
+      "total_points": 46.5,
       "results": [
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
           "place": "3-4",
-          "points": 16.0
+          "points": 10.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "5-8",
+          "points": 13.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "9-12",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
         }
       ],
-      "rank": 10
+      "rank": 25
     },
     {
-      "player_id": 97675,
-      "player_name": "Бугаєць Роман",
+      "player_id": 89467,
+      "player_name": "Діденко Геннадій",
       "country": "POL",
-      "tournaments": 2,
-      "total_points": 14.0,
+      "tournaments": 8,
+      "total_points": 45.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -256,66 +1672,60 @@
           "tournament_id": "55755",
           "tournament_name": "Tournament 55755",
           "tournament_date": "2026-08-09",
-          "place": "9-16",
-          "points": 10.0
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "player_id": 5580,
-      "player_name": "Данов Илья",
-      "country": "UKR",
-      "tournaments": 2,
-      "total_points": 14.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "9-16",
-          "points": 8.0
-        },
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
           "place": "17-24",
           "points": 6.0
-        }
-      ],
-      "rank": 12
-    },
-    {
-      "player_id": 97445,
-      "player_name": "Кепич Тарас",
-      "country": "POL",
-      "tournaments": 2,
-      "total_points": 14.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "9-16",
-          "points": 8.0
         },
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
           "place": "17-24",
-          "points": 6.0
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "5-8",
+          "points": 12.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "9-12",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
         }
       ],
-      "rank": 13
+      "rank": 26
     },
     {
       "player_id": 41555,
       "player_name": "Черный Роман",
       "country": "UKR",
-      "tournaments": 2,
-      "total_points": 14.0,
+      "tournaments": 9,
+      "total_points": 44.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -330,16 +1740,351 @@
           "tournament_date": "2026-08-09",
           "place": "17-24",
           "points": 6.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "13-16",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "17-21",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
         }
       ],
-      "rank": 14
+      "rank": 27
+    },
+    {
+      "player_id": 33264,
+      "player_name": "Білий Любомир",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 43.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "1",
+          "points": 43.5
+        }
+      ],
+      "rank": 28
+    },
+    {
+      "player_id": 100907,
+      "player_name": "Voronko Daniil",
+      "country": "TBA",
+      "tournaments": 2,
+      "total_points": 43.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "3-4",
+          "points": 25.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        }
+      ],
+      "rank": 29
+    },
+    {
+      "player_id": 100954,
+      "player_name": "Rodionov Vladiav",
+      "country": "TBA",
+      "tournaments": 1,
+      "total_points": 41.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "1",
+          "points": 41.5
+        }
+      ],
+      "rank": 30
+    },
+    {
+      "player_id": 7205,
+      "player_name": "Гранкин Ярослав",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 41.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "2",
+          "points": 31.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 31
+    },
+    {
+      "player_id": 41556,
+      "player_name": "Крутов Алексей",
+      "country": "UKR",
+      "tournaments": 10,
+      "total_points": 39.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "25-28",
+          "points": 2.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "13-16",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "25",
+          "points": 0.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 32
+    },
+    {
+      "player_id": 100908,
+      "player_name": "Aksen Vladislav",
+      "country": "TBA",
+      "tournaments": 2,
+      "total_points": 39.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "5-8",
+          "points": 19.5
+        }
+      ],
+      "rank": 33
+    },
+    {
+      "player_id": 91311,
+      "player_name": "Міщенко Адріан",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 39.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "3-4",
+          "points": 23.5
+        }
+      ],
+      "rank": 34
+    },
+    {
+      "player_id": 224,
+      "player_name": "Плешко Марк",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 39.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "9-16",
+          "points": 19.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "5-8",
+          "points": 19.5
+        }
+      ],
+      "rank": 35
+    },
+    {
+      "player_id": 5580,
+      "player_name": "Данов Илья",
+      "country": "UKR",
+      "tournaments": 6,
+      "total_points": 37.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "17-24",
+          "points": 6.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "13-16",
+          "points": 5.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 36
     },
     {
       "player_id": 1559,
       "player_name": "Десятник Виталий",
       "country": "UKR",
-      "tournaments": 1,
-      "total_points": 14.0,
+      "tournaments": 3,
+      "total_points": 32.0,
       "results": [
         {
           "tournament_id": "55931",
@@ -347,115 +2092,54 @@
           "tournament_date": "2026-08-24",
           "place": "3-4",
           "points": 14.0
-        }
-      ],
-      "rank": 15
-    },
-    {
-      "player_id": 87815,
-      "player_name": "Клубков Дмитрий",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 12.0,
-      "results": [
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "5-8",
-          "points": 12.0
-        }
-      ],
-      "rank": 16
-    },
-    {
-      "player_id": 68408,
-      "player_name": "Трачук Кірілл",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 12.0,
-      "results": [
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "5-8",
-          "points": 12.0
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "player_id": 89467,
-      "player_name": "Діденко Геннадій",
-      "country": "POL",
-      "tournaments": 2,
-      "total_points": 10.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
         },
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "17-24",
-          "points": 6.0
-        }
-      ],
-      "rank": 18
-    },
-    {
-      "player_id": 103427,
-      "player_name": "Янченко Артем",
-      "country": "POL",
-      "tournaments": 2,
-      "total_points": 10.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        },
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "17-24",
-          "points": 6.0
-        }
-      ],
-      "rank": 19
-    },
-    {
-      "player_id": 88403,
-      "player_name": "Lavryk Yevgen",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 10.0,
-      "results": [
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
           "place": "9-16",
-          "points": 10.0
+          "points": 8.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "5-8",
+          "points": 9.5
         }
       ],
-      "rank": 20
+      "rank": 37
+    },
+    {
+      "player_id": 90817,
+      "player_name": "Денисенко Игорь",
+      "country": "ARE",
+      "tournaments": 2,
+      "total_points": 31.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "5-8",
+          "points": 21.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 38
     },
     {
       "player_id": 101634,
       "player_name": "Ефаненков Анатолий",
       "country": "POL",
-      "tournaments": 1,
-      "total_points": 10.0,
+      "tournaments": 7,
+      "total_points": 29.5,
       "results": [
         {
           "tournament_id": "55755",
@@ -463,9 +2147,1072 @@
           "tournament_date": "2026-08-09",
           "place": "9-16",
           "points": 10.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "25-29",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "17-21",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
         }
       ],
-      "rank": 21
+      "rank": 39
+    },
+    {
+      "player_id": 22984,
+      "player_name": "Гоменюк Нікіта",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 29.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "2",
+          "points": 29.5
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "player_id": 86276,
+      "player_name": "Левочкин Володимир",
+      "country": "POL",
+      "tournaments": 3,
+      "total_points": 28.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        }
+      ],
+      "rank": 41
+    },
+    {
+      "player_id": 9926,
+      "player_name": "Олейник Иван",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 28.5,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "3-4",
+          "points": 17.0
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        }
+      ],
+      "rank": 42
+    },
+    {
+      "player_id": 76085,
+      "player_name": "Гайдеров Максим",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 28.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 43
+    },
+    {
+      "player_id": 5321,
+      "player_name": "Сінгаєвський Євгеній",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 27.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "5-8",
+          "points": 19.5
+        }
+      ],
+      "rank": 44
+    },
+    {
+      "player_id": 58151,
+      "player_name": "Єфремов Олексій",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 26.5,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "3-4",
+          "points": 16.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        }
+      ],
+      "rank": 45
+    },
+    {
+      "player_id": 1632,
+      "player_name": "Шумелюк Александр",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 26.0,
+      "results": [
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "5-8",
+          "points": 8.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        }
+      ],
+      "rank": 46
+    },
+    {
+      "player_id": 39029,
+      "player_name": "Череватый Денис",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 25.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 47
+    },
+    {
+      "player_id": 55740,
+      "player_name": "Бойко Дмитро",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 24.5,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "3-4",
+          "points": 13.5
+        }
+      ],
+      "rank": 48
+    },
+    {
+      "player_id": 101635,
+      "player_name": "Марданов Хусейн",
+      "country": "POL",
+      "tournaments": 6,
+      "total_points": 24.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "25-28",
+          "points": 2.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "17-21",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "25-31",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        }
+      ],
+      "rank": 49
+    },
+    {
+      "player_id": 103428,
+      "player_name": "Микаилов Кенан",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 23.5,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "9-16",
+          "points": 11.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "5-8",
+          "points": 12.5
+        }
+      ],
+      "rank": 50
+    },
+    {
+      "player_id": 1188,
+      "player_name": "Каракай Валерий",
+      "country": "LAT",
+      "tournaments": 1,
+      "total_points": 23.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "3-4",
+          "points": 23.5
+        }
+      ],
+      "rank": 51
+    },
+    {
+      "player_id": 100906,
+      "player_name": "Pavlovich Timofey",
+      "country": "TBA",
+      "tournaments": 1,
+      "total_points": 21.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "5-8",
+          "points": 21.5
+        }
+      ],
+      "rank": 52
+    },
+    {
+      "player_id": 89057,
+      "player_name": "Shmyrko Bohdan",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 21.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "5-8",
+          "points": 21.5
+        }
+      ],
+      "rank": 53
+    },
+    {
+      "player_id": 25198,
+      "player_name": "Aguzov Igor",
+      "country": "ESP",
+      "tournaments": 2,
+      "total_points": 21.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 54
+    },
+    {
+      "player_id": 41351,
+      "player_name": "Багацький Денис",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 21.0,
+      "results": [
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "9-12",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 55
+    },
+    {
+      "player_id": 16530,
+      "player_name": "Єленич Владислав",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 19.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "5-8",
+          "points": 19.5
+        }
+      ],
+      "rank": 56
+    },
+    {
+      "player_id": 103427,
+      "player_name": "Янченко Артем",
+      "country": "POL",
+      "tournaments": 5,
+      "total_points": 19.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "17-24",
+          "points": 6.0
+        },
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "25-29",
+          "points": 2.5
+        }
+      ],
+      "rank": 57
+    },
+    {
+      "player_id": 53732,
+      "player_name": "Kondratiuk Alexandr",
+      "country": "POL",
+      "tournaments": 4,
+      "total_points": 19.0,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "9-12",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 58
+    },
+    {
+      "player_id": 1053,
+      "player_name": "Крупицкий Александр",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 17.5,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "9-16",
+          "points": 10.5
+        }
+      ],
+      "rank": 59
+    },
+    {
+      "player_id": 98299,
+      "player_name": "Котик Игорь",
+      "country": "ESP",
+      "tournaments": 1,
+      "total_points": 17.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "9-16",
+          "points": 17.5
+        }
+      ],
+      "rank": 60
+    },
+    {
+      "player_id": 45929,
+      "player_name": "Havadziuk Serhii",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 17.0,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 61
+    },
+    {
+      "player_id": 100025,
+      "player_name": "Рупаевский Адик",
+      "country": "ESP",
+      "tournaments": 2,
+      "total_points": 17.0,
+      "results": [
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "9-16",
+          "points": 11.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 62
+    },
+    {
+      "player_id": 102379,
+      "player_name": "Безуглый Максим",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 15.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        },
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 63
+    },
+    {
+      "player_id": 3332,
+      "player_name": "Svitkovskyi Yurii",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 15.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        }
+      ],
+      "rank": 64
+    },
+    {
+      "player_id": 98851,
+      "player_name": "Гидрат Антон",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 15.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        }
+      ],
+      "rank": 65
+    },
+    {
+      "player_id": 13349,
+      "player_name": "Кусень Михайло",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 15.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        }
+      ],
+      "rank": 66
+    },
+    {
+      "player_id": 4169,
+      "player_name": "Лебідь Дмитро",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 15.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "17-24",
+          "points": 15.5
+        }
+      ],
+      "rank": 67
+    },
+    {
+      "player_id": 93605,
+      "player_name": "Демидов Максим",
+      "country": "POL",
+      "tournaments": 3,
+      "total_points": 15.0,
+      "results": [
+        {
+          "tournament_id": "55755",
+          "tournament_name": "Tournament 55755",
+          "tournament_date": "2026-08-09",
+          "place": "25-28",
+          "points": 2.0
+        },
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 68
+    },
+    {
+      "player_id": 88075,
+      "player_name": "Стельмах Даниил",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 15.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        },
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "17-24",
+          "points": 7.0
+        }
+      ],
+      "rank": 69
+    },
+    {
+      "player_id": 8601,
+      "player_name": "Криворучко Андрей",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 14.5,
+      "results": [
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "3-4",
+          "points": 14.5
+        }
+      ],
+      "rank": 70
+    },
+    {
+      "player_id": 58944,
+      "player_name": "Тіванов Матвій",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 14.0,
+      "results": [
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "9-16",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "9-12",
+          "points": 6.5
+        }
+      ],
+      "rank": 71
+    },
+    {
+      "player_id": 88077,
+      "player_name": "Ярчевский Эдуард",
+      "country": "POL",
+      "tournaments": 4,
+      "total_points": 13.5,
+      "results": [
+        {
+          "tournament_id": "55565",
+          "tournament_name": "Tournament 55565",
+          "tournament_date": "2026-07-12",
+          "place": "25-30",
+          "points": 3.0
+        },
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "25-29",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        }
+      ],
+      "rank": 72
+    },
+    {
+      "player_id": 194,
+      "player_name": "Dubenko Ihor",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 13.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 73
+    },
+    {
+      "player_id": 100580,
+      "player_name": "Paulau Vitali",
+      "country": "LIT",
+      "tournaments": 1,
+      "total_points": 13.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 74
+    },
+    {
+      "player_id": 82628,
+      "player_name": "Sergeyev Sergiy",
+      "country": "LAT",
+      "tournaments": 1,
+      "total_points": 13.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 75
+    },
+    {
+      "player_id": 80597,
+      "player_name": "Юрочкін Петро",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 13.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "17-24",
+          "points": 13.5
+        }
+      ],
+      "rank": 76
+    },
+    {
+      "player_id": 99069,
+      "player_name": "Сидоров Алексей",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 12.0,
+      "results": [
+        {
+          "tournament_id": "54570",
+          "tournament_name": "Tournament 54570",
+          "tournament_date": "2026-03-15",
+          "place": "17-24",
+          "points": 7.5
+        },
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        }
+      ],
+      "rank": 77
+    },
+    {
+      "player_id": 99887,
+      "player_name": "Papou Vladimir",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 11.5,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "9-12",
+          "points": 7.5
+        }
+      ],
+      "rank": 78
+    },
+    {
+      "player_id": 95609,
+      "player_name": "Ivan Attila",
+      "country": "GER",
+      "tournaments": 1,
+      "total_points": 11.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        }
+      ],
+      "rank": 79
+    },
+    {
+      "player_id": 102432,
+      "player_name": "Juszip Jaromir",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 11.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        }
+      ],
+      "rank": 80
+    },
+    {
+      "player_id": 95059,
+      "player_name": "Tymets Maksym",
+      "country": "GER",
+      "tournaments": 1,
+      "total_points": 11.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        }
+      ],
+      "rank": 81
+    },
+    {
+      "player_id": 85391,
+      "player_name": "Гаращук Сергей",
+      "country": "ESP",
+      "tournaments": 1,
+      "total_points": 11.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "25-32",
+          "points": 11.5
+        }
+      ],
+      "rank": 82
+    },
+    {
+      "player_id": 49300,
+      "player_name": "Вечтомов Александр",
+      "country": "UKR",
+      "tournaments": 3,
+      "total_points": 11.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        },
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "9-12",
+          "points": 4.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "17-21",
+          "points": 2.5
+        }
+      ],
+      "rank": 83
     },
     {
       "player_id": 76628,
@@ -482,7 +3229,7 @@
           "points": 10.0
         }
       ],
-      "rank": 22
+      "rank": 84
     },
     {
       "player_id": 104756,
@@ -499,157 +3246,303 @@
           "points": 10.0
         }
       ],
-      "rank": 23
+      "rank": 85
     },
     {
-      "player_id": 87816,
-      "player_name": "Курчевский Даниил",
+      "player_id": 85159,
+      "player_name": "Knysh Andrii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 10.0,
+      "total_points": 9.5,
       "results": [
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 86
+    },
+    {
+      "player_id": 100566,
+      "player_name": "Zayanchkouski Anton",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 9.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "25-32",
+          "points": 9.5
+        }
+      ],
+      "rank": 87
+    },
+    {
+      "player_id": 87672,
+      "player_name": "Гезун Николай",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.5,
+      "results": [
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
           "place": "9-16",
-          "points": 10.0
+          "points": 8.5
         }
       ],
-      "rank": 24
+      "rank": 88
     },
     {
-      "player_id": 87908,
-      "player_name": "Тихонов Роман",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 10.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "5-8",
-          "points": 10.0
-        }
-      ],
-      "rank": 25
-    },
-    {
-      "player_id": 102379,
-      "player_name": "Безуглый Максим",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 8.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "9-16",
-          "points": 8.0
-        }
-      ],
-      "rank": 26
-    },
-    {
-      "player_id": 94439,
-      "player_name": "Дмитрюк Андрій",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 8.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "9-16",
-          "points": 8.0
-        }
-      ],
-      "rank": 27
-    },
-    {
-      "player_id": 88075,
-      "player_name": "Стельмах Даниил",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 8.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "9-16",
-          "points": 8.0
-        }
-      ],
-      "rank": 28
-    },
-    {
-      "player_id": 41556,
-      "player_name": "Крутов Алексей",
-      "country": "UKR",
-      "tournaments": 2,
-      "total_points": 6.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        },
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "25-28",
-          "points": 2.0
-        }
-      ],
-      "rank": 29
-    },
-    {
-      "player_id": 101635,
-      "player_name": "Марданов Хусейн",
-      "country": "POL",
-      "tournaments": 2,
-      "total_points": 6.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        },
-        {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "25-28",
-          "points": 2.0
-        }
-      ],
-      "rank": 30
-    },
-    {
-      "player_id": 10378,
-      "player_name": "Дмитрук Андрей",
+      "player_id": 96003,
+      "player_name": "Миненко Даниіл",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 6.0,
+      "total_points": 8.5,
       "results": [
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "17-24",
-          "points": 6.0
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "9-16",
+          "points": 8.5
         }
       ],
-      "rank": 31
+      "rank": 89
+    },
+    {
+      "player_id": 98340,
+      "player_name": "Bariev Anatoliy",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 90
+    },
+    {
+      "player_id": 89055,
+      "player_name": "Bondarenko Anton",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 91
+    },
+    {
+      "player_id": 94720,
+      "player_name": "Klimenko Daniil",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 92
+    },
+    {
+      "player_id": 85743,
+      "player_name": "Kyselov Yevhenii",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 93
+    },
+    {
+      "player_id": 67737,
+      "player_name": "Бойко Семен",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 94
+    },
+    {
+      "player_id": 12449,
+      "player_name": "Варасян Карен",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 95
+    },
+    {
+      "player_id": 18585,
+      "player_name": "Жданов Данило",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 96
+    },
+    {
+      "player_id": 102680,
+      "player_name": "Маркоцинский Януш",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 97
+    },
+    {
+      "player_id": 13047,
+      "player_name": "Фомин Эдуард",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5,
+      "results": [
+        {
+          "tournament_id": "54767",
+          "tournament_name": "Tournament 54767",
+          "tournament_date": "2026-04-25",
+          "place": "33-47",
+          "points": 7.5
+        }
+      ],
+      "rank": 98
+    },
+    {
+      "player_id": 100024,
+      "player_name": "Квятковский Давид",
+      "country": "POL",
+      "tournaments": 2,
+      "total_points": 6.5,
+      "results": [
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "25-29",
+          "points": 2.5
+        },
+        {
+          "tournament_id": "53998",
+          "tournament_name": "Tournament 53998",
+          "tournament_date": "2026-01-11",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 99
+    },
+    {
+      "player_id": 1134,
+      "player_name": "Буданцев Артем",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 6.5,
+      "results": [
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        }
+      ],
+      "rank": 100
+    },
+    {
+      "player_id": 33488,
+      "player_name": "Лищинский Владислав",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 6.5,
+      "results": [
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "9-12",
+          "points": 6.5
+        }
+      ],
+      "rank": 101
+    },
+    {
+      "player_id": 103429,
+      "player_name": "Стаянович Давид",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 6.5,
+      "results": [
+        {
+          "tournament_id": "55159",
+          "tournament_name": "Tournament 55159",
+          "tournament_date": "2026-05-24",
+          "place": "17-24",
+          "points": 6.5
+        }
+      ],
+      "rank": 102
     },
     {
       "player_id": 43937,
@@ -666,65 +3559,14 @@
           "points": 6.0
         }
       ],
-      "rank": 32
-    },
-    {
-      "player_id": 99887,
-      "player_name": "Papou Vlodimir",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 4.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        }
-      ],
-      "rank": 33
-    },
-    {
-      "player_id": 49300,
-      "player_name": "Вечтомов Александр",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 4.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        }
-      ],
-      "rank": 34
-    },
-    {
-      "player_id": 26032,
-      "player_name": "Попов Олександр",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 4.0,
-      "results": [
-        {
-          "tournament_id": "55931",
-          "tournament_name": "Tournament 55931",
-          "tournament_date": "2026-08-24",
-          "place": "17-24",
-          "points": 4.0
-        }
-      ],
-      "rank": 35
+      "rank": 103
     },
     {
       "player_id": 79988,
       "player_name": "Бинюк Николай",
       "country": "UKR",
-      "tournaments": 1,
-      "total_points": 2.0,
+      "tournaments": 2,
+      "total_points": 5.5,
       "results": [
         {
           "tournament_id": "55755",
@@ -732,43 +3574,227 @@
           "tournament_date": "2026-08-09",
           "place": "25-28",
           "points": 2.0
+        },
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
         }
       ],
-      "rank": 36
+      "rank": 104
     },
     {
-      "player_id": 93605,
-      "player_name": "Демидов Максим",
+      "player_id": 86227,
+      "player_name": "Borovskyi Andrii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 2.0,
+      "total_points": 5.5,
       "results": [
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "25-28",
-          "points": 2.0
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
         }
       ],
-      "rank": 37
+      "rank": 105
     },
     {
-      "player_id": 87671,
-      "player_name": "Скукіс Володимир",
+      "player_id": 86222,
+      "player_name": "Dzinhel Vitalii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 2.0,
+      "total_points": 5.5,
       "results": [
         {
-          "tournament_id": "55755",
-          "tournament_name": "Tournament 55755",
-          "tournament_date": "2026-08-09",
-          "place": "25-28",
-          "points": 2.0
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
         }
       ],
-      "rank": 38
+      "rank": 106
+    },
+    {
+      "player_id": 87679,
+      "player_name": "Stratu Oleg",
+      "country": "MDA",
+      "tournaments": 1,
+      "total_points": 5.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 107
+    },
+    {
+      "player_id": 58147,
+      "player_name": "Лелецький Пилип",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 5.5,
+      "results": [
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "13-16",
+          "points": 5.5
+        }
+      ],
+      "rank": 108
+    },
+    {
+      "player_id": 42211,
+      "player_name": "Стерпул Ілля",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 5.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 109
+    },
+    {
+      "player_id": 62612,
+      "player_name": "Томин Анатолий",
+      "country": "ESP",
+      "tournaments": 1,
+      "total_points": 5.5,
+      "results": [
+        {
+          "tournament_id": "53955",
+          "tournament_name": "Tournament 53955",
+          "tournament_date": "2026-01-24",
+          "place": "33-43",
+          "points": 5.5
+        }
+      ],
+      "rank": 110
+    },
+    {
+      "player_id": 4931,
+      "player_name": "Новиков Максим",
+      "country": "UKR",
+      "tournaments": 2,
+      "total_points": 5.0,
+      "results": [
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "17",
+          "points": 0.5
+        },
+        {
+          "tournament_id": "54702",
+          "tournament_name": "Tournament 54702",
+          "tournament_date": "2026-03-29",
+          "place": "13-16",
+          "points": 4.5
+        }
+      ],
+      "rank": 111
+    },
+    {
+      "player_id": 93993,
+      "player_name": "Кравчук Евгений",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.5,
+      "results": [
+        {
+          "tournament_id": "54379",
+          "tournament_name": "Tournament 54379",
+          "tournament_date": "2026-02-22",
+          "place": "17-24",
+          "points": 4.5
+        }
+      ],
+      "rank": 112
+    },
+    {
+      "player_id": 101461,
+      "player_name": "Гапоненко Егор",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 3.5,
+      "results": [
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        }
+      ],
+      "rank": 113
+    },
+    {
+      "player_id": 5257,
+      "player_name": "Калачинский Леонид",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 3.5,
+      "results": [
+        {
+          "tournament_id": "55634",
+          "tournament_name": "Tournament 55634",
+          "tournament_date": "2026-07-26",
+          "place": "17-23",
+          "points": 3.5
+        }
+      ],
+      "rank": 114
+    },
+    {
+      "player_id": 66382,
+      "player_name": "Чернявский Александр",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 3.5,
+      "results": [
+        {
+          "tournament_id": "54257",
+          "tournament_name": "Tournament 54257",
+          "tournament_date": "2026-02-08",
+          "place": "17-23",
+          "points": 3.5
+        }
+      ],
+      "rank": 115
+    },
+    {
+      "player_id": 103180,
+      "player_name": "Мазур Сергей",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 2.5,
+      "results": [
+        {
+          "tournament_id": "55047",
+          "tournament_name": "Tournament 55047",
+          "tournament_date": "2026-05-10",
+          "place": "13-16",
+          "points": 2.5
+        }
+      ],
+      "rank": 116
     }
   ]
 }
