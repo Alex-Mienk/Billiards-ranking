@@ -104,7 +104,7 @@ function displayPlayers() {
 }
 
 
-function selectPeriod(periodId, updateAddress = true) {
+function selectPeriod(periodId) {
     const selectedPeriod = rankingData.periods.find(
         (period) => period.id === periodId,
     );
@@ -131,12 +131,6 @@ function selectPeriod(periodId, updateAddress = true) {
         String(activePeriod.tournament_count);
     document.title =
         `${activePeriod.label} Ranking — Złota Bila`;
-
-    if (updateAddress) {
-        const address = new URL(window.location.href);
-        address.searchParams.set("period", periodId);
-        window.history.replaceState({}, "", address);
-    }
 
     displayPlayers();
 }
@@ -203,7 +197,7 @@ async function loadRanking() {
             throw new Error("No seasonal ranking periods are available.");
         }
 
-        selectPeriod(initialPeriod, false);
+        selectPeriod(initialPeriod);
     } catch (error) {
         console.error(error);
         document.querySelector("#updated").textContent =

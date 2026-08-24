@@ -96,6 +96,7 @@ a {
     position: relative;
     z-index: 3;
     display: flex;
+    min-height: 66px;
     align-items: center;
     padding-top: 22px;
 }
@@ -581,6 +582,7 @@ footer {
     }
 
     .ranking-navigation-row {
+        min-height: 56px;
         padding-top: 16px;
     }
 
