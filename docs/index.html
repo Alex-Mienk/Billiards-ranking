@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Current annual tournament player ranking"
+    >
+
+    <meta name="theme-color" content="#123c30">
+
+    <title>Annual Player Ranking</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="eyebrow">Official standings</p>
+
+            <h1>Annual Player Ranking</h1>
+
+            <p id="season" class="season">
+                Loading season…
+            </p>
+
+            <div class="statistics" aria-label="Ranking statistics">
+                <div class="statistic">
+                    <strong id="player-count">—</strong>
+                    <span>Players</span>
+                </div>
+
+                <div class="statistic">
+                    <strong id="tournament-count">—</strong>
+                    <span>Tournaments</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="ranking-card">
+            <div class="toolbar">
+                <div>
+                    <h2>Current standings</h2>
+
+                    <p id="updated" class="updated">
+                        Loading ranking…
+                    </p>
+                </div>
+
+                <label class="search">
+                    <span class="visually-hidden">
+                        Search for a player
+                    </span>
+
+                    <input
+                        id="search"
+                        type="search"
+                        placeholder="Search player…"
+                        autocomplete="off"
+                    >
+                </label>
+            </div>
+
+            <div
+                id="error-message"
+                class="message error-message"
+                role="alert"
+                hidden
+            ></div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-column">Rank</th>
+                            <th>Player</th>
+                            <th>Country</th>
+                            <th class="number-column">Events</th>
+                            <th class="number-column">Points</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="ranking-body"></tbody>
+                </table>
+            </div>
+
+            <p
+                id="empty-message"
+                class="message"
+                hidden
+            >
+                No matching players found.
+            </p>
+        </section>
+
+        <noscript>
+            <p class="message noscript-message">
+                JavaScript must be enabled to display the ranking.
+            </p>
+        </noscript>
+    </main>
+
+    <footer>
+        <div class="container">
+            Results are calculated from published tournament
+            standings.
+        </div>
+    </footer>
+</body>
+</html>

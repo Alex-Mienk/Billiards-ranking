@@ -1,0 +1,426 @@
+{
+  "title": "Annual Player Ranking",
+  "season": "24.08.2026–23.08.2027",
+  "season_start": "2026-08-24",
+  "season_end": "2027-08-23",
+  "updated_at": "2026-08-24T09:59:56.055848+00:00",
+  "tournament_count": 1,
+  "player_count": 24,
+  "tournaments": [
+    {
+      "tournament_id": "55931",
+      "tournament_name": "Tournament 55931",
+      "tournament_date": "2026-08-24"
+    }
+  ],
+  "players": [
+    {
+      "player_id": 43938,
+      "player_name": "Таланенко Олександр",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 32.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "1",
+          "points": 32.0
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "player_id": 76085,
+      "player_name": "Гайдеров Максим",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 20.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "2",
+          "points": 20.0
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "player_id": 1559,
+      "player_name": "Десятник Виталий",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 14.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "3-4",
+          "points": 14.0
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "player_id": 64943,
+      "player_name": "Собачинский Владислав",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 14.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "3-4",
+          "points": 14.0
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "player_id": 87813,
+      "player_name": "Polovko Volodymyr",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 10.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "player_id": 10481,
+      "player_name": "Баблюк Евгений",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 10.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": 89180,
+      "player_name": "Лапко Алексей",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 10.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "player_id": 87908,
+      "player_name": "Тихонов Роман",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 10.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "5-8",
+          "points": 10.0
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": 102379,
+      "player_name": "Безуглый Максим",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "player_id": 5580,
+      "player_name": "Данов Илья",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "player_id": 94439,
+      "player_name": "Дмитрюк Андрій",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "player_id": 97445,
+      "player_name": "Кепич Тарас",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "player_id": 53373,
+      "player_name": "Мієнко Олексій",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "player_id": 97235,
+      "player_name": "Сливинский Андрей",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "player_id": 88075,
+      "player_name": "Стельмах Даниил",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "player_id": 41555,
+      "player_name": "Черный Роман",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 8.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "9-16",
+          "points": 8.0
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "player_id": 99887,
+      "player_name": "Papou Vlodimir",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "player_id": 97675,
+      "player_name": "Бугаєць Роман",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "player_id": 49300,
+      "player_name": "Вечтомов Александр",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "player_id": 89467,
+      "player_name": "Діденко Геннадій",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "player_id": 41556,
+      "player_name": "Крутов Алексей",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "player_id": 101635,
+      "player_name": "Марданов Хусейн",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "player_id": 26032,
+      "player_name": "Попов Олександр",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 23
+    },
+    {
+      "player_id": 103427,
+      "player_name": "Янченко Артем",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 4.0,
+      "results": [
+        {
+          "tournament_id": "55931",
+          "tournament_name": "Tournament 55931",
+          "tournament_date": "2026-08-24",
+          "place": "17-24",
+          "points": 4.0
+        }
+      ],
+      "rank": 24
+    }
+  ]
+}
