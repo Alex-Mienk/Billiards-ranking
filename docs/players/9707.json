@@ -1,0 +1,88 @@
+{
+  "player_id": 9707,
+  "player_name": "Вишневский Денис",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 17,
+    "tournaments": 4,
+    "total_points": 66.5
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 13,
+      "tournaments": 2,
+      "total_points": 28.5
+    },
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 10,
+      "tournaments": 2,
+      "total_points": 38.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 14,
+      "tournaments": 2,
+      "total_points": 39.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 32,
+      "tournaments": 2,
+      "total_points": 27.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "54702",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-29",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "1",
+      "points": 30.5,
+      "source_url": "https://tournamentservice.net/embed/54702/standing"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54570/standing"
+    },
+    {
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "9-16",
+      "points": 8.5,
+      "source_url": "https://tournamentservice.net/embed/54379/standing"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-01-11",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "2",
+      "points": 20.0,
+      "source_url": "https://tournamentservice.net/embed/53998/standing"
+    }
+  ]
+}

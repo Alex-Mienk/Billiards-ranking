@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+    <meta
+        name="description"
+        content="Złota Bila player profile and tournament history"
+    >
+    <meta name="theme-color" content="#001b3e">
+    <title>Player Profile — Złota Bila</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Heebo:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
+    <script src="player.js" defer></script>
+</head>
+
+<body>
+    <header class="hero profile-hero">
+        <div class="container">
+            <div class="brand-bar">
+                <a
+                    class="brand"
+                    href="https://zlotabila.com/"
+                    aria-label="Złota Bila home page"
+                >
+                    <img
+                        class="brand-logo"
+                        src="zlota.svg"
+                        alt="Złota Bila"
+                    >
+                </a>
+
+                <a class="club-link" href="https://zlotabila.com/">
+                    ZLOTABILA.COM
+                </a>
+            </div>
+
+            <div class="ranking-navigation-row">
+                <div class="site-navigation">
+                    <button
+                        class="menu-button"
+                        type="button"
+                        aria-label="Open ranking navigation"
+                        aria-expanded="false"
+                        aria-controls="ranking-menu"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <nav
+                        id="ranking-menu"
+                        class="navigation-menu"
+                        aria-label="Ranking pages"
+                        hidden
+                    >
+                        <a href="index.html">Annual ranking</a>
+                        <a href="seasons.html">Seasonal rankings</a>
+                        <a href="disciplines.html">
+                            Discipline rankings
+                        </a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow">Player profile</p>
+                <h1 id="player-name">Loading player…</h1>
+                <p id="player-meta" class="season">Please wait…</p>
+
+                <div class="statistics" aria-label="Annual statistics">
+                    <div class="statistic">
+                        <strong id="annual-rank">—</strong>
+                        <span>Annual rank</span>
+                    </div>
+                    <div class="statistic">
+                        <strong id="total-points">—</strong>
+                        <span>Points</span>
+                    </div>
+                    <div class="statistic">
+                        <strong id="event-count">—</strong>
+                        <span>Events</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content profile-content">
+        <div
+            id="error-message"
+            class="message error-message profile-error"
+            role="alert"
+            hidden
+        ></div>
+
+        <section id="profile-details" hidden>
+            <div class="profile-breakdowns">
+                <section class="breakdown-card">
+                    <p class="section-label">Across the year</p>
+                    <h2>Seasonal form</h2>
+                    <div id="period-breakdown" class="breakdown-list"></div>
+                </section>
+
+                <section class="breakdown-card">
+                    <p class="section-label">By game format</p>
+                    <h2>Discipline form</h2>
+                    <div
+                        id="discipline-breakdown"
+                        class="breakdown-list"
+                    ></div>
+                </section>
+            </div>
+
+            <section class="ranking-card history-card">
+                <div class="gold-line"></div>
+                <div class="toolbar">
+                    <div>
+                        <p class="section-label">Complete record</p>
+                        <h2>Tournament history</h2>
+                        <p id="updated" class="updated"></p>
+                    </div>
+                    <a class="back-link" href="index.html">
+                        Back to annual ranking
+                    </a>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="history-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Tournament</th>
+                                <th>Discipline</th>
+                                <th class="number-column">Place</th>
+                                <th class="number-column">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody id="history-body"></tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+        <noscript>
+            <p class="message noscript-message">
+                JavaScript must be enabled to display the profile.
+            </p>
+        </noscript>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <img class="footer-logo" src="zlota.svg" alt="">
+            <p>Player records come from published tournament standings.</p>
+        </div>
+    </footer>
+</body>
+</html>

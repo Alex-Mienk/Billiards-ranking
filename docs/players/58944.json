@@ -1,0 +1,61 @@
+{
+  "player_id": 58944,
+  "player_name": "Тіванов Матвій",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 71,
+    "tournaments": 2,
+    "total_points": 14.0
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 76,
+      "tournaments": 1,
+      "total_points": 6.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 38,
+      "tournaments": 1,
+      "total_points": 7.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 35,
+      "tournaments": 2,
+      "total_points": 14.0
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55634",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-26",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "9-16",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/55634/standing"
+    },
+    {
+      "tournament_id": "54702",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-29",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "9-12",
+      "points": 6.5,
+      "source_url": "https://tournamentservice.net/embed/54702/standing"
+    }
+  ]
+}

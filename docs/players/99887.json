@@ -1,0 +1,68 @@
+{
+  "player_id": 99887,
+  "player_name": "Papou Vladimir",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 78,
+    "tournaments": 2,
+    "total_points": 11.5
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 55,
+      "tournaments": 1,
+      "total_points": 7.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 42,
+      "tournaments": 1,
+      "total_points": 4.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 53,
+      "tournaments": 1,
+      "total_points": 4.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 80,
+      "tournaments": 1,
+      "total_points": 7.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "17-24",
+      "points": 4.0,
+      "source_url": "https://tournamentservice.net/embed/55931/standing"
+    },
+    {
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "9-12",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54257/standing"
+    }
+  ]
+}

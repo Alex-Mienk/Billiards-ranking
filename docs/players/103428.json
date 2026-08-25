@@ -1,0 +1,61 @@
+{
+  "player_id": 103428,
+  "player_name": "Микаилов Кенан",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 50,
+    "tournaments": 2,
+    "total_points": 23.5
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 42,
+      "tournaments": 1,
+      "total_points": 12.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 34,
+      "tournaments": 1,
+      "total_points": 11.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 21,
+      "tournaments": 2,
+      "total_points": 23.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "9-16",
+      "points": 11.0,
+      "source_url": "https://tournamentservice.net/embed/55565/standing"
+    },
+    {
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "5-8",
+      "points": 12.5,
+      "source_url": "https://tournamentservice.net/embed/55159/standing"
+    }
+  ]
+}

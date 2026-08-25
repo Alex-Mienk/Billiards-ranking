@@ -1,0 +1,60 @@
+{
+  "player_id": 4931,
+  "player_name": "Новиков Максим",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 111,
+    "tournaments": 2,
+    "total_points": 5.0
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 78,
+      "tournaments": 2,
+      "total_points": 5.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 51,
+      "tournaments": 1,
+      "total_points": 4.5
+    },
+    {
+      "id": "dynamic",
+      "label": "Dynamic pyramid",
+      "rank": 17,
+      "tournaments": 1,
+      "total_points": 0.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55047",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-10",
+      "discipline": "dynamic",
+      "discipline_name": "Динамичная пирамида",
+      "place": "17",
+      "points": 0.5,
+      "source_url": "https://tournamentservice.net/embed/55047/standing"
+    },
+    {
+      "tournament_id": "54702",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-29",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "13-16",
+      "points": 4.5,
+      "source_url": "https://tournamentservice.net/embed/54702/standing"
+    }
+  ]
+}

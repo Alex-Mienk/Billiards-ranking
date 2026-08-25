@@ -40,3 +40,16 @@ python3 yearly_ranking.py 2026
 This generates the annual ranking together with winter, spring,
 summer, and per-discipline rankings for the website. A discipline tab
 is included only when at least one imported tournament uses it.
+
+## Generated website data
+
+The website uses normalized static JSON files:
+
+- `docs/ranking.json` contains compact annual, seasonal, and discipline
+  ranking summaries.
+- `docs/tournaments.json` contains tournament dates, disciplines,
+  player counts, names, and source links.
+- `docs/players/<player_id>.json` contains one player's complete
+  tournament history and ranking breakdowns.
+
+Player names in every ranking link to the shared player profile page.

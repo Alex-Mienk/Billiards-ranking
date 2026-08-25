@@ -1,0 +1,43 @@
+{
+  "player_id": 1134,
+  "player_name": "Буданцев Артем",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 100,
+    "tournaments": 1,
+    "total_points": 6.5
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 72,
+      "tournaments": 1,
+      "total_points": 6.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 47,
+      "tournaments": 1,
+      "total_points": 6.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "17-24",
+      "points": 6.5,
+      "source_url": "https://tournamentservice.net/embed/55159/standing"
+    }
+  ]
+}

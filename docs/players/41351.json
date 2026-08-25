@@ -1,0 +1,53 @@
+{
+  "player_id": 41351,
+  "player_name": "Багацький Денис",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 55,
+    "tournaments": 2,
+    "total_points": 21.0
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 19,
+      "tournaments": 2,
+      "total_points": 21.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 41,
+      "tournaments": 2,
+      "total_points": 21.0
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "9-12",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54257/standing"
+    },
+    {
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 13.5,
+      "source_url": "https://tournamentservice.net/embed/53955/standing"
+    }
+  ]
+}

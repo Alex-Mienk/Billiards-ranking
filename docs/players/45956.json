@@ -1,0 +1,81 @@
+{
+  "player_id": 45956,
+  "player_name": "Bikmetov Maxim",
+  "country": "UKR",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 18,
+    "tournaments": 4,
+    "total_points": 64.5
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 15,
+      "tournaments": 2,
+      "total_points": 27.5
+    },
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 11,
+      "tournaments": 2,
+      "total_points": 37.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 5,
+      "tournaments": 4,
+      "total_points": 64.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "3-4",
+      "points": 25.5,
+      "source_url": "https://tournamentservice.net/embed/54767/standing"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "9-16",
+      "points": 11.5,
+      "source_url": "https://tournamentservice.net/embed/54570/standing"
+    },
+    {
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "9-16",
+      "points": 17.5,
+      "source_url": "https://tournamentservice.net/embed/53955/standing"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-01-11",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "5-8",
+      "points": 10.0,
+      "source_url": "https://tournamentservice.net/embed/53998/standing"
+    }
+  ]
+}

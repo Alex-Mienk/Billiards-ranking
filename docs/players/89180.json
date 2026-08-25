@@ -1,0 +1,116 @@
+{
+  "player_id": 89180,
+  "player_name": "Лапко Алексей",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 24,
+    "tournaments": 6,
+    "total_points": 48.0
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 54,
+      "tournaments": 2,
+      "total_points": 7.5
+    },
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 48,
+      "tournaments": 1,
+      "total_points": 11.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 13,
+      "tournaments": 3,
+      "total_points": 29.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 30,
+      "tournaments": 2,
+      "total_points": 17.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 27,
+      "tournaments": 4,
+      "total_points": 31.0
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "5-8",
+      "points": 10.0,
+      "source_url": "https://tournamentservice.net/embed/55931/standing"
+    },
+    {
+      "tournament_id": "55755",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-09",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "5-8",
+      "points": 12.0,
+      "source_url": "https://tournamentservice.net/embed/55755/standing"
+    },
+    {
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "17-24",
+      "points": 7.0,
+      "source_url": "https://tournamentservice.net/embed/55565/standing"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "9-16",
+      "points": 11.5,
+      "source_url": "https://tournamentservice.net/embed/54570/standing"
+    },
+    {
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-23",
+      "points": 3.5,
+      "source_url": "https://tournamentservice.net/embed/54257/standing"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-01-11",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 4.0,
+      "source_url": "https://tournamentservice.net/embed/53998/standing"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "player_id": 94720,
+  "player_name": "Klimenko Daniil",
+  "country": "CZE",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 92,
+    "tournaments": 1,
+    "total_points": 7.5
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 60,
+      "tournaments": 1,
+      "total_points": 7.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 78,
+      "tournaments": 1,
+      "total_points": 7.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "33-47",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54767/standing"
+    }
+  ]
+}

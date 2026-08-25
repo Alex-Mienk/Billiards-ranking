@@ -1,0 +1,103 @@
+{
+  "player_id": 53732,
+  "player_name": "Kondratiuk Alexandr",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 58,
+    "tournaments": 4,
+    "total_points": 19.0
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 70,
+      "tournaments": 1,
+      "total_points": 4.0
+    },
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 43,
+      "tournaments": 2,
+      "total_points": 12.0
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 45,
+      "tournaments": 1,
+      "total_points": 3.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 55,
+      "tournaments": 1,
+      "total_points": 3.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 63,
+      "tournaments": 2,
+      "total_points": 11.5
+    },
+    {
+      "id": "dynamic",
+      "label": "Dynamic pyramid",
+      "rank": 9,
+      "tournaments": 1,
+      "total_points": 4.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "25-30",
+      "points": 3.0,
+      "source_url": "https://tournamentservice.net/embed/55565/standing"
+    },
+    {
+      "tournament_id": "55047",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-10",
+      "discipline": "dynamic",
+      "discipline_name": "Динамичная пирамида",
+      "place": "9-12",
+      "points": 4.5,
+      "source_url": "https://tournamentservice.net/embed/55047/standing"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54570/standing"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-01-11",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 4.0,
+      "source_url": "https://tournamentservice.net/embed/53998/standing"
+    }
+  ]
+}

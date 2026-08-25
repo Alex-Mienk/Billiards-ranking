@@ -1,0 +1,43 @@
+{
+  "player_id": 87679,
+  "player_name": "Stratu Oleg",
+  "country": "MDA",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 107,
+    "tournaments": 1,
+    "total_points": 5.5
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 59,
+      "tournaments": 1,
+      "total_points": 5.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 94,
+      "tournaments": 1,
+      "total_points": 5.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "33-43",
+      "points": 5.5,
+      "source_url": "https://tournamentservice.net/embed/53955/standing"
+    }
+  ]
+}

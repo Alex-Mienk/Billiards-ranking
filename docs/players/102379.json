@@ -1,0 +1,68 @@
+{
+  "player_id": 102379,
+  "player_name": "Безуглый Максим",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 63,
+    "tournaments": 2,
+    "total_points": 15.5
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 62,
+      "tournaments": 1,
+      "total_points": 7.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 37,
+      "tournaments": 1,
+      "total_points": 8.0
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 43,
+      "tournaments": 1,
+      "total_points": 8.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 81,
+      "tournaments": 1,
+      "total_points": 7.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "9-16",
+      "points": 8.0,
+      "source_url": "https://tournamentservice.net/embed/55931/standing"
+    },
+    {
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "33-47",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54767/standing"
+    }
+  ]
+}

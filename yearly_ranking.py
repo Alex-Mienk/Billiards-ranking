@@ -204,6 +204,8 @@ def build_ranking(season_year: int) -> None:
             "tournament_date": tournament_date.isoformat(),
             "discipline": discipline,
             "discipline_name": discipline_name,
+            "source_url": first_row.get("source_url", ""),
+            "player_count": 0,
         }
 
         seen_players_in_file = set()
@@ -282,8 +284,13 @@ def build_ranking(season_year: int) -> None:
                     "discipline_name": discipline_name,
                     "place": row.get("place", ""),
                     "points": round(points, 2),
+                    "source_url": row.get("source_url", ""),
                 }
             )
+
+        included_tournaments[str(tournament_id)]["player_count"] = len(
+            seen_players_in_file
+        )
 
     ranking = sorted(
         players.values(),
@@ -421,7 +428,6 @@ def build_period_rankings(
                         2,
                     ),
                     "annual_rank": annual_player["rank"],
-                    "results": results,
                 }
             )
 
@@ -518,7 +524,6 @@ def build_discipline_rankings(
                         2,
                     ),
                     "annual_rank": annual_player["rank"],
-                    "results": results,
                 }
             )
 
@@ -549,6 +554,108 @@ def build_discipline_rankings(
     return disciplines
 
 
+def ranking_player_summary(player: dict) -> dict:
+    return {
+        key: player[key]
+        for key in (
+            "rank",
+            "player_id",
+            "player_name",
+            "country",
+            "tournaments",
+            "total_points",
+        )
+    }
+
+
+def write_json_atomic(output_path: Path, data) -> None:
+    temporary_path = output_path.with_suffix(".tmp")
+
+    with temporary_path.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    temporary_path.replace(output_path)
+
+
+def save_player_profiles(
+    ranking: list[dict],
+    ranking_periods: list[dict],
+    discipline_rankings: list[dict],
+    season: str,
+    updated_at: str,
+    website_directory: Path,
+) -> None:
+    players_directory = website_directory / "players"
+    players_directory.mkdir(exist_ok=True)
+
+    # A player can appear in more than one period, so build the lookup
+    # as lists instead of allowing later entries to replace earlier ones.
+    periods_by_player = {}
+
+    for period in ranking_periods:
+        for player in period["players"]:
+            periods_by_player.setdefault(
+                player["player_id"],
+                [],
+            ).append(
+                {
+                    "id": period["id"],
+                    "label": period["label"],
+                    "date_range": period["date_range"],
+                    "rank": player["rank"],
+                    "tournaments": player["tournaments"],
+                    "total_points": player["total_points"],
+                }
+            )
+
+    disciplines_by_player = {}
+
+    for discipline in discipline_rankings:
+        for player in discipline["players"]:
+            disciplines_by_player.setdefault(
+                player["player_id"],
+                [],
+            ).append(
+                {
+                    "id": discipline["id"],
+                    "label": discipline["label"],
+                    "rank": player["rank"],
+                    "tournaments": player["tournaments"],
+                    "total_points": player["total_points"],
+                }
+            )
+
+    for player in ranking:
+        player_id = player["player_id"]
+        profile = {
+            "player_id": player_id,
+            "player_name": player["player_name"],
+            "country": player["country"],
+            "season": season,
+            "updated_at": updated_at,
+            "annual": {
+                "rank": player["rank"],
+                "tournaments": player["tournaments"],
+                "total_points": player["total_points"],
+            },
+            "periods": periods_by_player.get(player_id, []),
+            "disciplines": disciplines_by_player.get(player_id, []),
+            "results": player["results"],
+        }
+        write_json_atomic(
+            players_directory / f"{player_id}.json",
+            profile,
+        )
+
+
 def save_website_json(
     ranking: list[dict],
     tournaments: list[dict],
@@ -568,40 +675,51 @@ def save_website_json(
         reverse=True,
     )
 
+    season = (
+        f"{season_start:%d.%m.%Y}"
+        f"–{display_end:%d.%m.%Y}"
+    )
+    updated_at = datetime.now(timezone.utc).isoformat()
+
     website_data = {
         "title": "Annual Player Ranking",
-        "season": (
-            f"{season_start:%d.%m.%Y}"
-            f"–{display_end:%d.%m.%Y}"
-        ),
+        "season": season,
         "season_start": season_start.isoformat(),
         "season_end": display_end.isoformat(),
-        "updated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
+        "updated_at": updated_at,
         "tournament_count": len(tournaments),
         "player_count": len(ranking),
-        "tournaments": tournaments,
-        "players": ranking,
+        "players": [
+            ranking_player_summary(player)
+            for player in ranking
+        ],
         "periods": ranking_periods,
         "disciplines": discipline_rankings,
     }
 
-    output_path = website_directory / "ranking.json"
-    temporary_path = output_path.with_suffix(".tmp")
+    tournament_data = {
+        "season": season,
+        "updated_at": updated_at,
+        "tournament_count": len(tournaments),
+        "tournaments": tournaments,
+    }
 
-    with temporary_path.open(
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(
-            website_data,
-            file,
-            ensure_ascii=False,
-            indent=2,
-        )
-
-    temporary_path.replace(output_path)
+    write_json_atomic(
+        website_directory / "ranking.json",
+        website_data,
+    )
+    write_json_atomic(
+        website_directory / "tournaments.json",
+        tournament_data,
+    )
+    save_player_profiles(
+        ranking=ranking,
+        ranking_periods=ranking_periods,
+        discipline_rankings=discipline_rankings,
+        season=season,
+        updated_at=updated_at,
+        website_directory=website_directory,
+    )
 
 
 def main() -> None:

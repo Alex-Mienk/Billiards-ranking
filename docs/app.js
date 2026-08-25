@@ -40,6 +40,21 @@ function createRankCell(rank) {
 }
 
 
+function createPlayerCell(player) {
+    const cell = document.createElement("td");
+    const link = document.createElement("a");
+
+    cell.className = "player";
+    link.className = "player-link";
+    link.href = `player.html?id=${encodeURIComponent(player.player_id)}`;
+    link.textContent =
+        player.player_name || `Player ${player.player_id}`;
+    cell.append(link);
+
+    return cell;
+}
+
+
 function formatPoints(points) {
     return new Intl.NumberFormat(undefined, {
         maximumFractionDigits: 2,
@@ -71,10 +86,7 @@ function displayPlayers(searchText = "") {
 
         row.append(
             createRankCell(player.rank),
-            createCell(
-                player.player_name || `Player ${player.player_id}`,
-                "player",
-            ),
+            createPlayerCell(player),
             createCell(player.country || "—", "country"),
             createCell(
                 player.tournaments,

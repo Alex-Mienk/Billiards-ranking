@@ -1,0 +1,136 @@
+{
+  "player_id": 87671,
+  "player_name": "Скукіс Володимир",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 8,
+    "tournaments": 8,
+    "total_points": 110.0
+  },
+  "periods": [
+    {
+      "id": "winter",
+      "label": "Winter",
+      "date_range": "01.01.2026–28.02.2026",
+      "rank": 1,
+      "tournaments": 3,
+      "total_points": 66.0
+    },
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 19,
+      "tournaments": 3,
+      "total_points": 28.5
+    },
+    {
+      "id": "summer",
+      "label": "Summer",
+      "date_range": "01.06.2026–31.08.2026",
+      "rank": 29,
+      "tournaments": 2,
+      "total_points": 15.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "combined",
+      "label": "Combined pyramid",
+      "rank": 6,
+      "tournaments": 4,
+      "total_points": 55.0
+    },
+    {
+      "id": "continuation",
+      "label": "Free pyramid with continuation",
+      "rank": 8,
+      "tournaments": 4,
+      "total_points": 55.0
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55755",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-09",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "25-28",
+      "points": 2.0,
+      "source_url": "https://tournamentservice.net/embed/55755/standing"
+    },
+    {
+      "tournament_id": "55634",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-26",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "3-4",
+      "points": 13.5,
+      "source_url": "https://tournamentservice.net/embed/55634/standing"
+    },
+    {
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "3-4",
+      "points": 16.5,
+      "source_url": "https://tournamentservice.net/embed/55159/standing"
+    },
+    {
+      "tournament_id": "54702",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-29",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "13-16",
+      "points": 4.5,
+      "source_url": "https://tournamentservice.net/embed/54702/standing"
+    },
+    {
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 7.5,
+      "source_url": "https://tournamentservice.net/embed/54570/standing"
+    },
+    {
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "discipline": "combined",
+      "discipline_name": "Комбинированная с изменениями",
+      "place": "2",
+      "points": 20.5,
+      "source_url": "https://tournamentservice.net/embed/54379/standing"
+    },
+    {
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "17-24",
+      "points": 13.5,
+      "source_url": "https://tournamentservice.net/embed/53955/standing"
+    },
+    {
+      "tournament_id": "53998",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-01-11",
+      "discipline": "continuation",
+      "discipline_name": "Пирамида с продолжением",
+      "place": "1",
+      "points": 32.0,
+      "source_url": "https://tournamentservice.net/embed/53998/standing"
+    }
+  ]
+}

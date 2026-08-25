@@ -1,0 +1,43 @@
+{
+  "player_id": 103180,
+  "player_name": "Мазур Сергей",
+  "country": "POL",
+  "season": "01.01.2026–31.12.2026",
+  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "annual": {
+    "rank": 116,
+    "tournaments": 1,
+    "total_points": 2.5
+  },
+  "periods": [
+    {
+      "id": "spring",
+      "label": "Spring",
+      "date_range": "01.03.2026–31.05.2026",
+      "rank": 80,
+      "tournaments": 1,
+      "total_points": 2.5
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "dynamic",
+      "label": "Dynamic pyramid",
+      "rank": 14,
+      "tournaments": 1,
+      "total_points": 2.5
+    }
+  ],
+  "results": [
+    {
+      "tournament_id": "55047",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-10",
+      "discipline": "dynamic",
+      "discipline_name": "Динамичная пирамида",
+      "place": "13-16",
+      "points": 2.5,
+      "source_url": "https://tournamentservice.net/embed/55047/standing"
+    }
+  ]
+}
