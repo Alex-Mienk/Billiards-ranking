@@ -98,7 +98,35 @@ a {
     display: flex;
     min-height: 66px;
     align-items: center;
+    justify-content: space-between;
     padding-top: 22px;
+}
+
+.year-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.year-picker select {
+    min-width: 92px;
+    padding: 9px 30px 9px 12px;
+    border: 1px solid rgb(179 134 65 / 45%);
+    border-radius: 2px;
+    background: var(--navy-dark);
+    color: var(--gold-light);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.year-picker select:focus-visible {
+    border-color: var(--gold-light);
+    outline: none;
 }
 
 .site-navigation {
@@ -807,6 +835,10 @@ footer {
     .ranking-navigation-row {
         min-height: 56px;
         padding-top: 16px;
+    }
+
+    .year-picker span {
+        display: none;
     }
 
     .menu-button {

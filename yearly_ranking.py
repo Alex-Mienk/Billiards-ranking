@@ -350,7 +350,10 @@ def build_ranking(season_year: int) -> None:
         f"Saved CSV: "
         f"ranking_{season_year}_{season_year + 1}.csv"
     )
-    print("Saved website data: docs/ranking.json")
+    print(
+        "Saved website data: "
+        f"docs/data/{season_year}/ranking.json"
+    )
 
 
 def save_ranking_csv(
@@ -642,6 +645,7 @@ def save_player_profiles(
     ranking: list[dict],
     ranking_periods: list[dict],
     discipline_rankings: list[dict],
+    season_year: int,
     season: str,
     updated_at: str,
     website_directory: Path,
@@ -692,6 +696,7 @@ def save_player_profiles(
             "player_id": player_id,
             "player_name": player["player_name"],
             "country": player["country"],
+            "year": season_year,
             "season": season,
             "updated_at": updated_at,
             "annual": {
@@ -719,6 +724,11 @@ def save_website_json(
 ) -> None:
     website_directory = Path("docs")
     website_directory.mkdir(exist_ok=True)
+    season_year = season_start.year
+    archive_directory = (
+        website_directory / "data" / str(season_year)
+    )
+    archive_directory.mkdir(parents=True, exist_ok=True)
 
     tournaments.sort(
         key=lambda tournament: (
@@ -736,6 +746,7 @@ def save_website_json(
 
     website_data = {
         "title": "Annual Player Ranking",
+        "year": season_year,
         "season": season,
         "season_start": season_start.isoformat(),
         "season_end": display_end.isoformat(),
@@ -751,28 +762,78 @@ def save_website_json(
     }
 
     tournament_data = {
+        "year": season_year,
         "season": season,
         "updated_at": updated_at,
         "tournament_count": len(tournaments),
         "tournaments": tournaments,
     }
 
+    write_json_atomic(archive_directory / "ranking.json", website_data)
     write_json_atomic(
-        website_directory / "ranking.json",
-        website_data,
-    )
-    write_json_atomic(
-        website_directory / "tournaments.json",
+        archive_directory / "tournaments.json",
         tournament_data,
     )
     save_player_profiles(
         ranking=ranking,
         ranking_periods=ranking_periods,
         discipline_rankings=discipline_rankings,
+        season_year=season_year,
         season=season,
         updated_at=updated_at,
-        website_directory=website_directory,
+        website_directory=archive_directory,
     )
+
+    manifest_path = website_directory / "years.json"
+
+    try:
+        with manifest_path.open(encoding="utf-8") as file:
+            manifest = json.load(file)
+    except (FileNotFoundError, OSError, json.JSONDecodeError):
+        manifest = {"years": []}
+
+    years_by_number = {
+        int(entry["year"]): entry
+        for entry in manifest.get("years", [])
+        if isinstance(entry, dict)
+        and str(entry.get("year", "")).isdigit()
+    }
+    years_by_number[season_year] = {
+        "year": season_year,
+        "season": season,
+        "path": f"data/{season_year}",
+    }
+    available_years = sorted(years_by_number, reverse=True)
+    manifest = {
+        "latest_year": available_years[0],
+        "years": [
+            years_by_number[year]
+            for year in available_years
+        ],
+    }
+    write_json_atomic(manifest_path, manifest)
+
+    # Keep the original root-level files as aliases for integrations that
+    # still expect them. Rebuilding an older year cannot replace the newest
+    # aliases or any archived year.
+    if season_year == manifest["latest_year"]:
+        write_json_atomic(
+            website_directory / "ranking.json",
+            website_data,
+        )
+        write_json_atomic(
+            website_directory / "tournaments.json",
+            tournament_data,
+        )
+        save_player_profiles(
+            ranking=ranking,
+            ranking_periods=ranking_periods,
+            discipline_rankings=discipline_rankings,
+            season_year=season_year,
+            season=season,
+            updated_at=updated_at,
+            website_directory=website_directory,
+        )
 
 
 def main() -> None:

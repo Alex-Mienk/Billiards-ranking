@@ -48,16 +48,23 @@ is included only when at least one imported tournament uses it.
 
 ## Generated website data
 
-The website uses normalized static JSON files:
+Each calendar year has its own permanent data directory:
 
-- `docs/ranking.json` contains compact annual, seasonal, and discipline
-  ranking summaries.
-- `docs/tournaments.json` contains tournament dates, disciplines,
-  player counts, names, and source links.
-- `docs/players/<player_id>.json` contains one player's complete
-  tournament history and ranking breakdowns.
+- `docs/years.json` lists the available ranking years and identifies the
+  newest year.
+- `docs/data/<year>/ranking.json` contains annual, seasonal, and
+  discipline ranking summaries for that year.
+- `docs/data/<year>/tournaments.json` contains that year's tournament
+  dates, disciplines, player counts, names, and source links.
+- `docs/data/<year>/players/<player_id>.json` contains one player's
+  history and ranking breakdowns for that year.
 
-Player names in every ranking link to the shared player profile page.
+The website displays a year selector and defaults to the newest generated
+year. Importing the first 2027 tournament will add `docs/data/2027`
+without replacing `docs/data/2026`. Player links retain the selected year.
+
+The root-level JSON files remain aliases for the newest year for backward
+compatibility, but the website reads from the year-specific directories.
 
 ## Rebuild on GitHub
 

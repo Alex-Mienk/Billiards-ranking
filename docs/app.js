@@ -46,7 +46,7 @@ function createPlayerCell(player) {
 
     cell.className = "player";
     link.className = "player-link";
-    link.href = `player.html?id=${encodeURIComponent(player.player_id)}`;
+    link.href = RankingYears.playerUrl(player.player_id);
     link.textContent =
         player.player_name || `Player ${player.player_id}`;
     cell.append(link);
@@ -124,8 +124,9 @@ async function loadRanking() {
     errorMessage.hidden = true;
 
     try {
+        await RankingYears.initialize();
         const response = await fetch(
-            "./ranking.json",
+            `${RankingYears.dataRoot}/ranking.json`,
             { cache: "no-cache" },
         );
 

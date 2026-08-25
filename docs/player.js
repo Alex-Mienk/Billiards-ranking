@@ -155,8 +155,10 @@ async function loadProfile() {
     }
 
     try {
+        await RankingYears.initialize();
         const response = await fetch(
-            `./players/${encodeURIComponent(playerId)}.json`,
+            `${RankingYears.dataRoot}/players/`
+            + `${encodeURIComponent(playerId)}.json`,
             { cache: "no-cache" },
         );
 

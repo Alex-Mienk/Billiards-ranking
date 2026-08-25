@@ -48,7 +48,7 @@ function createPlayerCell(player) {
 
     cell.className = "player";
     link.className = "player-link";
-    link.href = `player.html?id=${encodeURIComponent(player.player_id)}`;
+    link.href = RankingYears.playerUrl(player.player_id);
     link.textContent =
         player.player_name || `Player ${player.player_id}`;
     cell.append(link);
@@ -114,7 +114,7 @@ function displayLatestPodium() {
         place.className = "podium-place";
         place.textContent = placeNumber === 3 ? "3–4" : String(placeNumber);
         link.className = "podium-player-link";
-        link.href = `player.html?id=${encodeURIComponent(player.player_id)}`;
+        link.href = RankingYears.playerUrl(player.player_id);
         link.textContent = player.player_name;
         country.className = "podium-country";
         country.textContent = player.country || "—";
@@ -236,8 +236,9 @@ async function loadRanking() {
     errorMessage.hidden = true;
 
     try {
+        await RankingYears.initialize();
         const response = await fetch(
-            "./ranking.json",
+            `${RankingYears.dataRoot}/ranking.json`,
             { cache: "no-cache" },
         );
 
