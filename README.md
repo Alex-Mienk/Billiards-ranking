@@ -18,12 +18,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
+## Import a tournament
 
-Scrape a tournament by providing its Tournament Service ID and date:
+Import a tournament and rebuild all website rankings by providing its
+Tournament Service ID and date:
 
 ```bash
-python3 scrape_tournament.py 55931 2026-08-24
+python3 import_tournament.py 55931 2026-08-24
 ```
 
 The scraper also reads the tournament name and discipline from the
@@ -31,7 +32,11 @@ structured Tournament Service archive entry for that month. Supported
 discipline categories are combined pyramid, free pyramid with
 continuation, dynamic pyramid, and multi-discipline pyramid.
 
-Then rebuild the website ranking for the season that starts in 2026:
+The import command saves the tournament CSV and automatically rebuilds
+the annual, winter, spring, summer, discipline, tournament, and player
+data for the year supplied in the date.
+
+To rebuild a year's website data without importing a tournament, run:
 
 ```bash
 python3 yearly_ranking.py 2026

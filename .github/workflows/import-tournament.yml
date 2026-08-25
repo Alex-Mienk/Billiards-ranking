@@ -54,9 +54,10 @@ jobs:
         env:
           TOURNAMENT_ID: ${{ inputs.tournament_id }}
           TOURNAMENT_DATE: ${{ inputs.tournament_date }}
-        run: |
-          python3 scrape_tournament.py "$TOURNAMENT_ID" "$TOURNAMENT_DATE"
-          python3 yearly_ranking.py "${TOURNAMENT_DATE:0:4}"
+        run: >-
+          python3 import_tournament.py
+          "$TOURNAMENT_ID"
+          "$TOURNAMENT_DATE"
 
       - name: Commit generated data
         env:
