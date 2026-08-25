@@ -1,24 +1,24 @@
-﻿tournament_id,tournament_date,player_id,surname,given_name,player_name,country,city,place,points,source_url,scraped_at
-55634,2026-07-26,26032,Попов,Олександр,Попов Олександр,UKR,Харків,1,31.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,64943,Собачинский,Владислав,Собачинский Владислав,UKR,Кам'янець-Подільский,2,19.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,87671,Скукіс,Володимир,Скукіс Володимир,POL,Warszawa,3-4,13.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,68408,Трачук,Кірілл,Трачук Кірілл,UKR,Хмельницький,3-4,13.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,103855,Kurchevskyi,Daniil,Kurchevskyi Daniil,POL,Варшава,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,10481,Баблюк,Евгений,Баблюк Евгений,UKR,Кам'янець-Подільский,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,97675,Бугаєць,Роман,Бугаєць Роман,POL,Варшава,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,100787,Жигимонт,Олег,Жигимонт Олег,POL,Warszawa,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,88403,Lavryk,Yevgen,Lavryk Yevgen,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,96995,Lobov,Maksym,Lobov Maksym,CYP,Limassol,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,17811,Дементий,Данил,Дементий Данил,UKR,Бердянськ,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,94439,Дмитрюк,Андрій,Дмитрюк Андрій,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,41556,Крутов,Алексей,Крутов Алексей,UKR,Черкаси,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,101635,Марданов,Хусейн,Марданов Хусейн,POL,,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,87908,Тихонов,Роман,Тихонов Роман,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,58944,Тіванов,Матвій,Тіванов Матвій,UKR,Кам'янське,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,87813,Polovko,Volodymyr,Polovko Volodymyr,POL,Warszawa,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,89467,Діденко,Геннадій,Діденко Геннадій,POL,Warszawa,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,101634,Ефаненков,Анатолий,Ефаненков Анатолий,POL,Варшава,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,5257,Калачинский,Леонид,Калачинский Леонид,UKR,Миколаїв,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,97445,Кепич,Тарас,Кепич Тарас,POL,,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,41555,Черный,Роман,Черный Роман,UKR,,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
-55634,2026-07-26,103427,Янченко,Артем,Янченко Артем,POL,Варшава,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-24T14:43:48.211837+00:00
+﻿tournament_id,tournament_date,tournament_name,discipline,discipline_name,player_id,surname,given_name,player_name,country,city,place,points,source_url,scraped_at
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,26032,Попов,Олександр,Попов Олександр,UKR,Харків,1,31.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,64943,Собачинский,Владислав,Собачинский Владислав,UKR,Кам'янець-Подільский,2,19.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,87671,Скукіс,Володимир,Скукіс Володимир,POL,Warszawa,3-4,13.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,68408,Трачук,Кірілл,Трачук Кірілл,UKR,Хмельницький,3-4,13.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,103855,Kurchevskyi,Daniil,Kurchevskyi Daniil,POL,Варшава,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,10481,Баблюк,Евгений,Баблюк Евгений,UKR,Кам'янець-Подільский,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,97675,Бугаєць,Роман,Бугаєць Роман,POL,Варшава,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,100787,Жигимонт,Олег,Жигимонт Олег,POL,Warszawa,5-8,9.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,88403,Lavryk,Yevgen,Lavryk Yevgen,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,96995,Lobov,Maksym,Lobov Maksym,CYP,Limassol,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,17811,Дементий,Данил,Дементий Данил,UKR,Бердянськ,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,94439,Дмитрюк,Андрій,Дмитрюк Андрій,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,41556,Крутов,Алексей,Крутов Алексей,UKR,Черкаси,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,101635,Марданов,Хусейн,Марданов Хусейн,POL,,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,87908,Тихонов,Роман,Тихонов Роман,POL,Warszawa,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,58944,Тіванов,Матвій,Тіванов Матвій,UKR,Кам'янське,9-16,7.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,87813,Polovko,Volodymyr,Polovko Volodymyr,POL,Warszawa,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,89467,Діденко,Геннадій,Діденко Геннадій,POL,Warszawa,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,101634,Ефаненков,Анатолий,Ефаненков Анатолий,POL,Варшава,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,5257,Калачинский,Леонид,Калачинский Леонид,UKR,Миколаїв,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,97445,Кепич,Тарас,Кепич Тарас,POL,,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,41555,Черный,Роман,Черный Роман,UKR,,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00
+55634,2026-07-26,Zlota Bila,combined,Комбинированная с изменениями,103427,Янченко,Артем,Янченко Артем,POL,Варшава,17-23,3.5,https://tournamentservice.net/embed/55634/standing,2026-08-25T13:39:06.199912+00:00

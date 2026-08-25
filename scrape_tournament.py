@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL = "https://tournamentservice.net/embed/{tournament_id}/standing"
+ARCHIVE_URL = "https://tournamentservice.net/tournament.php"
 
 REQUEST_HEADERS = {
     "User-Agent": (
@@ -22,6 +23,9 @@ REQUEST_HEADERS = {
 CSV_FIELDNAMES = [
     "tournament_id",
     "tournament_date",
+    "tournament_name",
+    "discipline",
+    "discipline_name",
     "player_id",
     "surname",
     "given_name",
@@ -33,6 +37,13 @@ CSV_FIELDNAMES = [
     "source_url",
     "scraped_at",
 ]
+
+DISCIPLINE_NAMES = {
+    "combined": "Combined pyramid",
+    "continuation": "Free pyramid with continuation",
+    "dynamic": "Dynamic pyramid",
+    "multi": "Multi-discipline pyramid",
+}
 
 
 def clean_value(value) -> str:
@@ -52,6 +63,94 @@ def parse_date(value: str) -> date:
             f"Invalid date: {value}\n"
             "Use YYYY-MM-DD format, for example 2026-08-30."
         ) from error
+
+
+def normalize_discipline(value: str) -> str:
+    normalized = value.casefold()
+
+    if "многобор" in normalized or "multi" in normalized:
+        return "multi"
+
+    if "динамич" in normalized or "динаміч" in normalized:
+        return "dynamic"
+
+    if "продолж" in normalized or "продовж" in normalized:
+        return "continuation"
+
+    if "комбинир" in normalized or "комбін" in normalized:
+        return "combined"
+
+    raise RuntimeError(
+        f"Unsupported tournament discipline: {value or 'empty value'}. "
+        "Add its structured archive label to normalize_discipline()."
+    )
+
+
+def fetch_tournament_metadata(
+    tournament_id: int,
+    tournament_date: date,
+) -> dict:
+    try:
+        response = requests.post(
+            ARCHIVE_URL,
+            data={
+                "year": str(tournament_date.year),
+                "month": str(tournament_date.month),
+            },
+            headers=REQUEST_HEADERS,
+            timeout=30,
+        )
+        response.raise_for_status()
+    except requests.RequestException as error:
+        raise RuntimeError(
+            "Could not download structured tournament metadata: "
+            f"{error}"
+        ) from error
+
+    page_text = response.content.decode("utf-8", errors="replace")
+    soup = BeautifulSoup(page_text, "html.parser")
+
+    for link in soup.select("a[href*='=']"):
+        if link.get("href", "").split("=")[-1] != str(tournament_id):
+            continue
+
+        name_cell = link.find_parent("td")
+
+        if name_cell is None:
+            continue
+
+        following_cells = [
+            sibling
+            for sibling in name_cell.next_siblings
+            if getattr(sibling, "name", None) == "td"
+        ]
+
+        if len(following_cells) < 4:
+            continue
+
+        discipline_parts = [
+            part.strip()
+            for part in following_cells[3].find_all(
+                string=True,
+                recursive=False,
+            )
+            if part.strip()
+        ]
+        discipline_name = " ".join(discipline_parts)
+
+        if not discipline_name:
+            continue
+
+        return {
+            "tournament_name": link.get_text(" ", strip=True),
+            "discipline": normalize_discipline(discipline_name),
+            "discipline_name": discipline_name,
+        }
+
+    raise RuntimeError(
+        f"Tournament {tournament_id} was not found in the "
+        f"{tournament_date:%B %Y} archive."
+    )
 
 
 def scrape_tournament(
@@ -79,11 +178,11 @@ def scrape_tournament(
     page_text = response.content.decode("utf-8", errors="replace")
     soup = BeautifulSoup(page_text, "html.parser")
 
-    tournament_name = (
-        soup.title.get_text(" ", strip=True)
-        if soup.title
-        else f"Tournament {tournament_id}"
+    metadata = fetch_tournament_metadata(
+        tournament_id,
+        tournament_date,
     )
+    tournament_name = metadata["tournament_name"]
 
     participants_element = soup.select_one("textarea#participants")
 
@@ -164,6 +263,9 @@ def scrape_tournament(
             {
                 "tournament_id": tournament_id,
                 "tournament_date": tournament_date.isoformat(),
+                "tournament_name": tournament_name,
+                "discipline": metadata["discipline"],
+                "discipline_name": metadata["discipline_name"],
                 "player_id": player_id,
                 "surname": surname,
                 "given_name": given_name,
@@ -187,6 +289,10 @@ def scrape_tournament(
         )
 
     print(f"Tournament: {tournament_name}")
+    print(
+        "Discipline: "
+        f"{DISCIPLINE_NAMES[metadata['discipline']]}"
+    )
     print(f"Players found: {len(results)}")
     return results
 

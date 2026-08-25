@@ -95,6 +95,13 @@ RANKING_PERIODS = (
     },
 )
 
+DISCIPLINE_NAMES = {
+    "combined": "Combined pyramid",
+    "continuation": "Free pyramid with continuation",
+    "dynamic": "Dynamic pyramid",
+    "multi": "Multi-discipline pyramid",
+}
+
 
 def season_dates(
     season_year: int,
@@ -182,10 +189,12 @@ def build_ranking(season_year: int) -> None:
             csv_path.stem,
         )
 
-        tournament_name = first_row.get(
-            "tournament_name",
-            f"Tournament {tournament_id}",
+        tournament_name = (
+            first_row.get("tournament_name")
+            or f"Tournament {tournament_id}"
         )
+        discipline = first_row.get("discipline", "")
+        discipline_name = first_row.get("discipline_name", "")
 
         # The ID is the unique key, so the same tournament cannot be
         # counted twice.
@@ -193,6 +202,8 @@ def build_ranking(season_year: int) -> None:
             "tournament_id": str(tournament_id),
             "tournament_name": tournament_name,
             "tournament_date": tournament_date.isoformat(),
+            "discipline": discipline,
+            "discipline_name": discipline_name,
         }
 
         seen_players_in_file = set()
@@ -267,6 +278,8 @@ def build_ranking(season_year: int) -> None:
                     "tournament_date": (
                         tournament_date.isoformat()
                     ),
+                    "discipline": discipline,
+                    "discipline_name": discipline_name,
                     "place": row.get("place", ""),
                     "points": round(points, 2),
                 }
@@ -309,6 +322,10 @@ def build_ranking(season_year: int) -> None:
             ranking=ranking,
             tournaments=list(included_tournaments.values()),
             season_year=season_year,
+        ),
+        discipline_rankings=build_discipline_rankings(
+            ranking=ranking,
+            tournaments=list(included_tournaments.values()),
         ),
     )
 
@@ -460,12 +477,85 @@ def build_period_rankings(
     return periods
 
 
+def build_discipline_rankings(
+    ranking: list[dict],
+    tournaments: list[dict],
+) -> list[dict]:
+    disciplines = []
+
+    for discipline_id, discipline_label in DISCIPLINE_NAMES.items():
+        discipline_tournaments = [
+            tournament
+            for tournament in tournaments
+            if tournament.get("discipline") == discipline_id
+        ]
+
+        # Do not create an empty tab for a discipline that has not
+        # occurred in the imported tournament files.
+        if not discipline_tournaments:
+            continue
+
+        discipline_players = []
+
+        for annual_player in ranking:
+            results = [
+                result
+                for result in annual_player["results"]
+                if result.get("discipline") == discipline_id
+            ]
+
+            if not results:
+                continue
+
+            discipline_players.append(
+                {
+                    "player_id": annual_player["player_id"],
+                    "player_name": annual_player["player_name"],
+                    "country": annual_player["country"],
+                    "tournaments": len(results),
+                    "total_points": round(
+                        sum(result["points"] for result in results),
+                        2,
+                    ),
+                    "annual_rank": annual_player["rank"],
+                    "results": results,
+                }
+            )
+
+        discipline_players.sort(
+            key=lambda player: (
+                -player["total_points"],
+                -player["tournaments"],
+                player["player_name"].casefold(),
+            )
+        )
+
+        for position, player in enumerate(
+            discipline_players,
+            start=1,
+        ):
+            player["rank"] = position
+
+        disciplines.append(
+            {
+                "id": discipline_id,
+                "label": discipline_label,
+                "tournament_count": len(discipline_tournaments),
+                "player_count": len(discipline_players),
+                "players": discipline_players,
+            }
+        )
+
+    return disciplines
+
+
 def save_website_json(
     ranking: list[dict],
     tournaments: list[dict],
     season_start: date,
     display_end: date,
     ranking_periods: list[dict],
+    discipline_rankings: list[dict],
 ) -> None:
     website_directory = Path("docs")
     website_directory.mkdir(exist_ok=True)
@@ -494,6 +584,7 @@ def save_website_json(
         "tournaments": tournaments,
         "players": ranking,
         "periods": ranking_periods,
+        "disciplines": discipline_rankings,
     }
 
     output_path = website_directory / "ranking.json"

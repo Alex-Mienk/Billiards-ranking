@@ -10,12 +10,12 @@
 
     <meta
         name="description"
-        content="Złota Bila annual player ranking"
+        content="Złota Bila player rankings by billiards discipline"
     >
 
     <meta name="theme-color" content="#001b3e">
 
-    <title>Annual Ranking — Złota Bila</title>
+    <title>Discipline Rankings — Złota Bila</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -30,7 +30,7 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="navigation.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="disciplines.js" defer></script>
 </head>
 
 <body>
@@ -49,10 +49,7 @@
                     >
                 </a>
 
-                <a
-                    class="club-link"
-                    href="https://zlotabila.com/"
-                >
+                <a class="club-link" href="https://zlotabila.com/">
                     ZLOTABILA.COM
                 </a>
             </div>
@@ -77,13 +74,9 @@
                         aria-label="Ranking pages"
                         hidden
                     >
-                        <a href="index.html" aria-current="page">
-                            Annual ranking
-                        </a>
-                        <a href="seasons.html">
-                            Seasonal rankings
-                        </a>
-                        <a href="disciplines.html">
+                        <a href="index.html">Annual ranking</a>
+                        <a href="seasons.html">Seasonal rankings</a>
+                        <a href="disciplines.html" aria-current="page">
                             Discipline rankings
                         </a>
                     </nav>
@@ -91,23 +84,18 @@
             </div>
 
             <div class="hero-content">
-                <p class="eyebrow">Official standings</p>
-
-                <h1>Annual Player Ranking</h1>
-
-                <p id="season" class="season">
-                    Loading season…
-                </p>
+                <p class="eyebrow">Compare game formats</p>
+                <h1>Discipline Rankings</h1>
+                <p id="season" class="season">Loading discipline…</p>
 
                 <div
                     class="statistics"
-                    aria-label="Ranking statistics"
+                    aria-label="Discipline statistics"
                 >
                     <div class="statistic">
                         <strong id="player-count">—</strong>
                         <span>Players</span>
                     </div>
-
                     <div class="statistic">
                         <strong id="tournament-count">—</strong>
                         <span>Tournaments</span>
@@ -121,21 +109,32 @@
         <section class="ranking-card">
             <div class="gold-line"></div>
 
-            <div class="toolbar">
+            <div class="period-toolbar">
+                <div class="discipline-picker">
+                    <p class="section-label">Discipline</p>
+                    <div
+                        id="discipline-tabs"
+                        class="period-tabs discipline-tabs"
+                        role="tablist"
+                        aria-label="Choose billiards discipline"
+                    ></div>
+                </div>
+
+                <p class="comparison-note">
+                    Only disciplines represented by imported
+                    tournaments are shown.
+                </p>
+            </div>
+
+            <div class="toolbar seasonal-toolbar">
                 <div>
                     <p class="section-label">Standings</p>
-                    <h2>Current ranking</h2>
-
-                    <p id="updated" class="updated">
-                        Loading ranking…
-                    </p>
+                    <h2 id="discipline-title">Discipline ranking</h2>
+                    <p id="updated" class="updated">Loading ranking…</p>
                 </div>
 
                 <label class="search">
-                    <span class="visually-hidden">
-                        Search for a player
-                    </span>
-
+                    <span class="visually-hidden">Search for a player</span>
                     <input
                         id="search"
                         type="search"
@@ -153,7 +152,7 @@
             ></div>
 
             <div class="table-wrapper">
-                <table>
+                <table class="seasonal-table">
                     <thead>
                         <tr>
                             <th class="number-column">Rank</th>
@@ -161,18 +160,16 @@
                             <th>Country</th>
                             <th class="number-column">Events</th>
                             <th class="number-column">Points</th>
+                            <th class="number-column annual-rank-column">
+                                Year rank
+                            </th>
                         </tr>
                     </thead>
-
                     <tbody id="ranking-body"></tbody>
                 </table>
             </div>
 
-            <p
-                id="empty-message"
-                class="message"
-                hidden
-            >
+            <p id="empty-message" class="message" hidden>
                 No matching players found.
             </p>
         </section>
@@ -186,15 +183,10 @@
 
     <footer>
         <div class="container footer-content">
-            <img
-                class="footer-logo"
-                src="zlota.svg"
-                alt=""
-            >
-
+            <img class="footer-logo" src="zlota.svg" alt="">
             <p>
-                Rankings are calculated from published tournament
-                standings.
+                Disciplines come from Tournament Service’s structured
+                archive data.
             </p>
         </div>
     </footer>

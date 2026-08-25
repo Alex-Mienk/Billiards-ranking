@@ -305,6 +305,19 @@ h1 {
     background: rgb(179 134 65 / 7%);
 }
 
+.discipline-picker {
+    min-width: 0;
+}
+
+.discipline-tabs {
+    flex-wrap: wrap;
+    border-radius: 18px;
+}
+
+.discipline-tabs .period-tab {
+    min-width: 0;
+}
+
 .period-tab {
     min-width: 100px;
     padding: 9px 18px;
@@ -629,6 +642,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
+    }
+
+    .discipline-tabs {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 16px;
     }
 
     .period-tab {
