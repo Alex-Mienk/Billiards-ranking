@@ -1,12 +1,12 @@
 {
   "player_id": 18585,
-  "player_name": "Жданов Данило",
+  "player_name": "Zhdanov Danilo",
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
-    "rank": 96,
+    "rank": 98,
     "tournaments": 1,
     "total_points": 7.5
   },
@@ -15,7 +15,7 @@
       "id": "spring",
       "label": "Spring",
       "date_range": "01.03.2026–31.05.2026",
-      "rank": 66,
+      "rank": 70,
       "tournaments": 1,
       "total_points": 7.5
     }
@@ -24,7 +24,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 84,
+      "rank": 87,
       "tournaments": 1,
       "total_points": 7.5
     }

@@ -1,10 +1,10 @@
 {
   "player_id": 100025,
-  "player_name": "Рупаевский Адик",
+  "player_name": "Rupaevskii Adik",
   "country": "ESP",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 62,
     "tournaments": 2,
@@ -15,7 +15,7 @@
       "id": "winter",
       "label": "Winter",
       "date_range": "01.01.2026–28.02.2026",
-      "rank": 62,
+      "rank": 61,
       "tournaments": 1,
       "total_points": 5.5
     },
@@ -23,7 +23,7 @@
       "id": "spring",
       "label": "Spring",
       "date_range": "01.03.2026–31.05.2026",
-      "rank": 50,
+      "rank": 49,
       "tournaments": 1,
       "total_points": 11.5
     }

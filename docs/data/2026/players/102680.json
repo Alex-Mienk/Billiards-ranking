@@ -1,12 +1,12 @@
 {
   "player_id": 102680,
-  "player_name": "Маркоцинский Януш",
+  "player_name": "Markotsinskii Yanush",
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
-    "rank": 97,
+    "rank": 96,
     "tournaments": 1,
     "total_points": 7.5
   },
@@ -15,7 +15,7 @@
       "id": "spring",
       "label": "Spring",
       "date_range": "01.03.2026–31.05.2026",
-      "rank": 67,
+      "rank": 66,
       "tournaments": 1,
       "total_points": 7.5
     }
@@ -24,7 +24,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 85,
+      "rank": 83,
       "tournaments": 1,
       "total_points": 7.5
     }

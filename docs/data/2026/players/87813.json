@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 12,
     "tournaments": 10,
@@ -31,7 +31,7 @@
       "id": "summer",
       "label": "Summer",
       "date_range": "01.06.2026–31.08.2026",
-      "rank": 7,
+      "rank": 8,
       "tournaments": 4,
       "total_points": 36.5
     }
@@ -47,7 +47,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 26,
+      "rank": 27,
       "tournaments": 4,
       "total_points": 31.0
     }

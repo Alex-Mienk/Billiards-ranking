@@ -4,7 +4,7 @@
   "country": "LAT",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 75,
     "tournaments": 1,
@@ -15,7 +15,7 @@
       "id": "winter",
       "label": "Winter",
       "date_range": "01.01.2026–28.02.2026",
-      "rank": 36,
+      "rank": 38,
       "tournaments": 1,
       "total_points": 13.5
     }
@@ -24,7 +24,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 59,
+      "rank": 60,
       "tournaments": 1,
       "total_points": 13.5
     }

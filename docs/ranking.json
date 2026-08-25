@@ -4,14 +4,14 @@
   "season": "01.01.2026–31.12.2026",
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "tournament_count": 13,
   "player_count": 116,
   "players": [
     {
       "rank": 1,
       "player_id": 68408,
-      "player_name": "Трачук Кірілл",
+      "player_name": "Trachuk Kirill",
       "country": "UKR",
       "tournaments": 11,
       "total_points": 187.0
@@ -19,7 +19,7 @@
     {
       "rank": 2,
       "player_id": 64943,
-      "player_name": "Собачинский Владислав",
+      "player_name": "Sobachinskii Vladislav",
       "country": "UKR",
       "tournaments": 11,
       "total_points": 158.5
@@ -35,7 +35,7 @@
     {
       "rank": 4,
       "player_id": 10481,
-      "player_name": "Баблюк Евгений",
+      "player_name": "Babliuk Yevhenii",
       "country": "UKR",
       "tournaments": 11,
       "total_points": 127.5
@@ -43,7 +43,7 @@
     {
       "rank": 5,
       "player_id": 43938,
-      "player_name": "Таланенко Олександр",
+      "player_name": "Talanenko Oleksandr",
       "country": "POL",
       "tournaments": 9,
       "total_points": 125.0
@@ -59,7 +59,7 @@
     {
       "rank": 7,
       "player_id": 53373,
-      "player_name": "Олексій Мієнко",
+      "player_name": "Oleksii Miienko",
       "country": "UKR",
       "tournaments": 8,
       "total_points": 113.5
@@ -67,7 +67,7 @@
     {
       "rank": 8,
       "player_id": 87671,
-      "player_name": "Скукіс Володимир",
+      "player_name": "Skukis Volodymyr",
       "country": "POL",
       "tournaments": 8,
       "total_points": 110.0
@@ -75,7 +75,7 @@
     {
       "rank": 9,
       "player_id": 97675,
-      "player_name": "Бугаєць Роман",
+      "player_name": "Bugayets Roman",
       "country": "POL",
       "tournaments": 11,
       "total_points": 92.5
@@ -91,7 +91,7 @@
     {
       "rank": 11,
       "player_id": 38885,
-      "player_name": "Бурлака Валерій",
+      "player_name": "Burlaka Valerii",
       "country": "UKR",
       "tournaments": 6,
       "total_points": 83.5
@@ -107,7 +107,7 @@
     {
       "rank": 13,
       "player_id": 87908,
-      "player_name": "Тихонов Роман",
+      "player_name": "Tikhonov Roman",
       "country": "POL",
       "tournaments": 10,
       "total_points": 82.5
@@ -123,7 +123,7 @@
     {
       "rank": 15,
       "player_id": 94439,
-      "player_name": "Дмитрюк Андрій",
+      "player_name": "Dmytriuk Andrii",
       "country": "POL",
       "tournaments": 11,
       "total_points": 78.5
@@ -131,7 +131,7 @@
     {
       "rank": 16,
       "player_id": 26032,
-      "player_name": "Попов Олександр",
+      "player_name": "Popov Oleksandr",
       "country": "UKR",
       "tournaments": 5,
       "total_points": 72.0
@@ -139,7 +139,7 @@
     {
       "rank": 17,
       "player_id": 9707,
-      "player_name": "Вишневский Денис",
+      "player_name": "Vishnevskii Denis",
       "country": "UKR",
       "tournaments": 4,
       "total_points": 66.5
@@ -163,7 +163,7 @@
     {
       "rank": 20,
       "player_id": 97235,
-      "player_name": "Сливинский Андрей",
+      "player_name": "Slivinskii Andrei",
       "country": "POL",
       "tournaments": 5,
       "total_points": 54.5
@@ -179,7 +179,7 @@
     {
       "rank": 22,
       "player_id": 98039,
-      "player_name": "Одарюк Михаил",
+      "player_name": "Odaryuk Mikhail",
       "country": "ESP",
       "tournaments": 3,
       "total_points": 48.5
@@ -187,7 +187,7 @@
     {
       "rank": 23,
       "player_id": 97445,
-      "player_name": "Кепич Тарас",
+      "player_name": "Kepich Taras",
       "country": "POL",
       "tournaments": 8,
       "total_points": 48.0
@@ -195,7 +195,7 @@
     {
       "rank": 24,
       "player_id": 89180,
-      "player_name": "Лапко Алексей",
+      "player_name": "Lapko Aleksei",
       "country": "POL",
       "tournaments": 6,
       "total_points": 48.0
@@ -203,7 +203,7 @@
     {
       "rank": 25,
       "player_id": 92409,
-      "player_name": "Конишев Никита",
+      "player_name": "Konishev Nikita",
       "country": "POL",
       "tournaments": 5,
       "total_points": 46.5
@@ -211,7 +211,7 @@
     {
       "rank": 26,
       "player_id": 89467,
-      "player_name": "Діденко Геннадій",
+      "player_name": "Didenko Genadii",
       "country": "POL",
       "tournaments": 8,
       "total_points": 45.0
@@ -219,7 +219,7 @@
     {
       "rank": 27,
       "player_id": 41555,
-      "player_name": "Черный Роман",
+      "player_name": "Chernyi Roman",
       "country": "UKR",
       "tournaments": 9,
       "total_points": 44.0
@@ -227,7 +227,7 @@
     {
       "rank": 28,
       "player_id": 33264,
-      "player_name": "Білий Любомир",
+      "player_name": "Bilyi Lyubomir",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 43.5
@@ -243,7 +243,7 @@
     {
       "rank": 30,
       "player_id": 100954,
-      "player_name": "Rodionov Vladiav",
+      "player_name": "Rodionov Vladislav",
       "country": "TBA",
       "tournaments": 1,
       "total_points": 41.5
@@ -251,7 +251,7 @@
     {
       "rank": 31,
       "player_id": 7205,
-      "player_name": "Гранкин Ярослав",
+      "player_name": "Grankin Yaroslav",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 41.0
@@ -259,7 +259,7 @@
     {
       "rank": 32,
       "player_id": 41556,
-      "player_name": "Крутов Алексей",
+      "player_name": "Krutov Aleksei",
       "country": "UKR",
       "tournaments": 10,
       "total_points": 39.0
@@ -275,7 +275,7 @@
     {
       "rank": 34,
       "player_id": 91311,
-      "player_name": "Міщенко Адріан",
+      "player_name": "Mishchenko Adrian",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 39.0
@@ -283,7 +283,7 @@
     {
       "rank": 35,
       "player_id": 224,
-      "player_name": "Плешко Марк",
+      "player_name": "Pleshko Mark",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 39.0
@@ -291,7 +291,7 @@
     {
       "rank": 36,
       "player_id": 5580,
-      "player_name": "Данов Илья",
+      "player_name": "Danov Ilya",
       "country": "UKR",
       "tournaments": 6,
       "total_points": 37.0
@@ -299,7 +299,7 @@
     {
       "rank": 37,
       "player_id": 1559,
-      "player_name": "Десятник Виталий",
+      "player_name": "Desyatnik Vitalii",
       "country": "UKR",
       "tournaments": 3,
       "total_points": 32.0
@@ -307,7 +307,7 @@
     {
       "rank": 38,
       "player_id": 90817,
-      "player_name": "Денисенко Игорь",
+      "player_name": "Denisenko Igor",
       "country": "ARE",
       "tournaments": 2,
       "total_points": 31.0
@@ -315,7 +315,7 @@
     {
       "rank": 39,
       "player_id": 101634,
-      "player_name": "Ефаненков Анатолий",
+      "player_name": "Efanenkov Anatolii",
       "country": "POL",
       "tournaments": 7,
       "total_points": 29.5
@@ -323,7 +323,7 @@
     {
       "rank": 40,
       "player_id": 22984,
-      "player_name": "Гоменюк Нікіта",
+      "player_name": "Gomenyuk Nikita",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 29.5
@@ -331,7 +331,7 @@
     {
       "rank": 41,
       "player_id": 86276,
-      "player_name": "Левочкин Володимир",
+      "player_name": "Levochkin Volodimir",
       "country": "POL",
       "tournaments": 3,
       "total_points": 28.5
@@ -339,7 +339,7 @@
     {
       "rank": 42,
       "player_id": 9926,
-      "player_name": "Олейник Иван",
+      "player_name": "Oleinik Ivan",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 28.5
@@ -347,7 +347,7 @@
     {
       "rank": 43,
       "player_id": 76085,
-      "player_name": "Гайдеров Максим",
+      "player_name": "Gaiderov Maksim",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 28.0
@@ -355,7 +355,7 @@
     {
       "rank": 44,
       "player_id": 5321,
-      "player_name": "Сінгаєвський Євгеній",
+      "player_name": "Singayevskii Yevgenii",
       "country": "POL",
       "tournaments": 2,
       "total_points": 27.0
@@ -363,7 +363,7 @@
     {
       "rank": 45,
       "player_id": 58151,
-      "player_name": "Єфремов Олексій",
+      "player_name": "Yefremov Oleksii",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 26.5
@@ -371,7 +371,7 @@
     {
       "rank": 46,
       "player_id": 1632,
-      "player_name": "Шумелюк Александр",
+      "player_name": "Shumelyuk Aleksandr",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 26.0
@@ -379,7 +379,7 @@
     {
       "rank": 47,
       "player_id": 39029,
-      "player_name": "Череватый Денис",
+      "player_name": "Cherevatyi Denis",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 25.0
@@ -387,7 +387,7 @@
     {
       "rank": 48,
       "player_id": 55740,
-      "player_name": "Бойко Дмитро",
+      "player_name": "Boiko Dmitro",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 24.5
@@ -395,7 +395,7 @@
     {
       "rank": 49,
       "player_id": 101635,
-      "player_name": "Марданов Хусейн",
+      "player_name": "Mardanov Khusein",
       "country": "POL",
       "tournaments": 6,
       "total_points": 24.0
@@ -403,7 +403,7 @@
     {
       "rank": 50,
       "player_id": 103428,
-      "player_name": "Микаилов Кенан",
+      "player_name": "Mikailov Kenan",
       "country": "POL",
       "tournaments": 2,
       "total_points": 23.5
@@ -411,7 +411,7 @@
     {
       "rank": 51,
       "player_id": 1188,
-      "player_name": "Каракай Валерий",
+      "player_name": "Karakai Valerii",
       "country": "LAT",
       "tournaments": 1,
       "total_points": 23.5
@@ -443,7 +443,7 @@
     {
       "rank": 55,
       "player_id": 41351,
-      "player_name": "Багацький Денис",
+      "player_name": "Bagatskii Denis",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 21.0
@@ -451,7 +451,7 @@
     {
       "rank": 56,
       "player_id": 16530,
-      "player_name": "Єленич Владислав",
+      "player_name": "Yelenich Vladislav",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 19.5
@@ -459,7 +459,7 @@
     {
       "rank": 57,
       "player_id": 103427,
-      "player_name": "Янченко Артем",
+      "player_name": "Yanchenko Artem",
       "country": "POL",
       "tournaments": 5,
       "total_points": 19.0
@@ -475,7 +475,7 @@
     {
       "rank": 59,
       "player_id": 1053,
-      "player_name": "Крупицкий Александр",
+      "player_name": "Krupitskii Aleksandr",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 17.5
@@ -483,7 +483,7 @@
     {
       "rank": 60,
       "player_id": 98299,
-      "player_name": "Котик Игорь",
+      "player_name": "Kotik Igor",
       "country": "ESP",
       "tournaments": 1,
       "total_points": 17.5
@@ -499,7 +499,7 @@
     {
       "rank": 62,
       "player_id": 100025,
-      "player_name": "Рупаевский Адик",
+      "player_name": "Rupaevskii Adik",
       "country": "ESP",
       "tournaments": 2,
       "total_points": 17.0
@@ -507,13 +507,37 @@
     {
       "rank": 63,
       "player_id": 102379,
-      "player_name": "Безуглый Максим",
+      "player_name": "Bezuglyi Maksim",
       "country": "POL",
       "tournaments": 2,
       "total_points": 15.5
     },
     {
       "rank": 64,
+      "player_id": 98851,
+      "player_name": "Gidrat Anton",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 15.5
+    },
+    {
+      "rank": 65,
+      "player_id": 13349,
+      "player_name": "Kusen Mikhailo",
+      "country": "CZE",
+      "tournaments": 1,
+      "total_points": 15.5
+    },
+    {
+      "rank": 66,
+      "player_id": 4169,
+      "player_name": "Lebid Dmitro",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 15.5
+    },
+    {
+      "rank": 67,
       "player_id": 3332,
       "player_name": "Svitkovskyi Yurii",
       "country": "CZE",
@@ -521,33 +545,9 @@
       "total_points": 15.5
     },
     {
-      "rank": 65,
-      "player_id": 98851,
-      "player_name": "Гидрат Антон",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 15.5
-    },
-    {
-      "rank": 66,
-      "player_id": 13349,
-      "player_name": "Кусень Михайло",
-      "country": "CZE",
-      "tournaments": 1,
-      "total_points": 15.5
-    },
-    {
-      "rank": 67,
-      "player_id": 4169,
-      "player_name": "Лебідь Дмитро",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 15.5
-    },
-    {
       "rank": 68,
       "player_id": 93605,
-      "player_name": "Демидов Максим",
+      "player_name": "Demidov Maksim",
       "country": "POL",
       "tournaments": 3,
       "total_points": 15.0
@@ -555,7 +555,7 @@
     {
       "rank": 69,
       "player_id": 88075,
-      "player_name": "Стельмах Даниил",
+      "player_name": "Stelmakh Daniil",
       "country": "POL",
       "tournaments": 2,
       "total_points": 15.0
@@ -563,7 +563,7 @@
     {
       "rank": 70,
       "player_id": 8601,
-      "player_name": "Криворучко Андрей",
+      "player_name": "Krivoruchko Andrei",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 14.5
@@ -571,7 +571,7 @@
     {
       "rank": 71,
       "player_id": 58944,
-      "player_name": "Тіванов Матвій",
+      "player_name": "Tivanov Matvii",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 14.0
@@ -579,7 +579,7 @@
     {
       "rank": 72,
       "player_id": 88077,
-      "player_name": "Ярчевский Эдуард",
+      "player_name": "Yarchevskii Eduard",
       "country": "POL",
       "tournaments": 4,
       "total_points": 13.5
@@ -611,7 +611,7 @@
     {
       "rank": 76,
       "player_id": 80597,
-      "player_name": "Юрочкін Петро",
+      "player_name": "Yurochkin Petro",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 13.5
@@ -619,7 +619,7 @@
     {
       "rank": 77,
       "player_id": 99069,
-      "player_name": "Сидоров Алексей",
+      "player_name": "Sidorov Aleksei",
       "country": "POL",
       "tournaments": 2,
       "total_points": 12.0
@@ -634,6 +634,14 @@
     },
     {
       "rank": 79,
+      "player_id": 85391,
+      "player_name": "Garashchuk Sergei",
+      "country": "ESP",
+      "tournaments": 1,
+      "total_points": 11.5
+    },
+    {
+      "rank": 80,
       "player_id": 95609,
       "player_name": "Ivan Attila",
       "country": "GER",
@@ -641,7 +649,7 @@
       "total_points": 11.5
     },
     {
-      "rank": 80,
+      "rank": 81,
       "player_id": 102432,
       "player_name": "Juszip Jaromir",
       "country": "CZE",
@@ -649,7 +657,7 @@
       "total_points": 11.5
     },
     {
-      "rank": 81,
+      "rank": 82,
       "player_id": 95059,
       "player_name": "Tymets Maksym",
       "country": "GER",
@@ -657,17 +665,9 @@
       "total_points": 11.5
     },
     {
-      "rank": 82,
-      "player_id": 85391,
-      "player_name": "Гаращук Сергей",
-      "country": "ESP",
-      "tournaments": 1,
-      "total_points": 11.5
-    },
-    {
       "rank": 83,
       "player_id": 49300,
-      "player_name": "Вечтомов Александр",
+      "player_name": "Vechtomov Aleksandr",
       "country": "UKR",
       "tournaments": 3,
       "total_points": 11.0
@@ -675,7 +675,7 @@
     {
       "rank": 84,
       "player_id": 76628,
-      "player_name": "Комар Евгений",
+      "player_name": "Komar Evgenii",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 10.0
@@ -683,7 +683,7 @@
     {
       "rank": 85,
       "player_id": 104756,
-      "player_name": "Коробчинский Игорь",
+      "player_name": "Korobchinskii Igor",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 10.0
@@ -707,7 +707,7 @@
     {
       "rank": 88,
       "player_id": 87672,
-      "player_name": "Гезун Николай",
+      "player_name": "Gezun Nikolai",
       "country": "POL",
       "tournaments": 1,
       "total_points": 8.5
@@ -715,7 +715,7 @@
     {
       "rank": 89,
       "player_id": 96003,
-      "player_name": "Миненко Даниіл",
+      "player_name": "Minenko Daniil",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 8.5
@@ -730,6 +730,14 @@
     },
     {
       "rank": 91,
+      "player_id": 67737,
+      "player_name": "Boiko Semen",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5
+    },
+    {
+      "rank": 92,
       "player_id": 89055,
       "player_name": "Bondarenko Anton",
       "country": "CZE",
@@ -737,7 +745,15 @@
       "total_points": 7.5
     },
     {
-      "rank": 92,
+      "rank": 93,
+      "player_id": 13047,
+      "player_name": "Fomin Eduard",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5
+    },
+    {
+      "rank": 94,
       "player_id": 94720,
       "player_name": "Klimenko Daniil",
       "country": "CZE",
@@ -745,7 +761,7 @@
       "total_points": 7.5
     },
     {
-      "rank": 93,
+      "rank": 95,
       "player_id": 85743,
       "player_name": "Kyselov Yevhenii",
       "country": "POL",
@@ -753,41 +769,25 @@
       "total_points": 7.5
     },
     {
-      "rank": 94,
-      "player_id": 67737,
-      "player_name": "Бойко Семен",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 7.5
-    },
-    {
-      "rank": 95,
-      "player_id": 12449,
-      "player_name": "Варасян Карен",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 7.5
-    },
-    {
       "rank": 96,
-      "player_id": 18585,
-      "player_name": "Жданов Данило",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 7.5
-    },
-    {
-      "rank": 97,
       "player_id": 102680,
-      "player_name": "Маркоцинский Януш",
+      "player_name": "Markotsinskii Yanush",
       "country": "POL",
       "tournaments": 1,
       "total_points": 7.5
     },
     {
+      "rank": 97,
+      "player_id": 12449,
+      "player_name": "Varasyan Karen",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 7.5
+    },
+    {
       "rank": 98,
-      "player_id": 13047,
-      "player_name": "Фомин Эдуард",
+      "player_id": 18585,
+      "player_name": "Zhdanov Danilo",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 7.5
@@ -795,7 +795,7 @@
     {
       "rank": 99,
       "player_id": 100024,
-      "player_name": "Квятковский Давид",
+      "player_name": "Kvyatkovskii David",
       "country": "POL",
       "tournaments": 2,
       "total_points": 6.5
@@ -803,7 +803,7 @@
     {
       "rank": 100,
       "player_id": 1134,
-      "player_name": "Буданцев Артем",
+      "player_name": "Budantsev Artem",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 6.5
@@ -811,7 +811,7 @@
     {
       "rank": 101,
       "player_id": 33488,
-      "player_name": "Лищинский Владислав",
+      "player_name": "Lishchinskii Vladislav",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 6.5
@@ -819,7 +819,7 @@
     {
       "rank": 102,
       "player_id": 103429,
-      "player_name": "Стаянович Давид",
+      "player_name": "Stayanovich David",
       "country": "POL",
       "tournaments": 1,
       "total_points": 6.5
@@ -827,7 +827,7 @@
     {
       "rank": 103,
       "player_id": 43937,
-      "player_name": "Таланенко Юрій",
+      "player_name": "Talanenko Yurii",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 6.0
@@ -835,7 +835,7 @@
     {
       "rank": 104,
       "player_id": 79988,
-      "player_name": "Бинюк Николай",
+      "player_name": "Binyuk Nikolai",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 5.5
@@ -858,6 +858,22 @@
     },
     {
       "rank": 107,
+      "player_id": 58147,
+      "player_name": "Leletskii Pilip",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 5.5
+    },
+    {
+      "rank": 108,
+      "player_id": 42211,
+      "player_name": "Sterpul Illya",
+      "country": "UKR",
+      "tournaments": 1,
+      "total_points": 5.5
+    },
+    {
+      "rank": 109,
       "player_id": 87679,
       "player_name": "Stratu Oleg",
       "country": "MDA",
@@ -865,25 +881,9 @@
       "total_points": 5.5
     },
     {
-      "rank": 108,
-      "player_id": 58147,
-      "player_name": "Лелецький Пилип",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 5.5
-    },
-    {
-      "rank": 109,
-      "player_id": 42211,
-      "player_name": "Стерпул Ілля",
-      "country": "UKR",
-      "tournaments": 1,
-      "total_points": 5.5
-    },
-    {
       "rank": 110,
       "player_id": 62612,
-      "player_name": "Томин Анатолий",
+      "player_name": "Tomin Anatolii",
       "country": "ESP",
       "tournaments": 1,
       "total_points": 5.5
@@ -891,7 +891,7 @@
     {
       "rank": 111,
       "player_id": 4931,
-      "player_name": "Новиков Максим",
+      "player_name": "Novikov Maksim",
       "country": "UKR",
       "tournaments": 2,
       "total_points": 5.0
@@ -899,31 +899,31 @@
     {
       "rank": 112,
       "player_id": 93993,
-      "player_name": "Кравчук Евгений",
+      "player_name": "Kravchuk Evgenii",
       "country": "POL",
       "tournaments": 1,
       "total_points": 4.5
     },
     {
       "rank": 113,
-      "player_id": 101461,
-      "player_name": "Гапоненко Егор",
-      "country": "POL",
-      "tournaments": 1,
-      "total_points": 3.5
-    },
-    {
-      "rank": 114,
-      "player_id": 5257,
-      "player_name": "Калачинский Леонид",
+      "player_id": 66382,
+      "player_name": "Chernyavskii Aleksandr",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 3.5
     },
     {
+      "rank": 114,
+      "player_id": 101461,
+      "player_name": "Gaponenko Egor",
+      "country": "POL",
+      "tournaments": 1,
+      "total_points": 3.5
+    },
+    {
       "rank": 115,
-      "player_id": 66382,
-      "player_name": "Чернявский Александр",
+      "player_id": 5257,
+      "player_name": "Kalachinskii Leonid",
       "country": "UKR",
       "tournaments": 1,
       "total_points": 3.5
@@ -931,7 +931,7 @@
     {
       "rank": 116,
       "player_id": 103180,
-      "player_name": "Мазур Сергей",
+      "player_name": "Mazur Sergei",
       "country": "POL",
       "tournaments": 1,
       "total_points": 2.5
@@ -947,7 +947,7 @@
       "players": [
         {
           "player_id": 87671,
-          "player_name": "Скукіс Володимир",
+          "player_name": "Skukis Volodymyr",
           "country": "POL",
           "tournaments": 3,
           "total_points": 66.0,
@@ -956,7 +956,7 @@
         },
         {
           "player_id": 64943,
-          "player_name": "Собачинский Владислав",
+          "player_name": "Sobachinskii Vladislav",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 52.0,
@@ -965,7 +965,7 @@
         },
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 42.0,
@@ -974,7 +974,7 @@
         },
         {
           "player_id": 43938,
-          "player_name": "Таланенко Олександр",
+          "player_name": "Talanenko Oleksandr",
           "country": "POL",
           "tournaments": 4,
           "total_points": 41.5,
@@ -983,7 +983,7 @@
         },
         {
           "player_id": 100954,
-          "player_name": "Rodionov Vladiav",
+          "player_name": "Rodionov Vladislav",
           "country": "TBA",
           "tournaments": 1,
           "total_points": 41.5,
@@ -992,7 +992,7 @@
         },
         {
           "player_id": 10481,
-          "player_name": "Баблюк Евгений",
+          "player_name": "Babliuk Yevhenii",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 38.0,
@@ -1001,7 +1001,7 @@
         },
         {
           "player_id": 87908,
-          "player_name": "Тихонов Роман",
+          "player_name": "Tikhonov Roman",
           "country": "POL",
           "tournaments": 4,
           "total_points": 37.5,
@@ -1019,7 +1019,7 @@
         },
         {
           "player_id": 38885,
-          "player_name": "Бурлака Валерій",
+          "player_name": "Burlaka Valerii",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 34.0,
@@ -1028,7 +1028,7 @@
         },
         {
           "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
+          "player_name": "Dmytriuk Andrii",
           "country": "POL",
           "tournaments": 4,
           "total_points": 33.5,
@@ -1046,7 +1046,7 @@
         },
         {
           "player_id": 22984,
-          "player_name": "Гоменюк Нікіта",
+          "player_name": "Gomenyuk Nikita",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 29.5,
@@ -1055,7 +1055,7 @@
         },
         {
           "player_id": 9707,
-          "player_name": "Вишневский Денис",
+          "player_name": "Vishnevskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 28.5,
@@ -1064,7 +1064,7 @@
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 28.0,
@@ -1082,7 +1082,7 @@
         },
         {
           "player_id": 1188,
-          "player_name": "Каракай Валерий",
+          "player_name": "Karakai Valerii",
           "country": "LAT",
           "tournaments": 1,
           "total_points": 23.5,
@@ -1091,7 +1091,7 @@
         },
         {
           "player_id": 91311,
-          "player_name": "Міщенко Адріан",
+          "player_name": "Mishchenko Adrian",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 23.5,
@@ -1109,7 +1109,7 @@
         },
         {
           "player_id": 41351,
-          "player_name": "Багацький Денис",
+          "player_name": "Bagatskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 21.0,
@@ -1127,7 +1127,7 @@
         },
         {
           "player_id": 224,
-          "player_name": "Плешко Марк",
+          "player_name": "Pleshko Mark",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 19.5,
@@ -1136,7 +1136,7 @@
         },
         {
           "player_id": 5321,
-          "player_name": "Сінгаєвський Євгеній",
+          "player_name": "Singayevskii Yevgenii",
           "country": "POL",
           "tournaments": 1,
           "total_points": 19.5,
@@ -1145,7 +1145,7 @@
         },
         {
           "player_id": 16530,
-          "player_name": "Єленич Владислав",
+          "player_name": "Yelenich Vladislav",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 19.5,
@@ -1154,7 +1154,7 @@
         },
         {
           "player_id": 97675,
-          "player_name": "Бугаєць Роман",
+          "player_name": "Bugayets Roman",
           "country": "POL",
           "tournaments": 3,
           "total_points": 18.0,
@@ -1163,12 +1163,39 @@
         },
         {
           "player_id": 1559,
-          "player_name": "Десятник Виталий",
+          "player_name": "Desyatnik Vitalii",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 18.0,
           "annual_rank": 37,
           "rank": 25
+        },
+        {
+          "player_id": 98299,
+          "player_name": "Kotik Igor",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 17.5,
+          "annual_rank": 60,
+          "rank": 26
+        },
+        {
+          "player_id": 86276,
+          "player_name": "Levochkin Volodimir",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 17.5,
+          "annual_rank": 41,
+          "rank": 27
+        },
+        {
+          "player_id": 1632,
+          "player_name": "Shumelyuk Aleksandr",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 17.5,
+          "annual_rank": 46,
+          "rank": 28
         },
         {
           "player_id": 100907,
@@ -1177,38 +1204,11 @@
           "tournaments": 1,
           "total_points": 17.5,
           "annual_rank": 29,
-          "rank": 26
-        },
-        {
-          "player_id": 98299,
-          "player_name": "Котик Игорь",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 17.5,
-          "annual_rank": 60,
-          "rank": 27
-        },
-        {
-          "player_id": 86276,
-          "player_name": "Левочкин Володимир",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 17.5,
-          "annual_rank": 41,
-          "rank": 28
-        },
-        {
-          "player_id": 1632,
-          "player_name": "Шумелюк Александр",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 17.5,
-          "annual_rank": 46,
           "rank": 29
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 2,
           "total_points": 15.5,
@@ -1226,7 +1226,7 @@
         },
         {
           "player_id": 8601,
-          "player_name": "Криворучко Андрей",
+          "player_name": "Krivoruchko Andrei",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 14.5,
@@ -1243,13 +1243,31 @@
           "rank": 33
         },
         {
+          "player_id": 55740,
+          "player_name": "Boiko Dmitro",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 13.5,
+          "annual_rank": 48,
+          "rank": 34
+        },
+        {
           "player_id": 194,
           "player_name": "Dubenko Ihor",
           "country": "POL",
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 73,
-          "rank": 34
+          "rank": 35
+        },
+        {
+          "player_id": 98039,
+          "player_name": "Odaryuk Mikhail",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 13.5,
+          "annual_rank": 22,
+          "rank": 36
         },
         {
           "player_id": 100580,
@@ -1258,7 +1276,7 @@
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 74,
-          "rank": 35
+          "rank": 37
         },
         {
           "player_id": 82628,
@@ -1267,29 +1285,11 @@
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 75,
-          "rank": 36
-        },
-        {
-          "player_id": 55740,
-          "player_name": "Бойко Дмитро",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 13.5,
-          "annual_rank": 48,
-          "rank": 37
-        },
-        {
-          "player_id": 98039,
-          "player_name": "Одарюк Михаил",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 13.5,
-          "annual_rank": 22,
           "rank": 38
         },
         {
           "player_id": 80597,
-          "player_name": "Юрочкін Петро",
+          "player_name": "Yurochkin Petro",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 13.5,
@@ -1298,7 +1298,7 @@
         },
         {
           "player_id": 5580,
-          "player_name": "Данов Илья",
+          "player_name": "Danov Ilya",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 9.5,
@@ -1307,12 +1307,39 @@
         },
         {
           "player_id": 97445,
-          "player_name": "Кепич Тарас",
+          "player_name": "Kepich Taras",
           "country": "POL",
           "tournaments": 2,
           "total_points": 9.5,
           "annual_rank": 23,
           "rank": 41
+        },
+        {
+          "player_id": 39029,
+          "player_name": "Cherevatyi Denis",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 9.5,
+          "annual_rank": 47,
+          "rank": 42
+        },
+        {
+          "player_id": 90817,
+          "player_name": "Denisenko Igor",
+          "country": "ARE",
+          "tournaments": 1,
+          "total_points": 9.5,
+          "annual_rank": 38,
+          "rank": 43
+        },
+        {
+          "player_id": 7205,
+          "player_name": "Grankin Yaroslav",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 9.5,
+          "annual_rank": 31,
+          "rank": 44
         },
         {
           "player_id": 45929,
@@ -1321,7 +1348,7 @@
           "tournaments": 1,
           "total_points": 9.5,
           "annual_rank": 61,
-          "rank": 42
+          "rank": 45
         },
         {
           "player_id": 85159,
@@ -1330,7 +1357,7 @@
           "tournaments": 1,
           "total_points": 9.5,
           "annual_rank": 86,
-          "rank": 43
+          "rank": 46
         },
         {
           "player_id": 100566,
@@ -1339,38 +1366,11 @@
           "tournaments": 1,
           "total_points": 9.5,
           "annual_rank": 87,
-          "rank": 44
-        },
-        {
-          "player_id": 7205,
-          "player_name": "Гранкин Ярослав",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 9.5,
-          "annual_rank": 31,
-          "rank": 45
-        },
-        {
-          "player_id": 90817,
-          "player_name": "Денисенко Игорь",
-          "country": "ARE",
-          "tournaments": 1,
-          "total_points": 9.5,
-          "annual_rank": 38,
-          "rank": 46
-        },
-        {
-          "player_id": 39029,
-          "player_name": "Череватый Денис",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 9.5,
-          "annual_rank": 47,
           "rank": 47
         },
         {
           "player_id": 87672,
-          "player_name": "Гезун Николай",
+          "player_name": "Gezun Nikolai",
           "country": "POL",
           "tournaments": 1,
           "total_points": 8.5,
@@ -1379,7 +1379,7 @@
         },
         {
           "player_id": 96003,
-          "player_name": "Миненко Даниіл",
+          "player_name": "Minenko Daniil",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.5,
@@ -1388,7 +1388,7 @@
         },
         {
           "player_id": 41556,
-          "player_name": "Крутов Алексей",
+          "player_name": "Krutov Aleksei",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 8.0,
@@ -1397,7 +1397,7 @@
         },
         {
           "player_id": 88077,
-          "player_name": "Ярчевский Эдуард",
+          "player_name": "Yarchevskii Eduard",
           "country": "POL",
           "tournaments": 2,
           "total_points": 8.0,
@@ -1406,7 +1406,7 @@
         },
         {
           "player_id": 76085,
-          "player_name": "Гайдеров Максим",
+          "player_name": "Gaiderov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.0,
@@ -1415,7 +1415,7 @@
         },
         {
           "player_id": 97235,
-          "player_name": "Сливинский Андрей",
+          "player_name": "Slivinskii Andrei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 8.0,
@@ -1424,7 +1424,7 @@
         },
         {
           "player_id": 89180,
-          "player_name": "Лапко Алексей",
+          "player_name": "Lapko Aleksei",
           "country": "POL",
           "tournaments": 2,
           "total_points": 7.5,
@@ -1459,13 +1459,49 @@
           "rank": 57
         },
         {
+          "player_id": 93605,
+          "player_name": "Demidov Maksim",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 5.5,
+          "annual_rank": 68,
+          "rank": 58
+        },
+        {
           "player_id": 86222,
           "player_name": "Dzinhel Vitalii",
           "country": "POL",
           "tournaments": 1,
           "total_points": 5.5,
           "annual_rank": 106,
-          "rank": 58
+          "rank": 59
+        },
+        {
+          "player_id": 58147,
+          "player_name": "Leletskii Pilip",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 5.5,
+          "annual_rank": 107,
+          "rank": 60
+        },
+        {
+          "player_id": 100025,
+          "player_name": "Rupaevskii Adik",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 5.5,
+          "annual_rank": 62,
+          "rank": 61
+        },
+        {
+          "player_id": 42211,
+          "player_name": "Sterpul Illya",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 5.5,
+          "annual_rank": 108,
+          "rank": 62
         },
         {
           "player_id": 87679,
@@ -1473,48 +1509,12 @@
           "country": "MDA",
           "tournaments": 1,
           "total_points": 5.5,
-          "annual_rank": 107,
-          "rank": 59
-        },
-        {
-          "player_id": 93605,
-          "player_name": "Демидов Максим",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 5.5,
-          "annual_rank": 68,
-          "rank": 60
-        },
-        {
-          "player_id": 58147,
-          "player_name": "Лелецький Пилип",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 5.5,
-          "annual_rank": 108,
-          "rank": 61
-        },
-        {
-          "player_id": 100025,
-          "player_name": "Рупаевский Адик",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 5.5,
-          "annual_rank": 62,
-          "rank": 62
-        },
-        {
-          "player_id": 42211,
-          "player_name": "Стерпул Ілля",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 5.5,
           "annual_rank": 109,
           "rank": 63
         },
         {
           "player_id": 62612,
-          "player_name": "Томин Анатолий",
+          "player_name": "Tomin Anatolii",
           "country": "ESP",
           "tournaments": 1,
           "total_points": 5.5,
@@ -1522,49 +1522,58 @@
           "rank": 64
         },
         {
-          "player_id": 101634,
-          "player_name": "Ефаненков Анатолий",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.5,
-          "annual_rank": 39,
-          "rank": 65
-        },
-        {
-          "player_id": 93993,
-          "player_name": "Кравчук Евгений",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.5,
-          "annual_rank": 112,
-          "rank": 66
-        },
-        {
-          "player_id": 101635,
-          "player_name": "Марданов Хусейн",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.5,
-          "annual_rank": 49,
-          "rank": 67
-        },
-        {
-          "player_id": 99069,
-          "player_name": "Сидоров Алексей",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.5,
-          "annual_rank": 77,
-          "rank": 68
-        },
-        {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 4.5,
           "annual_rank": 27,
+          "rank": 65
+        },
+        {
+          "player_id": 101634,
+          "player_name": "Efanenkov Anatolii",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.5,
+          "annual_rank": 39,
+          "rank": 66
+        },
+        {
+          "player_id": 93993,
+          "player_name": "Kravchuk Evgenii",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.5,
+          "annual_rank": 112,
+          "rank": 67
+        },
+        {
+          "player_id": 101635,
+          "player_name": "Mardanov Khusein",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.5,
+          "annual_rank": 49,
+          "rank": 68
+        },
+        {
+          "player_id": 99069,
+          "player_name": "Sidorov Aleksei",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.5,
+          "annual_rank": 77,
           "rank": 69
+        },
+        {
+          "player_id": 89467,
+          "player_name": "Didenko Genadii",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.0,
+          "annual_rank": 26,
+          "rank": 70
         },
         {
           "player_id": 53732,
@@ -1573,25 +1582,43 @@
           "tournaments": 1,
           "total_points": 4.0,
           "annual_rank": 58,
-          "rank": 70
-        },
-        {
-          "player_id": 89467,
-          "player_name": "Діденко Геннадій",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.0,
-          "annual_rank": 26,
           "rank": 71
         },
         {
           "player_id": 100024,
-          "player_name": "Квятковский Давид",
+          "player_name": "Kvyatkovskii David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 4.0,
           "annual_rank": 99,
           "rank": 72
+        },
+        {
+          "player_id": 79988,
+          "player_name": "Binyuk Nikolai",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 3.5,
+          "annual_rank": 104,
+          "rank": 73
+        },
+        {
+          "player_id": 66382,
+          "player_name": "Chernyavskii Aleksandr",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 3.5,
+          "annual_rank": 113,
+          "rank": 74
+        },
+        {
+          "player_id": 101461,
+          "player_name": "Gaponenko Egor",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 3.5,
+          "annual_rank": 114,
+          "rank": 75
         },
         {
           "player_id": 88403,
@@ -1600,33 +1627,6 @@
           "tournaments": 1,
           "total_points": 3.5,
           "annual_rank": 19,
-          "rank": 73
-        },
-        {
-          "player_id": 79988,
-          "player_name": "Бинюк Николай",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 3.5,
-          "annual_rank": 104,
-          "rank": 74
-        },
-        {
-          "player_id": 101461,
-          "player_name": "Гапоненко Егор",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 3.5,
-          "annual_rank": 113,
-          "rank": 75
-        },
-        {
-          "player_id": 66382,
-          "player_name": "Чернявский Александр",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 3.5,
-          "annual_rank": 115,
           "rank": 76
         }
       ]
@@ -1640,7 +1640,7 @@
       "players": [
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 5,
           "total_points": 106.5,
@@ -1667,7 +1667,7 @@
         },
         {
           "player_id": 64943,
-          "player_name": "Собачинский Владислав",
+          "player_name": "Sobachinskii Vladislav",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 50.0,
@@ -1676,7 +1676,7 @@
         },
         {
           "player_id": 38885,
-          "player_name": "Бурлака Валерій",
+          "player_name": "Burlaka Valerii",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 49.5,
@@ -1694,7 +1694,7 @@
         },
         {
           "player_id": 10481,
-          "player_name": "Баблюк Евгений",
+          "player_name": "Babliuk Yevhenii",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 47.0,
@@ -1703,7 +1703,7 @@
         },
         {
           "player_id": 33264,
-          "player_name": "Білий Любомир",
+          "player_name": "Bilyi Lyubomir",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 43.5,
@@ -1712,7 +1712,7 @@
         },
         {
           "player_id": 97675,
-          "player_name": "Бугаєць Роман",
+          "player_name": "Bugayets Roman",
           "country": "POL",
           "tournaments": 4,
           "total_points": 38.0,
@@ -1721,7 +1721,7 @@
         },
         {
           "player_id": 9707,
-          "player_name": "Вишневский Денис",
+          "player_name": "Vishnevskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 38.0,
@@ -1739,7 +1739,7 @@
         },
         {
           "player_id": 26032,
-          "player_name": "Попов Олександр",
+          "player_name": "Popov Oleksandr",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 36.5,
@@ -1757,7 +1757,7 @@
         },
         {
           "player_id": 43938,
-          "player_name": "Таланенко Олександр",
+          "player_name": "Talanenko Oleksandr",
           "country": "POL",
           "tournaments": 3,
           "total_points": 35.5,
@@ -1766,7 +1766,7 @@
         },
         {
           "player_id": 98039,
-          "player_name": "Одарюк Михаил",
+          "player_name": "Odaryuk Mikhail",
           "country": "ESP",
           "tournaments": 2,
           "total_points": 35.0,
@@ -1775,7 +1775,7 @@
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 32.5,
@@ -1793,7 +1793,7 @@
         },
         {
           "player_id": 7205,
-          "player_name": "Гранкин Ярослав",
+          "player_name": "Grankin Yaroslav",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 31.5,
@@ -1802,7 +1802,7 @@
         },
         {
           "player_id": 87671,
-          "player_name": "Скукіс Володимир",
+          "player_name": "Skukis Volodymyr",
           "country": "POL",
           "tournaments": 3,
           "total_points": 28.5,
@@ -1820,7 +1820,7 @@
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 2,
           "total_points": 24.0,
@@ -1837,13 +1837,22 @@
           "rank": 22
         },
         {
+          "player_id": 90817,
+          "player_name": "Denisenko Igor",
+          "country": "ARE",
+          "tournaments": 1,
+          "total_points": 21.5,
+          "annual_rank": 38,
+          "rank": 23
+        },
+        {
           "player_id": 100906,
           "player_name": "Pavlovich Timofey",
           "country": "TBA",
           "tournaments": 1,
           "total_points": 21.5,
           "annual_rank": 52,
-          "rank": 23
+          "rank": 24
         },
         {
           "player_id": 89057,
@@ -1852,20 +1861,11 @@
           "tournaments": 1,
           "total_points": 21.5,
           "annual_rank": 53,
-          "rank": 24
-        },
-        {
-          "player_id": 90817,
-          "player_name": "Денисенко Игорь",
-          "country": "ARE",
-          "tournaments": 1,
-          "total_points": 21.5,
-          "annual_rank": 38,
           "rank": 25
         },
         {
           "player_id": 89467,
-          "player_name": "Діденко Геннадій",
+          "player_name": "Didenko Genadii",
           "country": "POL",
           "tournaments": 3,
           "total_points": 20.5,
@@ -1874,7 +1874,7 @@
         },
         {
           "player_id": 87908,
-          "player_name": "Тихонов Роман",
+          "player_name": "Tikhonov Roman",
           "country": "POL",
           "tournaments": 3,
           "total_points": 20.5,
@@ -1892,7 +1892,7 @@
         },
         {
           "player_id": 224,
-          "player_name": "Плешко Марк",
+          "player_name": "Pleshko Mark",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 19.5,
@@ -1901,7 +1901,7 @@
         },
         {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 19.0,
@@ -1910,7 +1910,7 @@
         },
         {
           "player_id": 97235,
-          "player_name": "Сливинский Андрей",
+          "player_name": "Slivinskii Andrei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 17.5,
@@ -1936,44 +1936,44 @@
           "rank": 33
         },
         {
-          "player_id": 3332,
-          "player_name": "Svitkovskyi Yurii",
-          "country": "CZE",
+          "player_id": 39029,
+          "player_name": "Cherevatyi Denis",
+          "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
-          "annual_rank": 64,
+          "annual_rank": 47,
           "rank": 34
         },
         {
           "player_id": 98851,
-          "player_name": "Гидрат Антон",
+          "player_name": "Gidrat Anton",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
-          "annual_rank": 65,
+          "annual_rank": 64,
           "rank": 35
         },
         {
           "player_id": 13349,
-          "player_name": "Кусень Михайло",
+          "player_name": "Kusen Mikhailo",
           "country": "CZE",
           "tournaments": 1,
           "total_points": 15.5,
-          "annual_rank": 66,
+          "annual_rank": 65,
           "rank": 36
         },
         {
           "player_id": 4169,
-          "player_name": "Лебідь Дмитро",
+          "player_name": "Lebid Dmitro",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
-          "annual_rank": 67,
+          "annual_rank": 66,
           "rank": 37
         },
         {
           "player_id": 91311,
-          "player_name": "Міщенко Адріан",
+          "player_name": "Mishchenko Adrian",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
@@ -1981,17 +1981,17 @@
           "rank": 38
         },
         {
-          "player_id": 39029,
-          "player_name": "Череватый Денис",
-          "country": "UKR",
+          "player_id": 3332,
+          "player_name": "Svitkovskyi Yurii",
+          "country": "CZE",
           "tournaments": 1,
           "total_points": 15.5,
-          "annual_rank": 47,
+          "annual_rank": 67,
           "rank": 39
         },
         {
           "player_id": 41556,
-          "player_name": "Крутов Алексей",
+          "player_name": "Krutov Aleksei",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 14.5,
@@ -2000,7 +2000,7 @@
         },
         {
           "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
+          "player_name": "Dmytriuk Andrii",
           "country": "POL",
           "tournaments": 3,
           "total_points": 12.5,
@@ -2009,7 +2009,7 @@
         },
         {
           "player_id": 103428,
-          "player_name": "Микаилов Кенан",
+          "player_name": "Mikailov Kenan",
           "country": "POL",
           "tournaments": 1,
           "total_points": 12.5,
@@ -2026,13 +2026,22 @@
           "rank": 43
         },
         {
+          "player_id": 85391,
+          "player_name": "Garashchuk Sergei",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 79,
+          "rank": 44
+        },
+        {
           "player_id": 95609,
           "player_name": "Ivan Attila",
           "country": "GER",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 79,
-          "rank": 44
+          "annual_rank": 80,
+          "rank": 45
         },
         {
           "player_id": 102432,
@@ -2040,8 +2049,35 @@
           "country": "CZE",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 80,
-          "rank": 45
+          "annual_rank": 81,
+          "rank": 46
+        },
+        {
+          "player_id": 89180,
+          "player_name": "Lapko Aleksei",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 24,
+          "rank": 47
+        },
+        {
+          "player_id": 9926,
+          "player_name": "Oleinik Ivan",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 42,
+          "rank": 48
+        },
+        {
+          "player_id": 100025,
+          "player_name": "Rupaevskii Adik",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 62,
+          "rank": 49
         },
         {
           "player_id": 95059,
@@ -2049,48 +2085,12 @@
           "country": "GER",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 81,
-          "rank": 46
-        },
-        {
-          "player_id": 85391,
-          "player_name": "Гаращук Сергей",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 11.5,
           "annual_rank": 82,
-          "rank": 47
-        },
-        {
-          "player_id": 89180,
-          "player_name": "Лапко Алексей",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 11.5,
-          "annual_rank": 24,
-          "rank": 48
-        },
-        {
-          "player_id": 9926,
-          "player_name": "Олейник Иван",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 11.5,
-          "annual_rank": 42,
-          "rank": 49
-        },
-        {
-          "player_id": 100025,
-          "player_name": "Рупаевский Адик",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 11.5,
-          "annual_rank": 62,
           "rank": 50
         },
         {
           "player_id": 86276,
-          "player_name": "Левочкин Володимир",
+          "player_name": "Levochkin Volodimir",
           "country": "POL",
           "tournaments": 2,
           "total_points": 11.0,
@@ -2099,7 +2099,7 @@
         },
         {
           "player_id": 1053,
-          "player_name": "Крупицкий Александр",
+          "player_name": "Krupitskii Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.5,
@@ -2108,7 +2108,7 @@
         },
         {
           "player_id": 58151,
-          "player_name": "Єфремов Олексій",
+          "player_name": "Yefremov Oleksii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.5,
@@ -2117,7 +2117,7 @@
         },
         {
           "player_id": 97445,
-          "player_name": "Кепич Тарас",
+          "player_name": "Kepich Taras",
           "country": "POL",
           "tournaments": 2,
           "total_points": 10.0,
@@ -2126,7 +2126,7 @@
         },
         {
           "player_id": 101634,
-          "player_name": "Ефаненков Анатолий",
+          "player_name": "Efanenkov Anatolii",
           "country": "POL",
           "tournaments": 3,
           "total_points": 8.5,
@@ -2135,7 +2135,7 @@
         },
         {
           "player_id": 1632,
-          "player_name": "Шумелюк Александр",
+          "player_name": "Shumelyuk Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.5,
@@ -2152,13 +2152,49 @@
           "rank": 57
         },
         {
+          "player_id": 102379,
+          "player_name": "Bezuglyi Maksim",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 63,
+          "rank": 58
+        },
+        {
+          "player_id": 67737,
+          "player_name": "Boiko Semen",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 91,
+          "rank": 59
+        },
+        {
           "player_id": 89055,
           "player_name": "Bondarenko Anton",
           "country": "CZE",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 91,
-          "rank": 58
+          "annual_rank": 92,
+          "rank": 60
+        },
+        {
+          "player_id": 93605,
+          "player_name": "Demidov Maksim",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 68,
+          "rank": 61
+        },
+        {
+          "player_id": 13047,
+          "player_name": "Fomin Eduard",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 93,
+          "rank": 62
         },
         {
           "player_id": 45929,
@@ -2167,7 +2203,7 @@
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 61,
-          "rank": 59
+          "rank": 63
         },
         {
           "player_id": 94720,
@@ -2175,8 +2211,8 @@
           "country": "CZE",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 92,
-          "rank": 60
+          "annual_rank": 94,
+          "rank": 64
         },
         {
           "player_id": 85743,
@@ -2184,84 +2220,48 @@
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 93,
-          "rank": 61
-        },
-        {
-          "player_id": 102379,
-          "player_name": "Безуглый Максим",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 63,
-          "rank": 62
-        },
-        {
-          "player_id": 67737,
-          "player_name": "Бойко Семен",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 94,
-          "rank": 63
-        },
-        {
-          "player_id": 12449,
-          "player_name": "Варасян Карен",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 7.5,
           "annual_rank": 95,
-          "rank": 64
-        },
-        {
-          "player_id": 93605,
-          "player_name": "Демидов Максим",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 68,
           "rank": 65
         },
         {
-          "player_id": 18585,
-          "player_name": "Жданов Данило",
-          "country": "UKR",
+          "player_id": 102680,
+          "player_name": "Markotsinskii Yanush",
+          "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 96,
           "rank": 66
         },
         {
-          "player_id": 102680,
-          "player_name": "Маркоцинский Януш",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 97,
-          "rank": 67
-        },
-        {
           "player_id": 99069,
-          "player_name": "Сидоров Алексей",
+          "player_name": "Sidorov Aleksei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 77,
-          "rank": 68
+          "rank": 67
         },
         {
           "player_id": 5321,
-          "player_name": "Сінгаєвський Євгеній",
+          "player_name": "Singayevskii Yevgenii",
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 44,
+          "rank": 68
+        },
+        {
+          "player_id": 12449,
+          "player_name": "Varasyan Karen",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 97,
           "rank": 69
         },
         {
-          "player_id": 13047,
-          "player_name": "Фомин Эдуард",
+          "player_id": 18585,
+          "player_name": "Zhdanov Danilo",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 7.5,
@@ -2270,7 +2270,7 @@
         },
         {
           "player_id": 49300,
-          "player_name": "Вечтомов Александр",
+          "player_name": "Vechtomov Aleksandr",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 7.0,
@@ -2279,7 +2279,7 @@
         },
         {
           "player_id": 1134,
-          "player_name": "Буданцев Артем",
+          "player_name": "Budantsev Artem",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -2288,7 +2288,7 @@
         },
         {
           "player_id": 5580,
-          "player_name": "Данов Илья",
+          "player_name": "Danov Ilya",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -2297,7 +2297,7 @@
         },
         {
           "player_id": 33488,
-          "player_name": "Лищинский Владислав",
+          "player_name": "Lishchinskii Vladislav",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -2306,7 +2306,7 @@
         },
         {
           "player_id": 103429,
-          "player_name": "Стаянович Давид",
+          "player_name": "Stayanovich David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 6.5,
@@ -2315,7 +2315,7 @@
         },
         {
           "player_id": 58944,
-          "player_name": "Тіванов Матвій",
+          "player_name": "Tivanov Matvii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -2324,7 +2324,7 @@
         },
         {
           "player_id": 101635,
-          "player_name": "Марданов Хусейн",
+          "player_name": "Mardanov Khusein",
           "country": "POL",
           "tournaments": 2,
           "total_points": 6.0,
@@ -2333,7 +2333,7 @@
         },
         {
           "player_id": 4931,
-          "player_name": "Новиков Максим",
+          "player_name": "Novikov Maksim",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 5.0,
@@ -2342,7 +2342,7 @@
         },
         {
           "player_id": 100024,
-          "player_name": "Квятковский Давид",
+          "player_name": "Kvyatkovskii David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.5,
@@ -2351,7 +2351,7 @@
         },
         {
           "player_id": 103180,
-          "player_name": "Мазур Сергей",
+          "player_name": "Mazur Sergei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.5,
@@ -2360,7 +2360,7 @@
         },
         {
           "player_id": 103427,
-          "player_name": "Янченко Артем",
+          "player_name": "Yanchenko Artem",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.5,
@@ -2369,7 +2369,7 @@
         },
         {
           "player_id": 88077,
-          "player_name": "Ярчевский Эдуард",
+          "player_name": "Yarchevskii Eduard",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.5,
@@ -2387,7 +2387,7 @@
       "players": [
         {
           "player_id": 64943,
-          "player_name": "Собачинский Владислав",
+          "player_name": "Sobachinskii Vladislav",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 56.5,
@@ -2405,7 +2405,7 @@
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 53.0,
@@ -2414,7 +2414,7 @@
         },
         {
           "player_id": 43938,
-          "player_name": "Таланенко Олександр",
+          "player_name": "Talanenko Oleksandr",
           "country": "POL",
           "tournaments": 2,
           "total_points": 48.0,
@@ -2423,7 +2423,7 @@
         },
         {
           "player_id": 10481,
-          "player_name": "Баблюк Евгений",
+          "player_name": "Babliuk Yevhenii",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 42.5,
@@ -2432,12 +2432,21 @@
         },
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 38.5,
           "annual_rank": 1,
           "rank": 6
+        },
+        {
+          "player_id": 97675,
+          "player_name": "Bugayets Roman",
+          "country": "POL",
+          "tournaments": 4,
+          "total_points": 36.5,
+          "annual_rank": 9,
+          "rank": 7
         },
         {
           "player_id": 87813,
@@ -2446,20 +2455,11 @@
           "tournaments": 4,
           "total_points": 36.5,
           "annual_rank": 12,
-          "rank": 7
-        },
-        {
-          "player_id": 97675,
-          "player_name": "Бугаєць Роман",
-          "country": "POL",
-          "tournaments": 4,
-          "total_points": 36.5,
-          "annual_rank": 9,
           "rank": 8
         },
         {
           "player_id": 26032,
-          "player_name": "Попов Олександр",
+          "player_name": "Popov Oleksandr",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 35.5,
@@ -2468,7 +2468,7 @@
         },
         {
           "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
+          "player_name": "Dmytriuk Andrii",
           "country": "POL",
           "tournaments": 4,
           "total_points": 32.5,
@@ -2495,7 +2495,7 @@
         },
         {
           "player_id": 89180,
-          "player_name": "Лапко Алексей",
+          "player_name": "Lapko Aleksei",
           "country": "POL",
           "tournaments": 3,
           "total_points": 29.0,
@@ -2504,7 +2504,7 @@
         },
         {
           "player_id": 97235,
-          "player_name": "Сливинский Андрей",
+          "player_name": "Slivinskii Andrei",
           "country": "POL",
           "tournaments": 3,
           "total_points": 29.0,
@@ -2513,7 +2513,7 @@
         },
         {
           "player_id": 97445,
-          "player_name": "Кепич Тарас",
+          "player_name": "Kepich Taras",
           "country": "POL",
           "tournaments": 4,
           "total_points": 28.5,
@@ -2540,7 +2540,7 @@
         },
         {
           "player_id": 87908,
-          "player_name": "Тихонов Роман",
+          "player_name": "Tikhonov Roman",
           "country": "POL",
           "tournaments": 3,
           "total_points": 24.5,
@@ -2549,7 +2549,7 @@
         },
         {
           "player_id": 5580,
-          "player_name": "Данов Илья",
+          "player_name": "Danov Ilya",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 21.0,
@@ -2557,26 +2557,26 @@
           "rank": 19
         },
         {
-          "player_id": 89467,
-          "player_name": "Діденко Геннадій",
-          "country": "POL",
-          "tournaments": 4,
-          "total_points": 20.5,
-          "annual_rank": 26,
-          "rank": 20
-        },
-        {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 20.5,
           "annual_rank": 27,
+          "rank": 20
+        },
+        {
+          "player_id": 89467,
+          "player_name": "Didenko Genadii",
+          "country": "POL",
+          "tournaments": 4,
+          "total_points": 20.5,
+          "annual_rank": 26,
           "rank": 21
         },
         {
           "player_id": 76085,
-          "player_name": "Гайдеров Максим",
+          "player_name": "Gaiderov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 20.0,
@@ -2594,7 +2594,7 @@
         },
         {
           "player_id": 9926,
-          "player_name": "Олейник Иван",
+          "player_name": "Oleinik Ivan",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 17.0,
@@ -2603,7 +2603,7 @@
         },
         {
           "player_id": 41556,
-          "player_name": "Крутов Алексей",
+          "player_name": "Krutov Aleksei",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 16.5,
@@ -2612,7 +2612,7 @@
         },
         {
           "player_id": 103427,
-          "player_name": "Янченко Артем",
+          "player_name": "Yanchenko Artem",
           "country": "POL",
           "tournaments": 4,
           "total_points": 16.5,
@@ -2621,7 +2621,7 @@
         },
         {
           "player_id": 101634,
-          "player_name": "Ефаненков Анатолий",
+          "player_name": "Efanenkov Anatolii",
           "country": "POL",
           "tournaments": 3,
           "total_points": 16.5,
@@ -2630,7 +2630,7 @@
         },
         {
           "player_id": 58151,
-          "player_name": "Єфремов Олексій",
+          "player_name": "Yefremov Oleksii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 16.0,
@@ -2639,7 +2639,7 @@
         },
         {
           "player_id": 87671,
-          "player_name": "Скукіс Володимир",
+          "player_name": "Skukis Volodymyr",
           "country": "POL",
           "tournaments": 2,
           "total_points": 15.5,
@@ -2648,7 +2648,7 @@
         },
         {
           "player_id": 88075,
-          "player_name": "Стельмах Даниил",
+          "player_name": "Stelmakh Daniil",
           "country": "POL",
           "tournaments": 2,
           "total_points": 15.0,
@@ -2657,7 +2657,7 @@
         },
         {
           "player_id": 1559,
-          "player_name": "Десятник Виталий",
+          "player_name": "Desyatnik Vitalii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 14.0,
@@ -2666,7 +2666,7 @@
         },
         {
           "player_id": 101635,
-          "player_name": "Марданов Хусейн",
+          "player_name": "Mardanov Khusein",
           "country": "POL",
           "tournaments": 3,
           "total_points": 13.5,
@@ -2675,7 +2675,7 @@
         },
         {
           "player_id": 55740,
-          "player_name": "Бойко Дмитро",
+          "player_name": "Boiko Dmitro",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 11.0,
@@ -2684,7 +2684,7 @@
         },
         {
           "player_id": 103428,
-          "player_name": "Микаилов Кенан",
+          "player_name": "Mikailov Kenan",
           "country": "POL",
           "tournaments": 1,
           "total_points": 11.0,
@@ -2693,7 +2693,7 @@
         },
         {
           "player_id": 76628,
-          "player_name": "Комар Евгений",
+          "player_name": "Komar Evgenii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.0,
@@ -2702,7 +2702,7 @@
         },
         {
           "player_id": 104756,
-          "player_name": "Коробчинский Игорь",
+          "player_name": "Korobchinskii Igor",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.0,
@@ -2711,7 +2711,7 @@
         },
         {
           "player_id": 102379,
-          "player_name": "Безуглый Максим",
+          "player_name": "Bezuglyi Maksim",
           "country": "POL",
           "tournaments": 1,
           "total_points": 8.0,
@@ -2720,7 +2720,7 @@
         },
         {
           "player_id": 58944,
-          "player_name": "Тіванов Матвій",
+          "player_name": "Tivanov Matvii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 7.5,
@@ -2729,7 +2729,7 @@
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.0,
@@ -2738,7 +2738,7 @@
         },
         {
           "player_id": 1053,
-          "player_name": "Крупицкий Александр",
+          "player_name": "Krupitskii Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 7.0,
@@ -2747,7 +2747,7 @@
         },
         {
           "player_id": 43937,
-          "player_name": "Таланенко Юрій",
+          "player_name": "Talanenko Yurii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.0,
@@ -2765,7 +2765,7 @@
         },
         {
           "player_id": 49300,
-          "player_name": "Вечтомов Александр",
+          "player_name": "Vechtomov Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 4.0,
@@ -2774,11 +2774,11 @@
         },
         {
           "player_id": 5257,
-          "player_name": "Калачинский Леонид",
+          "player_name": "Kalachinskii Leonid",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 3.5,
-          "annual_rank": 114,
+          "annual_rank": 115,
           "rank": 44
         },
         {
@@ -2792,7 +2792,7 @@
         },
         {
           "player_id": 88077,
-          "player_name": "Ярчевский Эдуард",
+          "player_name": "Yarchevskii Eduard",
           "country": "POL",
           "tournaments": 1,
           "total_points": 3.0,
@@ -2801,7 +2801,7 @@
         },
         {
           "player_id": 79988,
-          "player_name": "Бинюк Николай",
+          "player_name": "Binyuk Nikolai",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 2.0,
@@ -2810,7 +2810,7 @@
         },
         {
           "player_id": 93605,
-          "player_name": "Демидов Максим",
+          "player_name": "Demidov Maksim",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.0,
@@ -2835,25 +2835,25 @@
           {
             "place": "1",
             "player_id": 43938,
-            "player_name": "Таланенко Олександр",
+            "player_name": "Talanenko Oleksandr",
             "country": "POL"
           },
           {
             "place": "2",
             "player_id": 76085,
-            "player_name": "Гайдеров Максим",
+            "player_name": "Gaiderov Maksim",
             "country": "UKR"
           },
           {
             "place": "3-4",
             "player_id": 1559,
-            "player_name": "Десятник Виталий",
+            "player_name": "Desyatnik Vitalii",
             "country": "UKR"
           },
           {
             "place": "3-4",
             "player_id": 64943,
-            "player_name": "Собачинский Владислав",
+            "player_name": "Sobachinskii Vladislav",
             "country": "UKR"
           }
         ]
@@ -2870,7 +2870,7 @@
         },
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 5,
           "total_points": 82.0,
@@ -2879,7 +2879,7 @@
         },
         {
           "player_id": 64943,
-          "player_name": "Собачинский Владислав",
+          "player_name": "Sobachinskii Vladislav",
           "country": "UKR",
           "tournaments": 6,
           "total_points": 76.0,
@@ -2888,7 +2888,7 @@
         },
         {
           "player_id": 10481,
-          "player_name": "Баблюк Евгений",
+          "player_name": "Babliuk Yevhenii",
           "country": "UKR",
           "tournaments": 6,
           "total_points": 64.0,
@@ -2897,7 +2897,7 @@
         },
         {
           "player_id": 26032,
-          "player_name": "Попов Олександр",
+          "player_name": "Popov Oleksandr",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 60.5,
@@ -2906,7 +2906,7 @@
         },
         {
           "player_id": 87671,
-          "player_name": "Скукіс Володимир",
+          "player_name": "Skukis Volodymyr",
           "country": "POL",
           "tournaments": 4,
           "total_points": 55.0,
@@ -2942,7 +2942,7 @@
         },
         {
           "player_id": 97675,
-          "player_name": "Бугаєць Роман",
+          "player_name": "Bugayets Roman",
           "country": "POL",
           "tournaments": 6,
           "total_points": 46.0,
@@ -2951,7 +2951,7 @@
         },
         {
           "player_id": 87908,
-          "player_name": "Тихонов Роман",
+          "player_name": "Tikhonov Roman",
           "country": "POL",
           "tournaments": 6,
           "total_points": 44.0,
@@ -2960,7 +2960,7 @@
         },
         {
           "player_id": 43938,
-          "player_name": "Таланенко Олександр",
+          "player_name": "Talanenko Oleksandr",
           "country": "POL",
           "tournaments": 2,
           "total_points": 40.5,
@@ -2969,7 +2969,7 @@
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 40.0,
@@ -2978,7 +2978,7 @@
         },
         {
           "player_id": 9707,
-          "player_name": "Вишневский Денис",
+          "player_name": "Vishnevskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 39.0,
@@ -2987,7 +2987,7 @@
         },
         {
           "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
+          "player_name": "Dmytriuk Andrii",
           "country": "POL",
           "tournaments": 5,
           "total_points": 37.5,
@@ -2996,7 +2996,7 @@
         },
         {
           "player_id": 38885,
-          "player_name": "Бурлака Валерій",
+          "player_name": "Burlaka Valerii",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 31.0,
@@ -3005,7 +3005,7 @@
         },
         {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 6,
           "total_points": 28.0,
@@ -3023,7 +3023,7 @@
         },
         {
           "player_id": 89467,
-          "player_name": "Діденко Геннадій",
+          "player_name": "Didenko Genadii",
           "country": "POL",
           "tournaments": 4,
           "total_points": 27.0,
@@ -3032,7 +3032,7 @@
         },
         {
           "player_id": 41556,
-          "player_name": "Крутов Алексей",
+          "player_name": "Krutov Aleksei",
           "country": "UKR",
           "tournaments": 6,
           "total_points": 26.0,
@@ -3041,7 +3041,7 @@
         },
         {
           "player_id": 103428,
-          "player_name": "Микаилов Кенан",
+          "player_name": "Mikailov Kenan",
           "country": "POL",
           "tournaments": 2,
           "total_points": 23.5,
@@ -3050,7 +3050,7 @@
         },
         {
           "player_id": 97445,
-          "player_name": "Кепич Тарас",
+          "player_name": "Kepich Taras",
           "country": "POL",
           "tournaments": 3,
           "total_points": 22.5,
@@ -3059,7 +3059,7 @@
         },
         {
           "player_id": 1559,
-          "player_name": "Десятник Виталий",
+          "player_name": "Desyatnik Vitalii",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 22.5,
@@ -3068,7 +3068,7 @@
         },
         {
           "player_id": 5580,
-          "player_name": "Данов Илья",
+          "player_name": "Danov Ilya",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 21.5,
@@ -3086,7 +3086,7 @@
         },
         {
           "player_id": 76085,
-          "player_name": "Гайдеров Максим",
+          "player_name": "Gaiderov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 20.0,
@@ -3095,7 +3095,7 @@
         },
         {
           "player_id": 97235,
-          "player_name": "Сливинский Андрей",
+          "player_name": "Slivinskii Andrei",
           "country": "POL",
           "tournaments": 2,
           "total_points": 19.0,
@@ -3104,7 +3104,7 @@
         },
         {
           "player_id": 101635,
-          "player_name": "Марданов Хусейн",
+          "player_name": "Mardanov Khusein",
           "country": "POL",
           "tournaments": 4,
           "total_points": 18.5,
@@ -3113,7 +3113,7 @@
         },
         {
           "player_id": 1053,
-          "player_name": "Крупицкий Александр",
+          "player_name": "Krupitskii Aleksandr",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 17.5,
@@ -3122,7 +3122,7 @@
         },
         {
           "player_id": 89180,
-          "player_name": "Лапко Алексей",
+          "player_name": "Lapko Aleksei",
           "country": "POL",
           "tournaments": 2,
           "total_points": 17.0,
@@ -3131,7 +3131,7 @@
         },
         {
           "player_id": 9926,
-          "player_name": "Олейник Иван",
+          "player_name": "Oleinik Ivan",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 17.0,
@@ -3140,7 +3140,7 @@
         },
         {
           "player_id": 101634,
-          "player_name": "Ефаненков Анатолий",
+          "player_name": "Efanenkov Anatolii",
           "country": "POL",
           "tournaments": 5,
           "total_points": 16.0,
@@ -3149,7 +3149,7 @@
         },
         {
           "player_id": 88075,
-          "player_name": "Стельмах Даниил",
+          "player_name": "Stelmakh Daniil",
           "country": "POL",
           "tournaments": 2,
           "total_points": 15.0,
@@ -3158,7 +3158,7 @@
         },
         {
           "player_id": 8601,
-          "player_name": "Криворучко Андрей",
+          "player_name": "Krivoruchko Andrei",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 14.5,
@@ -3167,7 +3167,7 @@
         },
         {
           "player_id": 58944,
-          "player_name": "Тіванов Матвій",
+          "player_name": "Tivanov Matvii",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 14.0,
@@ -3176,7 +3176,7 @@
         },
         {
           "player_id": 103427,
-          "player_name": "Янченко Артем",
+          "player_name": "Yanchenko Artem",
           "country": "POL",
           "tournaments": 4,
           "total_points": 13.0,
@@ -3185,7 +3185,7 @@
         },
         {
           "player_id": 55740,
-          "player_name": "Бойко Дмитро",
+          "player_name": "Boiko Dmitro",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 11.0,
@@ -3194,7 +3194,7 @@
         },
         {
           "player_id": 58151,
-          "player_name": "Єфремов Олексій",
+          "player_name": "Yefremov Oleksii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.5,
@@ -3203,7 +3203,7 @@
         },
         {
           "player_id": 88077,
-          "player_name": "Ярчевский Эдуард",
+          "player_name": "Yarchevskii Eduard",
           "country": "POL",
           "tournaments": 3,
           "total_points": 10.0,
@@ -3212,7 +3212,7 @@
         },
         {
           "player_id": 87672,
-          "player_name": "Гезун Николай",
+          "player_name": "Gezun Nikolai",
           "country": "POL",
           "tournaments": 1,
           "total_points": 8.5,
@@ -3221,7 +3221,7 @@
         },
         {
           "player_id": 96003,
-          "player_name": "Миненко Даниіл",
+          "player_name": "Minenko Daniil",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.5,
@@ -3230,7 +3230,7 @@
         },
         {
           "player_id": 1632,
-          "player_name": "Шумелюк Александр",
+          "player_name": "Shumelyuk Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.5,
@@ -3239,7 +3239,7 @@
         },
         {
           "player_id": 102379,
-          "player_name": "Безуглый Максим",
+          "player_name": "Bezuglyi Maksim",
           "country": "POL",
           "tournaments": 1,
           "total_points": 8.0,
@@ -3257,7 +3257,7 @@
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.0,
@@ -3266,7 +3266,7 @@
         },
         {
           "player_id": 49300,
-          "player_name": "Вечтомов Александр",
+          "player_name": "Vechtomov Aleksandr",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 6.5,
@@ -3275,7 +3275,7 @@
         },
         {
           "player_id": 1134,
-          "player_name": "Буданцев Артем",
+          "player_name": "Budantsev Artem",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -3284,7 +3284,7 @@
         },
         {
           "player_id": 33488,
-          "player_name": "Лищинский Владислав",
+          "player_name": "Lishchinskii Vladislav",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
@@ -3293,7 +3293,7 @@
         },
         {
           "player_id": 103429,
-          "player_name": "Стаянович Давид",
+          "player_name": "Stayanovich David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 6.5,
@@ -3302,7 +3302,7 @@
         },
         {
           "player_id": 93993,
-          "player_name": "Кравчук Евгений",
+          "player_name": "Kravchuk Evgenii",
           "country": "POL",
           "tournaments": 1,
           "total_points": 4.5,
@@ -3311,7 +3311,7 @@
         },
         {
           "player_id": 4931,
-          "player_name": "Новиков Максим",
+          "player_name": "Novikov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 4.5,
@@ -3320,7 +3320,7 @@
         },
         {
           "player_id": 99069,
-          "player_name": "Сидоров Алексей",
+          "player_name": "Sidorov Aleksei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 4.5,
@@ -3338,11 +3338,11 @@
         },
         {
           "player_id": 5257,
-          "player_name": "Калачинский Леонид",
+          "player_name": "Kalachinskii Leonid",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 3.5,
-          "annual_rank": 114,
+          "annual_rank": 115,
           "rank": 54
         },
         {
@@ -3356,7 +3356,7 @@
         },
         {
           "player_id": 100024,
-          "player_name": "Квятковский Давид",
+          "player_name": "Kvyatkovskii David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 2.5,
@@ -3379,7 +3379,7 @@
           {
             "place": "1",
             "player_id": 53373,
-            "player_name": "Олексій Мієнко",
+            "player_name": "Oleksii Miienko",
             "country": "UKR"
           },
           {
@@ -3391,13 +3391,13 @@
           {
             "place": "3-4",
             "player_id": 43938,
-            "player_name": "Таланенко Олександр",
+            "player_name": "Talanenko Oleksandr",
             "country": "POL"
           },
           {
             "place": "3-4",
             "player_id": 58151,
-            "player_name": "Єфремов Олексій",
+            "player_name": "Yefremov Oleksii",
             "country": "UKR"
           }
         ]
@@ -3405,7 +3405,7 @@
       "players": [
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 5,
           "total_points": 94.5,
@@ -3414,7 +3414,7 @@
         },
         {
           "player_id": 64943,
-          "player_name": "Собачинский Владислав",
+          "player_name": "Sobachinskii Vladislav",
           "country": "UKR",
           "tournaments": 5,
           "total_points": 82.5,
@@ -3423,7 +3423,7 @@
         },
         {
           "player_id": 43938,
-          "player_name": "Таланенко Олександр",
+          "player_name": "Talanenko Oleksandr",
           "country": "POL",
           "tournaments": 6,
           "total_points": 82.0,
@@ -3432,7 +3432,7 @@
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 67.0,
@@ -3459,7 +3459,7 @@
         },
         {
           "player_id": 10481,
-          "player_name": "Баблюк Евгений",
+          "player_name": "Babliuk Yevhenii",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 57.0,
@@ -3468,7 +3468,7 @@
         },
         {
           "player_id": 87671,
-          "player_name": "Скукіс Володимир",
+          "player_name": "Skukis Volodymyr",
           "country": "POL",
           "tournaments": 4,
           "total_points": 55.0,
@@ -3477,7 +3477,7 @@
         },
         {
           "player_id": 38885,
-          "player_name": "Бурлака Валерій",
+          "player_name": "Burlaka Valerii",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 52.5,
@@ -3486,7 +3486,7 @@
         },
         {
           "player_id": 98039,
-          "player_name": "Одарюк Михаил",
+          "player_name": "Odaryuk Mikhail",
           "country": "ESP",
           "tournaments": 3,
           "total_points": 48.5,
@@ -3495,7 +3495,7 @@
         },
         {
           "player_id": 97675,
-          "player_name": "Бугаєць Роман",
+          "player_name": "Bugayets Roman",
           "country": "POL",
           "tournaments": 5,
           "total_points": 46.5,
@@ -3513,7 +3513,7 @@
         },
         {
           "player_id": 33264,
-          "player_name": "Білий Любомир",
+          "player_name": "Bilyi Lyubomir",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 43.5,
@@ -3531,7 +3531,7 @@
         },
         {
           "player_id": 100954,
-          "player_name": "Rodionov Vladiav",
+          "player_name": "Rodionov Vladislav",
           "country": "TBA",
           "tournaments": 1,
           "total_points": 41.5,
@@ -3540,7 +3540,7 @@
         },
         {
           "player_id": 7205,
-          "player_name": "Гранкин Ярослав",
+          "player_name": "Grankin Yaroslav",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 41.0,
@@ -3567,7 +3567,7 @@
         },
         {
           "player_id": 91311,
-          "player_name": "Міщенко Адріан",
+          "player_name": "Mishchenko Adrian",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 39.0,
@@ -3576,7 +3576,7 @@
         },
         {
           "player_id": 224,
-          "player_name": "Плешко Марк",
+          "player_name": "Pleshko Mark",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 39.0,
@@ -3585,7 +3585,7 @@
         },
         {
           "player_id": 87908,
-          "player_name": "Тихонов Роман",
+          "player_name": "Tikhonov Roman",
           "country": "POL",
           "tournaments": 4,
           "total_points": 38.5,
@@ -3594,7 +3594,7 @@
         },
         {
           "player_id": 97235,
-          "player_name": "Сливинский Андрей",
+          "player_name": "Slivinskii Andrei",
           "country": "POL",
           "tournaments": 3,
           "total_points": 35.5,
@@ -3603,7 +3603,7 @@
         },
         {
           "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
+          "player_name": "Dmytriuk Andrii",
           "country": "POL",
           "tournaments": 5,
           "total_points": 34.5,
@@ -3629,26 +3629,26 @@
           "rank": 25
         },
         {
+          "player_id": 89180,
+          "player_name": "Lapko Aleksei",
+          "country": "POL",
+          "tournaments": 4,
+          "total_points": 31.0,
+          "annual_rank": 24,
+          "rank": 26
+        },
+        {
           "player_id": 87813,
           "player_name": "Polovko Volodymyr",
           "country": "POL",
           "tournaments": 4,
           "total_points": 31.0,
           "annual_rank": 12,
-          "rank": 26
-        },
-        {
-          "player_id": 89180,
-          "player_name": "Лапко Алексей",
-          "country": "POL",
-          "tournaments": 4,
-          "total_points": 31.0,
-          "annual_rank": 24,
           "rank": 27
         },
         {
           "player_id": 90817,
-          "player_name": "Денисенко Игорь",
+          "player_name": "Denisenko Igor",
           "country": "ARE",
           "tournaments": 2,
           "total_points": 31.0,
@@ -3657,7 +3657,7 @@
         },
         {
           "player_id": 22984,
-          "player_name": "Гоменюк Нікіта",
+          "player_name": "Gomenyuk Nikita",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 29.5,
@@ -3666,7 +3666,7 @@
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 3,
           "total_points": 29.0,
@@ -3675,7 +3675,7 @@
         },
         {
           "player_id": 86276,
-          "player_name": "Левочкин Володимир",
+          "player_name": "Levochkin Volodimir",
           "country": "POL",
           "tournaments": 3,
           "total_points": 28.5,
@@ -3684,7 +3684,7 @@
         },
         {
           "player_id": 9707,
-          "player_name": "Вишневский Денис",
+          "player_name": "Vishnevskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 27.5,
@@ -3693,7 +3693,7 @@
         },
         {
           "player_id": 5321,
-          "player_name": "Сінгаєвський Євгеній",
+          "player_name": "Singayevskii Yevgenii",
           "country": "POL",
           "tournaments": 2,
           "total_points": 27.0,
@@ -3702,7 +3702,7 @@
         },
         {
           "player_id": 39029,
-          "player_name": "Череватый Денис",
+          "player_name": "Cherevatyi Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 25.0,
@@ -3720,7 +3720,7 @@
         },
         {
           "player_id": 1188,
-          "player_name": "Каракай Валерий",
+          "player_name": "Karakai Valerii",
           "country": "LAT",
           "tournaments": 1,
           "total_points": 23.5,
@@ -3729,7 +3729,7 @@
         },
         {
           "player_id": 97445,
-          "player_name": "Кепич Тарас",
+          "player_name": "Kepich Taras",
           "country": "POL",
           "tournaments": 4,
           "total_points": 23.0,
@@ -3765,7 +3765,7 @@
         },
         {
           "player_id": 41351,
-          "player_name": "Багацький Денис",
+          "player_name": "Bagatskii Denis",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 21.0,
@@ -3774,7 +3774,7 @@
         },
         {
           "player_id": 16530,
-          "player_name": "Єленич Владислав",
+          "player_name": "Yelenich Vladislav",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 19.5,
@@ -3783,7 +3783,7 @@
         },
         {
           "player_id": 98299,
-          "player_name": "Котик Игорь",
+          "player_name": "Kotik Igor",
           "country": "ESP",
           "tournaments": 1,
           "total_points": 17.5,
@@ -3792,7 +3792,7 @@
         },
         {
           "player_id": 1632,
-          "player_name": "Шумелюк Александр",
+          "player_name": "Shumelyuk Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 17.5,
@@ -3810,7 +3810,7 @@
         },
         {
           "player_id": 100025,
-          "player_name": "Рупаевский Адик",
+          "player_name": "Rupaevskii Adik",
           "country": "ESP",
           "tournaments": 2,
           "total_points": 17.0,
@@ -3819,7 +3819,7 @@
         },
         {
           "player_id": 58151,
-          "player_name": "Єфремов Олексій",
+          "player_name": "Yefremov Oleksii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 16.0,
@@ -3828,7 +3828,7 @@
         },
         {
           "player_id": 5580,
-          "player_name": "Данов Илья",
+          "player_name": "Danov Ilya",
           "country": "UKR",
           "tournaments": 3,
           "total_points": 15.5,
@@ -3836,36 +3836,36 @@
           "rank": 48
         },
         {
-          "player_id": 3332,
-          "player_name": "Svitkovskyi Yurii",
-          "country": "CZE",
+          "player_id": 98851,
+          "player_name": "Gidrat Anton",
+          "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
           "annual_rank": 64,
           "rank": 49
         },
         {
-          "player_id": 98851,
-          "player_name": "Гидрат Антон",
-          "country": "UKR",
+          "player_id": 13349,
+          "player_name": "Kusen Mikhailo",
+          "country": "CZE",
           "tournaments": 1,
           "total_points": 15.5,
           "annual_rank": 65,
           "rank": 50
         },
         {
-          "player_id": 13349,
-          "player_name": "Кусень Михайло",
-          "country": "CZE",
+          "player_id": 4169,
+          "player_name": "Lebid Dmitro",
+          "country": "UKR",
           "tournaments": 1,
           "total_points": 15.5,
           "annual_rank": 66,
           "rank": 51
         },
         {
-          "player_id": 4169,
-          "player_name": "Лебідь Дмитро",
-          "country": "UKR",
+          "player_id": 3332,
+          "player_name": "Svitkovskyi Yurii",
+          "country": "CZE",
           "tournaments": 1,
           "total_points": 15.5,
           "annual_rank": 67,
@@ -3873,7 +3873,7 @@
         },
         {
           "player_id": 93605,
-          "player_name": "Демидов Максим",
+          "player_name": "Demidov Maksim",
           "country": "POL",
           "tournaments": 3,
           "total_points": 15.0,
@@ -3882,7 +3882,7 @@
         },
         {
           "player_id": 89467,
-          "player_name": "Діденко Геннадій",
+          "player_name": "Didenko Genadii",
           "country": "POL",
           "tournaments": 3,
           "total_points": 13.5,
@@ -3890,22 +3890,31 @@
           "rank": 54
         },
         {
-          "player_id": 101634,
-          "player_name": "Ефаненков Анатолий",
-          "country": "POL",
-          "tournaments": 2,
-          "total_points": 13.5,
-          "annual_rank": 39,
-          "rank": 55
-        },
-        {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 13.5,
           "annual_rank": 27,
+          "rank": 55
+        },
+        {
+          "player_id": 101634,
+          "player_name": "Efanenkov Anatolii",
+          "country": "POL",
+          "tournaments": 2,
+          "total_points": 13.5,
+          "annual_rank": 39,
           "rank": 56
+        },
+        {
+          "player_id": 55740,
+          "player_name": "Boiko Dmitro",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 13.5,
+          "annual_rank": 48,
+          "rank": 57
         },
         {
           "player_id": 194,
@@ -3914,7 +3923,7 @@
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 73,
-          "rank": 57
+          "rank": 58
         },
         {
           "player_id": 100580,
@@ -3923,7 +3932,7 @@
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 74,
-          "rank": 58
+          "rank": 59
         },
         {
           "player_id": 82628,
@@ -3932,20 +3941,11 @@
           "tournaments": 1,
           "total_points": 13.5,
           "annual_rank": 75,
-          "rank": 59
-        },
-        {
-          "player_id": 55740,
-          "player_name": "Бойко Дмитро",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 13.5,
-          "annual_rank": 48,
           "rank": 60
         },
         {
           "player_id": 80597,
-          "player_name": "Юрочкін Петро",
+          "player_name": "Yurochkin Petro",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 13.5,
@@ -3954,7 +3954,7 @@
         },
         {
           "player_id": 41556,
-          "player_name": "Крутов Алексей",
+          "player_name": "Krutov Aleksei",
           "country": "UKR",
           "tournaments": 4,
           "total_points": 13.0,
@@ -3971,13 +3971,22 @@
           "rank": 63
         },
         {
+          "player_id": 85391,
+          "player_name": "Garashchuk Sergei",
+          "country": "ESP",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 79,
+          "rank": 64
+        },
+        {
           "player_id": 95609,
           "player_name": "Ivan Attila",
           "country": "GER",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 79,
-          "rank": 64
+          "annual_rank": 80,
+          "rank": 65
         },
         {
           "player_id": 102432,
@@ -3985,8 +3994,26 @@
           "country": "CZE",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 80,
-          "rank": 65
+          "annual_rank": 81,
+          "rank": 66
+        },
+        {
+          "player_id": 9926,
+          "player_name": "Oleinik Ivan",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 42,
+          "rank": 67
+        },
+        {
+          "player_id": 26032,
+          "player_name": "Popov Oleksandr",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 11.5,
+          "annual_rank": 16,
+          "rank": 68
         },
         {
           "player_id": 95059,
@@ -3994,39 +4021,12 @@
           "country": "GER",
           "tournaments": 1,
           "total_points": 11.5,
-          "annual_rank": 81,
-          "rank": 66
-        },
-        {
-          "player_id": 85391,
-          "player_name": "Гаращук Сергей",
-          "country": "ESP",
-          "tournaments": 1,
-          "total_points": 11.5,
           "annual_rank": 82,
-          "rank": 67
-        },
-        {
-          "player_id": 9926,
-          "player_name": "Олейник Иван",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 11.5,
-          "annual_rank": 42,
-          "rank": 68
-        },
-        {
-          "player_id": 26032,
-          "player_name": "Попов Олександр",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 11.5,
-          "annual_rank": 16,
           "rank": 69
         },
         {
           "player_id": 76628,
-          "player_name": "Комар Евгений",
+          "player_name": "Komar Evgenii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.0,
@@ -4035,12 +4035,21 @@
         },
         {
           "player_id": 104756,
-          "player_name": "Коробчинский Игорь",
+          "player_name": "Korobchinskii Igor",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.0,
           "annual_rank": 85,
           "rank": 71
+        },
+        {
+          "player_id": 1559,
+          "player_name": "Desyatnik Vitalii",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 9.5,
+          "annual_rank": 37,
+          "rank": 72
         },
         {
           "player_id": 85159,
@@ -4049,7 +4058,7 @@
           "tournaments": 1,
           "total_points": 9.5,
           "annual_rank": 86,
-          "rank": 72
+          "rank": 73
         },
         {
           "player_id": 100566,
@@ -4058,20 +4067,11 @@
           "tournaments": 1,
           "total_points": 9.5,
           "annual_rank": 87,
-          "rank": 73
-        },
-        {
-          "player_id": 1559,
-          "player_name": "Десятник Виталий",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 9.5,
-          "annual_rank": 37,
           "rank": 74
         },
         {
           "player_id": 76085,
-          "player_name": "Гайдеров Максим",
+          "player_name": "Gaiderov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 8.0,
@@ -4088,13 +4088,40 @@
           "rank": 76
         },
         {
+          "player_id": 102379,
+          "player_name": "Bezuglyi Maksim",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 63,
+          "rank": 77
+        },
+        {
+          "player_id": 67737,
+          "player_name": "Boiko Semen",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 91,
+          "rank": 78
+        },
+        {
           "player_id": 89055,
           "player_name": "Bondarenko Anton",
           "country": "CZE",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 91,
-          "rank": 77
+          "annual_rank": 92,
+          "rank": 79
+        },
+        {
+          "player_id": 13047,
+          "player_name": "Fomin Eduard",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 93,
+          "rank": 80
         },
         {
           "player_id": 94720,
@@ -4102,8 +4129,8 @@
           "country": "CZE",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 92,
-          "rank": 78
+          "annual_rank": 94,
+          "rank": 81
         },
         {
           "player_id": 85743,
@@ -4111,8 +4138,17 @@
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
-          "annual_rank": 93,
-          "rank": 79
+          "annual_rank": 95,
+          "rank": 82
+        },
+        {
+          "player_id": 102680,
+          "player_name": "Markotsinskii Yanush",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 96,
+          "rank": 83
         },
         {
           "player_id": 99887,
@@ -4121,65 +4157,29 @@
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 78,
-          "rank": 80
-        },
-        {
-          "player_id": 102379,
-          "player_name": "Безуглый Максим",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 63,
-          "rank": 81
-        },
-        {
-          "player_id": 67737,
-          "player_name": "Бойко Семен",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 94,
-          "rank": 82
-        },
-        {
-          "player_id": 12449,
-          "player_name": "Варасян Карен",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 95,
-          "rank": 83
-        },
-        {
-          "player_id": 18585,
-          "player_name": "Жданов Данило",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 96,
           "rank": 84
         },
         {
-          "player_id": 102680,
-          "player_name": "Маркоцинский Януш",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 7.5,
-          "annual_rank": 97,
-          "rank": 85
-        },
-        {
           "player_id": 99069,
-          "player_name": "Сидоров Алексей",
+          "player_name": "Sidorov Aleksei",
           "country": "POL",
           "tournaments": 1,
           "total_points": 7.5,
           "annual_rank": 77,
+          "rank": 85
+        },
+        {
+          "player_id": 12449,
+          "player_name": "Varasyan Karen",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 7.5,
+          "annual_rank": 97,
           "rank": 86
         },
         {
-          "player_id": 13047,
-          "player_name": "Фомин Эдуард",
+          "player_id": 18585,
+          "player_name": "Zhdanov Danilo",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 7.5,
@@ -4188,7 +4188,7 @@
         },
         {
           "player_id": 43937,
-          "player_name": "Таланенко Юрій",
+          "player_name": "Talanenko Yurii",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.0,
@@ -4197,7 +4197,7 @@
         },
         {
           "player_id": 103427,
-          "player_name": "Янченко Артем",
+          "player_name": "Yanchenko Artem",
           "country": "POL",
           "tournaments": 1,
           "total_points": 6.0,
@@ -4206,7 +4206,7 @@
         },
         {
           "player_id": 79988,
-          "player_name": "Бинюк Николай",
+          "player_name": "Binyuk Nikolai",
           "country": "UKR",
           "tournaments": 2,
           "total_points": 5.5,
@@ -4215,7 +4215,7 @@
         },
         {
           "player_id": 101635,
-          "player_name": "Марданов Хусейн",
+          "player_name": "Mardanov Khusein",
           "country": "POL",
           "tournaments": 2,
           "total_points": 5.5,
@@ -4241,17 +4241,17 @@
           "rank": 93
         },
         {
-          "player_id": 87679,
-          "player_name": "Stratu Oleg",
-          "country": "MDA",
+          "player_id": 58147,
+          "player_name": "Leletskii Pilip",
+          "country": "UKR",
           "tournaments": 1,
           "total_points": 5.5,
           "annual_rank": 107,
           "rank": 94
         },
         {
-          "player_id": 58147,
-          "player_name": "Лелецький Пилип",
+          "player_id": 42211,
+          "player_name": "Sterpul Illya",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 5.5,
@@ -4259,9 +4259,9 @@
           "rank": 95
         },
         {
-          "player_id": 42211,
-          "player_name": "Стерпул Ілля",
-          "country": "UKR",
+          "player_id": 87679,
+          "player_name": "Stratu Oleg",
+          "country": "MDA",
           "tournaments": 1,
           "total_points": 5.5,
           "annual_rank": 109,
@@ -4269,7 +4269,7 @@
         },
         {
           "player_id": 62612,
-          "player_name": "Томин Анатолий",
+          "player_name": "Tomin Anatolii",
           "country": "ESP",
           "tournaments": 1,
           "total_points": 5.5,
@@ -4278,7 +4278,7 @@
         },
         {
           "player_id": 100024,
-          "player_name": "Квятковский Давид",
+          "player_name": "Kvyatkovskii David",
           "country": "POL",
           "tournaments": 1,
           "total_points": 4.0,
@@ -4286,26 +4286,26 @@
           "rank": 98
         },
         {
-          "player_id": 101461,
-          "player_name": "Гапоненко Егор",
-          "country": "POL",
+          "player_id": 66382,
+          "player_name": "Chernyavskii Aleksandr",
+          "country": "UKR",
           "tournaments": 1,
           "total_points": 3.5,
           "annual_rank": 113,
           "rank": 99
         },
         {
-          "player_id": 66382,
-          "player_name": "Чернявский Александр",
-          "country": "UKR",
+          "player_id": 101461,
+          "player_name": "Gaponenko Egor",
+          "country": "POL",
           "tournaments": 1,
           "total_points": 3.5,
-          "annual_rank": 115,
+          "annual_rank": 114,
           "rank": 100
         },
         {
           "player_id": 88077,
-          "player_name": "Ярчевский Эдуард",
+          "player_name": "Yarchevskii Eduard",
           "country": "POL",
           "tournaments": 1,
           "total_points": 3.5,
@@ -4340,13 +4340,13 @@
           {
             "place": "3-4",
             "player_id": 92409,
-            "player_name": "Конишев Никита",
+            "player_name": "Konishev Nikita",
             "country": "POL"
           },
           {
             "place": "3-4",
             "player_id": 68408,
-            "player_name": "Трачук Кірілл",
+            "player_name": "Trachuk Kirill",
             "country": "UKR"
           }
         ]
@@ -4372,7 +4372,7 @@
         },
         {
           "player_id": 92409,
-          "player_name": "Конишев Никита",
+          "player_name": "Konishev Nikita",
           "country": "POL",
           "tournaments": 1,
           "total_points": 10.5,
@@ -4381,12 +4381,30 @@
         },
         {
           "player_id": 68408,
-          "player_name": "Трачук Кірілл",
+          "player_name": "Trachuk Kirill",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 10.5,
           "annual_rank": 1,
           "rank": 4
+        },
+        {
+          "player_id": 10481,
+          "player_name": "Babliuk Yevhenii",
+          "country": "UKR",
+          "tournaments": 1,
+          "total_points": 6.5,
+          "annual_rank": 4,
+          "rank": 5
+        },
+        {
+          "player_id": 94439,
+          "player_name": "Dmytriuk Andrii",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 6.5,
+          "annual_rank": 15,
+          "rank": 6
         },
         {
           "player_id": 87816,
@@ -4395,34 +4413,25 @@
           "tournaments": 1,
           "total_points": 6.5,
           "annual_rank": 3,
-          "rank": 5
-        },
-        {
-          "player_id": 10481,
-          "player_name": "Баблюк Евгений",
-          "country": "UKR",
-          "tournaments": 1,
-          "total_points": 6.5,
-          "annual_rank": 4,
-          "rank": 6
-        },
-        {
-          "player_id": 94439,
-          "player_name": "Дмитрюк Андрій",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 6.5,
-          "annual_rank": 15,
           "rank": 7
         },
         {
           "player_id": 53373,
-          "player_name": "Олексій Мієнко",
+          "player_name": "Oleksii Miienko",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 6.5,
           "annual_rank": 7,
           "rank": 8
+        },
+        {
+          "player_id": 89467,
+          "player_name": "Didenko Genadii",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 4.5,
+          "annual_rank": 26,
+          "rank": 9
         },
         {
           "player_id": 53732,
@@ -4431,7 +4440,7 @@
           "tournaments": 1,
           "total_points": 4.5,
           "annual_rank": 58,
-          "rank": 9
+          "rank": 10
         },
         {
           "player_id": 88403,
@@ -4440,65 +4449,56 @@
           "tournaments": 1,
           "total_points": 4.5,
           "annual_rank": 19,
-          "rank": 10
+          "rank": 11
         },
         {
           "player_id": 49300,
-          "player_name": "Вечтомов Александр",
+          "player_name": "Vechtomov Aleksandr",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 4.5,
           "annual_rank": 83,
-          "rank": 11
-        },
-        {
-          "player_id": 89467,
-          "player_name": "Діденко Геннадій",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 4.5,
-          "annual_rank": 26,
           "rank": 12
         },
         {
-          "player_id": 97445,
-          "player_name": "Кепич Тарас",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 2.5,
-          "annual_rank": 23,
-          "rank": 13
-        },
-        {
-          "player_id": 103180,
-          "player_name": "Мазур Сергей",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 2.5,
-          "annual_rank": 116,
-          "rank": 14
-        },
-        {
-          "player_id": 43938,
-          "player_name": "Таланенко Олександр",
-          "country": "POL",
-          "tournaments": 1,
-          "total_points": 2.5,
-          "annual_rank": 5,
-          "rank": 15
-        },
-        {
           "player_id": 41555,
-          "player_name": "Черный Роман",
+          "player_name": "Chernyi Roman",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 2.5,
           "annual_rank": 27,
+          "rank": 13
+        },
+        {
+          "player_id": 97445,
+          "player_name": "Kepich Taras",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 2.5,
+          "annual_rank": 23,
+          "rank": 14
+        },
+        {
+          "player_id": 103180,
+          "player_name": "Mazur Sergei",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 2.5,
+          "annual_rank": 116,
+          "rank": 15
+        },
+        {
+          "player_id": 43938,
+          "player_name": "Talanenko Oleksandr",
+          "country": "POL",
+          "tournaments": 1,
+          "total_points": 2.5,
+          "annual_rank": 5,
           "rank": 16
         },
         {
           "player_id": 4931,
-          "player_name": "Новиков Максим",
+          "player_name": "Novikov Maksim",
           "country": "UKR",
           "tournaments": 1,
           "total_points": 0.5,

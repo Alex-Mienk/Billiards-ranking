@@ -1,10 +1,10 @@
 {
   "player_id": 93993,
-  "player_name": "Кравчук Евгений",
+  "player_name": "Kravchuk Evgenii",
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 112,
     "tournaments": 1,
@@ -15,7 +15,7 @@
       "id": "winter",
       "label": "Winter",
       "date_range": "01.01.2026–28.02.2026",
-      "rank": 66,
+      "rank": 67,
       "tournaments": 1,
       "total_points": 4.5
     }

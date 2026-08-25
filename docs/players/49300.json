@@ -1,10 +1,10 @@
 {
   "player_id": 49300,
-  "player_name": "Вечтомов Александр",
+  "player_name": "Vechtomov Aleksandr",
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 83,
     "tournaments": 3,
@@ -39,7 +39,7 @@
     {
       "id": "dynamic",
       "label": "Dynamic pyramid",
-      "rank": 11,
+      "rank": 12,
       "tournaments": 1,
       "total_points": 4.5
     }

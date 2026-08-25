@@ -37,6 +37,11 @@ The import command saves the tournament CSV and automatically rebuilds
 the annual, winter, spring, summer, discipline, tournament, and player
 data for the year supplied in the date.
 
+Player display names are standardized in Latin script during the rebuild.
+An existing Latin Tournament Service registration is preserved; a
+Cyrillic-only registration is transliterated consistently. Explicit merged
+player profiles take precedence over both forms.
+
 To rebuild a year's website data without importing a tournament, run:
 
 ```bash

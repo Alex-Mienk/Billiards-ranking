@@ -1,10 +1,10 @@
 {
   "player_id": 103180,
-  "player_name": "Мазур Сергей",
+  "player_name": "Mazur Sergei",
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 116,
     "tournaments": 1,
@@ -24,7 +24,7 @@
     {
       "id": "dynamic",
       "label": "Dynamic pyramid",
-      "rank": 14,
+      "rank": 15,
       "tournaments": 1,
       "total_points": 2.5
     }

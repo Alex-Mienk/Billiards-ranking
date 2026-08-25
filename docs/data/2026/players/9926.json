@@ -1,10 +1,10 @@
 {
   "player_id": 9926,
-  "player_name": "Олейник Иван",
+  "player_name": "Oleinik Ivan",
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 42,
     "tournaments": 2,
@@ -15,7 +15,7 @@
       "id": "spring",
       "label": "Spring",
       "date_range": "01.03.2026–31.05.2026",
-      "rank": 49,
+      "rank": 48,
       "tournaments": 1,
       "total_points": 11.5
     },
@@ -39,7 +39,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 68,
+      "rank": 67,
       "tournaments": 1,
       "total_points": 11.5
     }

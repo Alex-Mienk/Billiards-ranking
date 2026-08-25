@@ -1,10 +1,10 @@
 {
   "player_id": 101634,
-  "player_name": "Ефаненков Анатолий",
+  "player_name": "Efanenkov Anatolii",
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 39,
     "tournaments": 7,
@@ -15,7 +15,7 @@
       "id": "winter",
       "label": "Winter",
       "date_range": "01.01.2026–28.02.2026",
-      "rank": 65,
+      "rank": 66,
       "tournaments": 1,
       "total_points": 4.5
     },
@@ -47,7 +47,7 @@
     {
       "id": "continuation",
       "label": "Free pyramid with continuation",
-      "rank": 55,
+      "rank": 56,
       "tournaments": 2,
       "total_points": 13.5
     }

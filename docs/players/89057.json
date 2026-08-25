@@ -4,7 +4,7 @@
   "country": "CZE",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T14:44:39.642456+00:00",
+  "updated_at": "2026-08-25T15:23:18.070900+00:00",
   "annual": {
     "rank": 53,
     "tournaments": 1,
@@ -15,7 +15,7 @@
       "id": "spring",
       "label": "Spring",
       "date_range": "01.03.2026–31.05.2026",
-      "rank": 24,
+      "rank": 25,
       "tournaments": 1,
       "total_points": 21.5
     }

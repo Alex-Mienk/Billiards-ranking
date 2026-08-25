@@ -27,9 +27,17 @@ PLAYER_ID_ALIASES = {
 }
 
 PLAYER_PROFILES = {
+    10481: {
+        "player_name": "Babliuk Yevhenii",
+        "country": "UKR",
+    },
     17811: {
         "player_name": "Dementii Danylo",
         "country": "POL",
+    },
+    33264: {
+        "player_name": "Bilyi Lyubomir",
+        "country": "UKR",
     },
     45929: {
         "player_name": "Havadziuk Serhii",
@@ -40,11 +48,15 @@ PLAYER_PROFILES = {
         "country": "UKR",
     },
     53373: {
-        "player_name": "Олексій Мієнко",
+        "player_name": "Oleksii Miienko",
         "country": "UKR",
     },
     53732: {
         "player_name": "Kondratiuk Alexandr",
+        "country": "POL",
+    },
+    87671: {
+        "player_name": "Skukis Volodymyr",
         "country": "POL",
     },
     87815: {
@@ -55,12 +67,16 @@ PLAYER_PROFILES = {
         "player_name": "Kurchevskyi Daniil",
         "country": "POL",
     },
+    89467: {
+        "player_name": "Didenko Genadii",
+        "country": "POL",
+    },
     91311: {
-        "player_name": "Міщенко Адріан",
+        "player_name": "Mishchenko Adrian",
         "country": "UKR",
     },
     94439: {
-        "player_name": "Дмитрюк Андрій",
+        "player_name": "Dmytriuk Andrii",
         "country": "POL",
     },
     96995: {
@@ -75,7 +91,44 @@ PLAYER_PROFILES = {
         "player_name": "Zhygimont Aleh",
         "country": "POL",
     },
+    100954: {
+        "player_name": "Rodionov Vladislav",
+        "country": "TBA",
+    },
 }
+
+# Tournament Service contains a mixture of Latin, Ukrainian, Russian,
+# and Belarusian player registrations. Keep a player's existing Latin
+# registration; transliterate Cyrillic-only registrations consistently for
+# the English-language website.
+CYRILLIC_TO_LATIN = str.maketrans(
+    {
+        "А": "A", "а": "a", "Б": "B", "б": "b",
+        "В": "V", "в": "v", "Г": "G", "г": "g",
+        "Ґ": "G", "ґ": "g", "Д": "D", "д": "d",
+        "Е": "E", "е": "e", "Ё": "Yo", "ё": "yo",
+        "Є": "Ye", "є": "ye", "Ж": "Zh", "ж": "zh",
+        "З": "Z", "з": "z", "И": "I", "и": "i",
+        "І": "I", "і": "i", "Ї": "Yi", "ї": "yi",
+        "Й": "I", "й": "i", "К": "K", "к": "k",
+        "Л": "L", "л": "l", "М": "M", "м": "m",
+        "Н": "N", "н": "n", "О": "O", "о": "o",
+        "П": "P", "п": "p", "Р": "R", "р": "r",
+        "С": "S", "с": "s", "Т": "T", "т": "t",
+        "У": "U", "у": "u", "Ў": "U", "ў": "u",
+        "Ф": "F", "ф": "f", "Х": "Kh", "х": "kh",
+        "Ц": "Ts", "ц": "ts", "Ч": "Ch", "ч": "ch",
+        "Ш": "Sh", "ш": "sh", "Щ": "Shch", "щ": "shch",
+        "Ъ": "", "ъ": "", "Ы": "Y", "ы": "y",
+        "Ь": "", "ь": "", "Э": "E", "э": "e",
+        "Ю": "Yu", "ю": "yu", "Я": "Ya", "я": "ya",
+    }
+)
+
+
+def standardize_player_name(value: str) -> str:
+    """Return a stable Latin-script display name."""
+    return " ".join(value.translate(CYRILLIC_TO_LATIN).split())
 
 RANKING_PERIODS = (
     {
@@ -292,6 +345,11 @@ def build_ranking(season_year: int) -> None:
             seen_players_in_file
         )
 
+    for player in players.values():
+        player["player_name"] = standardize_player_name(
+            player["player_name"]
+        )
+
     ranking = sorted(
         players.values(),
         key=lambda player: (
@@ -381,6 +439,7 @@ def save_ranking_csv(
         writer = csv.DictWriter(
             file,
             fieldnames=fieldnames,
+            lineterminator="\n",
         )
 
         writer.writeheader()
