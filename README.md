@@ -58,3 +58,11 @@ The website uses normalized static JSON files:
   tournament history and ranking breakdowns.
 
 Player names in every ranking link to the shared player profile page.
+
+## Rebuild on GitHub
+
+After committing a website feature, open the repository's **Actions**
+tab, select **Rebuild website**, and choose **Run workflow**. Confirm the
+ranking year and start the workflow. It regenerates the website data from
+the existing tournament CSV files, commits any generated changes, and
+deploys the `docs` directory to GitHub Pages.
