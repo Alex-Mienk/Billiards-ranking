@@ -18,6 +18,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
 ## Import a tournament
 
 Import a tournament and rebuild all website rankings by providing its
