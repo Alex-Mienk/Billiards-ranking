@@ -360,6 +360,107 @@ h1 {
     text-align: right;
 }
 
+.latest-podium {
+    padding: 26px 30px 30px;
+    border-bottom: 1px solid var(--border);
+    background:
+        linear-gradient(135deg, rgb(179 134 65 / 9%), transparent 55%),
+        var(--surface-light);
+}
+
+.podium-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.podium-heading h2 {
+    margin: 2px 0 0;
+    color: var(--white);
+    font-size: 1.45rem;
+}
+
+.podium-heading .updated {
+    margin-top: 3px;
+}
+
+.tournament-link {
+    color: var(--gold-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-underline-offset: 4px;
+}
+
+.tournament-link:hover,
+.tournament-link:focus-visible {
+    outline: none;
+    color: var(--white);
+}
+
+.podium-players {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.podium-player {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 12px;
+    align-items: center;
+    min-width: 0;
+    padding: 15px 16px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: rgb(0 19 45 / 55%);
+}
+
+.podium-place {
+    display: grid;
+    grid-row: span 2;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    border-radius: 50%;
+    color: var(--navy-dark);
+    font-weight: 700;
+}
+
+.podium-place-1 .podium-place {
+    background: #d4ac55;
+}
+
+.podium-place-2 .podium-place {
+    background: #bbc4cf;
+}
+
+.podium-place-3 .podium-place {
+    background: #ba8058;
+}
+
+.podium-player-link {
+    overflow: hidden;
+    color: var(--white);
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.podium-player-link:hover,
+.podium-player-link:focus-visible {
+    outline: none;
+    color: var(--gold-light);
+}
+
+.podium-country {
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
 .seasonal-toolbar {
     border-bottom: 1px solid var(--border);
 }
@@ -774,6 +875,20 @@ footer {
 
     .comparison-note {
         text-align: left;
+    }
+
+    .latest-podium {
+        padding: 22px 20px;
+    }
+
+    .podium-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .podium-players {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .search {

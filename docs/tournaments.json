@@ -1,12 +1,12 @@
 {
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "updated_at": "2026-08-25T14:28:04.733509+00:00",
   "tournament_count": 13,
   "tournaments": [
     {
       "tournament_id": "55931",
       "tournament_name": "Zlota Bila",
-      "tournament_date": "2026-08-24",
+      "tournament_date": "2026-08-23",
       "discipline": "combined",
       "discipline_name": "Комбинированная с изменениями",
       "source_url": "https://tournamentservice.net/embed/55931/standing",

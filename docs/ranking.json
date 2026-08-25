@@ -3,7 +3,7 @@
   "season": "01.01.2026–31.12.2026",
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "updated_at": "2026-08-25T14:28:04.733509+00:00",
   "tournament_count": 13,
   "player_count": 116,
   "players": [
@@ -2825,6 +2825,38 @@
       "label": "Combined pyramid",
       "tournament_count": 6,
       "player_count": 56,
+      "latest_tournament": {
+        "tournament_id": "55931",
+        "tournament_name": "Zlota Bila",
+        "tournament_date": "2026-08-23",
+        "source_url": "https://tournamentservice.net/embed/55931/standing",
+        "podium": [
+          {
+            "place": "1",
+            "player_id": 43938,
+            "player_name": "Таланенко Олександр",
+            "country": "POL"
+          },
+          {
+            "place": "2",
+            "player_id": 76085,
+            "player_name": "Гайдеров Максим",
+            "country": "UKR"
+          },
+          {
+            "place": "3-4",
+            "player_id": 1559,
+            "player_name": "Десятник Виталий",
+            "country": "UKR"
+          },
+          {
+            "place": "3-4",
+            "player_id": 64943,
+            "player_name": "Собачинский Владислав",
+            "country": "UKR"
+          }
+        ]
+      },
       "players": [
         {
           "player_id": 87816,
@@ -3337,6 +3369,38 @@
       "label": "Free pyramid with continuation",
       "tournament_count": 6,
       "player_count": 101,
+      "latest_tournament": {
+        "tournament_id": "55755",
+        "tournament_name": "Zlota Bila",
+        "tournament_date": "2026-08-09",
+        "source_url": "https://tournamentservice.net/embed/55755/standing",
+        "podium": [
+          {
+            "place": "1",
+            "player_id": 53373,
+            "player_name": "Олексій Мієнко",
+            "country": "UKR"
+          },
+          {
+            "place": "2",
+            "player_id": 17811,
+            "player_name": "Dementii Danylo",
+            "country": "POL"
+          },
+          {
+            "place": "3-4",
+            "player_id": 43938,
+            "player_name": "Таланенко Олександр",
+            "country": "POL"
+          },
+          {
+            "place": "3-4",
+            "player_id": 58151,
+            "player_name": "Єфремов Олексій",
+            "country": "UKR"
+          }
+        ]
+      },
       "players": [
         {
           "player_id": 68408,
@@ -4254,6 +4318,38 @@
       "label": "Dynamic pyramid",
       "tournament_count": 1,
       "player_count": 17,
+      "latest_tournament": {
+        "tournament_id": "55047",
+        "tournament_name": "Złota Biła",
+        "tournament_date": "2026-05-10",
+        "source_url": "https://tournamentservice.net/embed/55047/standing",
+        "podium": [
+          {
+            "place": "1",
+            "player_id": 87815,
+            "player_name": "Klubkov Dmytro",
+            "country": "POL"
+          },
+          {
+            "place": "2",
+            "player_id": 96995,
+            "player_name": "Lobov Maksym",
+            "country": "CYP"
+          },
+          {
+            "place": "3-4",
+            "player_id": 92409,
+            "player_name": "Конишев Никита",
+            "country": "POL"
+          },
+          {
+            "place": "3-4",
+            "player_id": 68408,
+            "player_name": "Трачук Кірілл",
+            "country": "UKR"
+          }
+        ]
+      },
       "players": [
         {
           "player_id": 87815,

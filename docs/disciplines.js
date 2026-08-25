@@ -5,6 +5,8 @@ const searchInput = document.querySelector("#search");
 const emptyMessage = document.querySelector("#empty-message");
 const errorMessage = document.querySelector("#error-message");
 const disciplineTabs = document.querySelector("#discipline-tabs");
+const latestPodium = document.querySelector("#latest-podium");
+const podiumPlayers = document.querySelector("#podium-players");
 
 let rankingData = null;
 let activeDiscipline = null;
@@ -73,6 +75,64 @@ function formatUpdatedDate(value) {
         dateStyle: "medium",
         timeStyle: "short",
     }).format(updatedDate)}`;
+}
+
+
+function formatTournamentDate(value) {
+    const tournamentDate = new Date(`${value}T00:00:00`);
+
+    if (Number.isNaN(tournamentDate.getTime())) {
+        return value;
+    }
+
+    return new Intl.DateTimeFormat(undefined, {
+        dateStyle: "long",
+    }).format(tournamentDate);
+}
+
+
+function displayLatestPodium() {
+    const tournament = activeDiscipline?.latest_tournament;
+    const players = tournament?.podium;
+
+    if (!tournament || !Array.isArray(players) || players.length === 0) {
+        latestPodium.hidden = true;
+        podiumPlayers.replaceChildren();
+        return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    for (const player of players) {
+        const placeNumber = Number.parseInt(player.place, 10);
+        const card = document.createElement("article");
+        const place = document.createElement("span");
+        const link = document.createElement("a");
+        const country = document.createElement("span");
+
+        card.className = `podium-player podium-place-${placeNumber}`;
+        place.className = "podium-place";
+        place.textContent = placeNumber === 3 ? "3–4" : String(placeNumber);
+        link.className = "podium-player-link";
+        link.href = `player.html?id=${encodeURIComponent(player.player_id)}`;
+        link.textContent = player.player_name;
+        country.className = "podium-country";
+        country.textContent = player.country || "—";
+        card.append(place, link, country);
+        fragment.append(card);
+    }
+
+    podiumPlayers.replaceChildren(fragment);
+    document.querySelector("#latest-podium-title").textContent =
+        tournament.tournament_name;
+    document.querySelector("#latest-tournament-date").textContent =
+        formatTournamentDate(tournament.tournament_date);
+
+    const tournamentLink = document.querySelector(
+        "#latest-tournament-link",
+    );
+    tournamentLink.href = tournament.source_url;
+    latestPodium.hidden = false;
 }
 
 
@@ -146,6 +206,7 @@ function selectDiscipline(disciplineId) {
     document.title =
         `${activeDiscipline.label} Ranking — Złota Bila`;
 
+    displayLatestPodium();
     displayPlayers();
 }
 

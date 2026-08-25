@@ -541,12 +541,65 @@ def build_discipline_rankings(
         ):
             player["rank"] = position
 
+        latest_tournament = max(
+            discipline_tournaments,
+            key=lambda tournament: tournament["tournament_date"],
+        )
+        podium = []
+
+        for annual_player in ranking:
+            latest_result = next(
+                (
+                    result
+                    for result in annual_player["results"]
+                    if result["tournament_id"]
+                    == latest_tournament["tournament_id"]
+                ),
+                None,
+            )
+
+            if latest_result is None:
+                continue
+
+            place = latest_result.get("place", "").replace("–", "-")
+
+            try:
+                podium_place = int(place.split("-", 1)[0])
+            except ValueError:
+                continue
+
+            if podium_place > 3:
+                continue
+
+            podium.append(
+                {
+                    "place": place,
+                    "player_id": annual_player["player_id"],
+                    "player_name": annual_player["player_name"],
+                    "country": annual_player["country"],
+                }
+            )
+
+        podium.sort(
+            key=lambda player: (
+                int(player["place"].split("-", 1)[0]),
+                player["player_name"].casefold(),
+            )
+        )
+
         disciplines.append(
             {
                 "id": discipline_id,
                 "label": discipline_label,
                 "tournament_count": len(discipline_tournaments),
                 "player_count": len(discipline_players),
+                "latest_tournament": {
+                    "tournament_id": latest_tournament["tournament_id"],
+                    "tournament_name": latest_tournament["tournament_name"],
+                    "tournament_date": latest_tournament["tournament_date"],
+                    "source_url": latest_tournament["source_url"],
+                    "podium": podium,
+                },
                 "players": discipline_players,
             }
         )

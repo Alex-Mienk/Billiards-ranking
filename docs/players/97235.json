@@ -3,7 +3,7 @@
   "player_name": "Сливинский Андрей",
   "country": "POL",
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-25T13:47:27.559932+00:00",
+  "updated_at": "2026-08-25T14:28:04.733509+00:00",
   "annual": {
     "rank": 20,
     "tournaments": 5,
@@ -55,7 +55,7 @@
     {
       "tournament_id": "55931",
       "tournament_name": "Zlota Bila",
-      "tournament_date": "2026-08-24",
+      "tournament_date": "2026-08-23",
       "discipline": "combined",
       "discipline_name": "Комбинированная с изменениями",
       "place": "9-16",
