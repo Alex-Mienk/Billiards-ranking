@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:57:17.263003+00:00",
+  "updated_at": "2026-08-26T09:13:31.793250+00:00",
   "annual": {
     "rank": 20,
     "tournaments": 5,
@@ -104,5 +104,60 @@
       "source_url": "https://tournamentservice.net/embed/53998/standing"
     }
   ],
-  "recorded_matches": []
+  "recorded_matches": [
+    {
+      "match_id": "2919101",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "8F",
+      "match_number": "41",
+      "table_number": "5",
+      "started_at": "2026-08-23T12:38:31+00:00",
+      "ended_at": "2026-08-23T13:47:35+00:00",
+      "duration_seconds": 4144,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=15301s",
+      "video_offset_seconds": 15301,
+      "opponent_id": 64943,
+      "opponent_name": "Sobachinskii Vladislav",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919064",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "LB2",
+      "match_number": "36",
+      "table_number": "5",
+      "started_at": "2026-08-23T11:55:22+00:00",
+      "ended_at": "2026-08-23T12:37:45+00:00",
+      "duration_seconds": 2543,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=12712s",
+      "video_offset_seconds": 12712,
+      "opponent_id": 41556,
+      "opponent_name": "Krutov Aleksei",
+      "score_for": "2",
+      "score_against": "1"
+    },
+    {
+      "match_id": "2919097",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "WB1",
+      "match_number": "21",
+      "table_number": "5",
+      "started_at": "2026-08-23T10:28:22+00:00",
+      "ended_at": "2026-08-23T11:55:16+00:00",
+      "duration_seconds": 5214,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=7492s",
+      "video_offset_seconds": 7492,
+      "opponent_id": 76085,
+      "opponent_name": "Gaiderov Maksim",
+      "score_for": "1",
+      "score_against": "3"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:57:17.263003+00:00",
+  "updated_at": "2026-08-26T09:13:31.793250+00:00",
   "annual": {
     "rank": 12,
     "tournaments": 10,
@@ -154,5 +154,42 @@
       "source_url": "https://tournamentservice.net/embed/53998/standing"
     }
   ],
-  "recorded_matches": []
+  "recorded_matches": [
+    {
+      "match_id": "2919110",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "QF",
+      "match_number": "50",
+      "table_number": "3",
+      "started_at": "2026-08-23T14:12:51+00:00",
+      "ended_at": "2026-08-23T15:31:10+00:00",
+      "duration_seconds": 4699,
+      "video_url": "https://www.youtube.com/live/By9MD670oI0?is=PF35seB0OqeTZLZV&t=20961s",
+      "video_offset_seconds": 20961,
+      "opponent_id": 43938,
+      "opponent_name": "Talanenko Oleksandr",
+      "score_for": "2",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919095",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "WB1",
+      "match_number": "19",
+      "table_number": "3",
+      "started_at": "2026-08-23T09:54:46+00:00",
+      "ended_at": "2026-08-23T11:10:02+00:00",
+      "duration_seconds": 4516,
+      "video_url": "https://www.youtube.com/live/By9MD670oI0?is=PF35seB0OqeTZLZV&t=5476s",
+      "video_offset_seconds": 5476,
+      "opponent_id": 1559,
+      "opponent_name": "Desyatnik Vitalii",
+      "score_for": "3",
+      "score_against": "1"
+    }
+  ]
 }

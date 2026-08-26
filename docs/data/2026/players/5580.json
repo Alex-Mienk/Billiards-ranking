@@ -4,7 +4,7 @@
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:57:17.263003+00:00",
+  "updated_at": "2026-08-26T09:13:31.793250+00:00",
   "annual": {
     "rank": 36,
     "tournaments": 6,
@@ -114,5 +114,78 @@
       "source_url": "https://tournamentservice.net/embed/53998/standing"
     }
   ],
-  "recorded_matches": []
+  "recorded_matches": [
+    {
+      "match_id": "2919102",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "8F",
+      "match_number": "42",
+      "table_number": "5",
+      "started_at": "2026-08-23T14:25:48+00:00",
+      "ended_at": "2026-08-23T15:58:27+00:00",
+      "duration_seconds": 5559,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=21738s",
+      "video_offset_seconds": 21738,
+      "opponent_id": 89180,
+      "opponent_name": "Lapko Aleksei",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919063",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "LB2",
+      "match_number": "35",
+      "table_number": "6",
+      "started_at": "2026-08-23T13:00:59+00:00",
+      "ended_at": "2026-08-23T14:25:41+00:00",
+      "duration_seconds": 5082,
+      "video_url": "https://www.youtube.com/live/q3gQxDhewBI?is=3EUGVzq0SQmbdcRk&t=16649s",
+      "video_offset_seconds": 16649,
+      "opponent_id": 103427,
+      "opponent_name": "Yanchenko Artem",
+      "score_for": "2",
+      "score_against": "1"
+    },
+    {
+      "match_id": "2919098",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "WB1",
+      "match_number": "22",
+      "table_number": "6",
+      "started_at": "2026-08-23T10:43:56+00:00",
+      "ended_at": "2026-08-23T13:00:03+00:00",
+      "duration_seconds": 8167,
+      "video_url": "https://www.youtube.com/live/q3gQxDhewBI?is=3EUGVzq0SQmbdcRk&t=8426s",
+      "video_offset_seconds": 8426,
+      "opponent_id": 88075,
+      "opponent_name": "Stelmakh Daniil",
+      "score_for": "2",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919087",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "R1",
+      "match_number": "11",
+      "table_number": "6",
+      "started_at": "2026-08-23T09:10:25+00:00",
+      "ended_at": "2026-08-23T10:43:50+00:00",
+      "duration_seconds": 5605,
+      "video_url": "https://www.youtube.com/live/q3gQxDhewBI?is=3EUGVzq0SQmbdcRk&t=2815s",
+      "video_offset_seconds": 2815,
+      "opponent_id": 89467,
+      "opponent_name": "Didenko Genadii",
+      "score_for": "3",
+      "score_against": "1"
+    }
+  ]
 }

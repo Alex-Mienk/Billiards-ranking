@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:57:17.263003+00:00",
+  "updated_at": "2026-08-26T09:13:31.793250+00:00",
   "annual": {
     "rank": 23,
     "tournaments": 8,
@@ -141,5 +141,42 @@
       "source_url": "https://tournamentservice.net/embed/53998/standing"
     }
   ],
-  "recorded_matches": []
+  "recorded_matches": [
+    {
+      "match_id": "2919105",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "8F",
+      "match_number": "45",
+      "table_number": "2",
+      "started_at": "2026-08-23T13:27:09+00:00",
+      "ended_at": "2026-08-23T14:56:30+00:00",
+      "duration_seconds": 5361,
+      "video_url": "https://www.youtube.com/live/WfGc58WDsPc?is=LjCC8rL2f5KBIWA3&t=18219s",
+      "video_offset_seconds": 18219,
+      "opponent_id": 76085,
+      "opponent_name": "Gaiderov Maksim",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919068",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "LB2",
+      "match_number": "40",
+      "table_number": "2",
+      "started_at": "2026-08-23T12:15:23+00:00",
+      "ended_at": "2026-08-23T13:26:41+00:00",
+      "duration_seconds": 4278,
+      "video_url": "https://www.youtube.com/live/WfGc58WDsPc?is=LjCC8rL2f5KBIWA3&t=13913s",
+      "video_offset_seconds": 13913,
+      "opponent_id": 26032,
+      "opponent_name": "Popov Oleksandr",
+      "score_for": "2",
+      "score_against": "1"
+    }
+  ]
 }

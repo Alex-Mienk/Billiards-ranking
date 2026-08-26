@@ -4,7 +4,7 @@
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:57:17.263003+00:00",
+  "updated_at": "2026-08-26T09:13:31.793250+00:00",
   "annual": {
     "rank": 2,
     "tournaments": 11,
@@ -164,5 +164,60 @@
       "source_url": "https://tournamentservice.net/embed/53998/standing"
     }
   ],
-  "recorded_matches": []
+  "recorded_matches": [
+    {
+      "match_id": "2919113",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "SF",
+      "match_number": "53",
+      "table_number": "5",
+      "started_at": "2026-08-23T17:22:03+00:00",
+      "ended_at": "2026-08-23T18:30:10+00:00",
+      "duration_seconds": 4087,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=32313s",
+      "video_offset_seconds": 32313,
+      "opponent_id": 43938,
+      "opponent_name": "Talanenko Oleksandr",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2919109",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "QF",
+      "match_number": "49",
+      "table_number": "5",
+      "started_at": "2026-08-23T15:58:37+00:00",
+      "ended_at": "2026-08-23T17:21:56+00:00",
+      "duration_seconds": 4999,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=27307s",
+      "video_offset_seconds": 27307,
+      "opponent_id": 89180,
+      "opponent_name": "Lapko Aleksei",
+      "score_for": "3",
+      "score_against": "1"
+    },
+    {
+      "match_id": "2919101",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "8F",
+      "match_number": "41",
+      "table_number": "5",
+      "started_at": "2026-08-23T12:38:31+00:00",
+      "ended_at": "2026-08-23T13:47:35+00:00",
+      "duration_seconds": 4144,
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg&t=15301s",
+      "video_offset_seconds": 15301,
+      "opponent_id": 97235,
+      "opponent_name": "Slivinskii Andrei",
+      "score_for": "3",
+      "score_against": "1"
+    }
+  ]
 }
