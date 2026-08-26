@@ -18,7 +18,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 ## Import a tournament
 
 Import a tournament and rebuild all website rankings by providing its
@@ -71,6 +70,40 @@ without replacing `docs/data/2026`. Player links retain the selected year.
 
 The root-level JSON files remain aliases for the newest year for backward
 compatibility, but the website reads from the year-specific directories.
+
+## Recorded match videos
+
+Tournament imports also save every completed match to
+`data/<year>/matches_<tournament_id>.csv`. Tournament Service supplies the
+players, score, actual start and end timestamps, and table assignment.
+
+Connect a table's recording by supplying its URL and actual broadcast
+start time:
+
+```bash
+python3 stream_videos.py 55931 1 \
+  "https://www.youtube.com/watch?v=VIDEO_ID" \
+  --started-at "2026-08-23T10:55:00+02:00"
+python3 yearly_ranking.py 2026
+```
+
+The rebuild calculates every match's position in the long recording and
+adds a timestamped **Watch match** link to both players' profiles. Links
+start 30 seconds early by default. See `streams/README.md` for timing
+adjustments and individual match overrides.
+
+For YouTube live-stream recordings, `--started-at` can be detected from
+YouTube's `liveStreamingDetails.actualStartTime` when an API key is
+available:
+
+```bash
+export YOUTUBE_API_KEY="your-key"
+python3 stream_videos.py 55931 1 \
+  "https://www.youtube.com/watch?v=VIDEO_ID"
+```
+
+The API key is used only while creating the stream configuration and must
+not be committed to the repository.
 
 ## Rebuild on GitHub
 

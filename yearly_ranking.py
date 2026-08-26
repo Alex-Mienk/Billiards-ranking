@@ -4,6 +4,12 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from stream_videos import (
+    load_stream_config,
+    parse_timestamp,
+    timestamped_video_url,
+)
+
 
 SEASON_START_MONTH = 1
 SEASON_START_DAY = 1
@@ -371,6 +377,12 @@ def build_ranking(season_year: int) -> None:
             reverse=True,
         )
 
+    attach_recorded_matches(
+        ranking=ranking,
+        tournaments=list(included_tournaments.values()),
+        season_year=season_year,
+    )
+
     save_ranking_csv(
         ranking=ranking,
         season_year=season_year,
@@ -412,6 +424,160 @@ def build_ranking(season_year: int) -> None:
         "Saved website data: "
         f"docs/data/{season_year}/ranking.json"
     )
+
+
+def attach_recorded_matches(
+    ranking: list[dict],
+    tournaments: list[dict],
+    season_year: int,
+) -> None:
+    players_by_id = {
+        player["player_id"]: player
+        for player in ranking
+    }
+    tournaments_by_id = {
+        tournament["tournament_id"]: tournament
+        for tournament in tournaments
+    }
+    stream_configs = {}
+
+    for player in ranking:
+        player["recorded_matches"] = []
+
+    for matches_path in sorted(
+        (Path("data") / str(season_year)).glob("matches_*.csv")
+    ):
+        rows = read_tournament_file(matches_path)
+
+        for row in rows:
+            tournament_id = row.get("tournament_id", "")
+            tournament = tournaments_by_id.get(tournament_id)
+
+            if tournament is None:
+                continue
+
+            if tournament_id not in stream_configs:
+                stream_configs[tournament_id] = load_stream_config(
+                    tournament_id
+                )
+
+            config = stream_configs[tournament_id]
+            streams_by_table = {
+                str(stream.get("table_number", "")): stream
+                for stream in config.get("streams", [])
+            }
+            match_id = row.get("match_id", "")
+            override = config.get("match_overrides", {}).get(
+                match_id,
+                {},
+            )
+
+            if override.get("hidden"):
+                continue
+
+            table_number = str(
+                override.get(
+                    "table_number",
+                    row.get("table_number", ""),
+                )
+            )
+            stream = streams_by_table.get(table_number)
+
+            if stream is None:
+                continue
+
+            try:
+                match_start = parse_timestamp(row["started_at"])
+                match_end = parse_timestamp(row["ended_at"])
+                stream_start = parse_timestamp(stream["started_at"])
+            except (KeyError, ValueError):
+                print(
+                    f"Warning: skipped invalid video timing for match "
+                    f"{match_id} in {matches_path}."
+                )
+                continue
+
+            if "offset_seconds" in override:
+                offset_seconds = int(override["offset_seconds"])
+            else:
+                offset_seconds = round(
+                    (match_start - stream_start).total_seconds()
+                )
+                offset_seconds += int(
+                    stream.get("adjustment_seconds", 0)
+                )
+                offset_seconds -= int(stream.get("lead_in_seconds", 30))
+
+            offset_seconds = max(0, offset_seconds)
+            video_url = timestamped_video_url(
+                stream["video_url"],
+                offset_seconds,
+            )
+
+            try:
+                raw_player_a_id = int(row["player_a_id"])
+                raw_player_b_id = int(row["player_b_id"])
+            except (KeyError, ValueError):
+                continue
+
+            player_a_id = PLAYER_ID_ALIASES.get(
+                raw_player_a_id,
+                raw_player_a_id,
+            )
+            player_b_id = PLAYER_ID_ALIASES.get(
+                raw_player_b_id,
+                raw_player_b_id,
+            )
+            player_a = players_by_id.get(player_a_id)
+            player_b = players_by_id.get(player_b_id)
+
+            if player_a is None or player_b is None:
+                continue
+
+            common = {
+                "match_id": match_id,
+                "tournament_id": tournament_id,
+                "tournament_name": tournament["tournament_name"],
+                "tournament_date": tournament["tournament_date"],
+                "round": row.get("round", ""),
+                "match_number": row.get("match_number", ""),
+                "table_number": table_number,
+                "started_at": row["started_at"],
+                "ended_at": row["ended_at"],
+                "duration_seconds": max(
+                    0,
+                    round((match_end - match_start).total_seconds()),
+                ),
+                "video_url": video_url,
+                "video_offset_seconds": offset_seconds,
+            }
+            player_a["recorded_matches"].append(
+                {
+                    **common,
+                    "opponent_id": player_b_id,
+                    "opponent_name": player_b["player_name"],
+                    "score_for": row.get("player_a_score", ""),
+                    "score_against": row.get("player_b_score", ""),
+                }
+            )
+            player_b["recorded_matches"].append(
+                {
+                    **common,
+                    "opponent_id": player_a_id,
+                    "opponent_name": player_a["player_name"],
+                    "score_for": row.get("player_b_score", ""),
+                    "score_against": row.get("player_a_score", ""),
+                }
+            )
+
+    for player in ranking:
+        player["recorded_matches"].sort(
+            key=lambda match: (
+                match["started_at"],
+                match["match_id"],
+            ),
+            reverse=True,
+        )
 
 
 def save_ranking_csv(
@@ -766,6 +932,7 @@ def save_player_profiles(
             "periods": periods_by_player.get(player_id, []),
             "disciplines": disciplines_by_player.get(player_id, []),
             "results": player["results"],
+            "recorded_matches": player.get("recorded_matches", []),
         }
         write_json_atomic(
             players_directory / f"{player_id}.json",

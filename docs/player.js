@@ -3,6 +3,10 @@
 const errorMessage = document.querySelector("#error-message");
 const profileDetails = document.querySelector("#profile-details");
 const historyBody = document.querySelector("#history-body");
+const recordedMatchesCard = document.querySelector(
+    "#recorded-matches-card",
+);
+const recordedMatches = document.querySelector("#recorded-matches");
 
 
 function formatPoints(points) {
@@ -110,6 +114,68 @@ function createHistoryRow(result) {
 }
 
 
+function formatDuration(value) {
+    const minutes = Math.max(1, Math.round(Number(value) / 60));
+    return `${minutes} min`;
+}
+
+
+function createRecordedMatch(match) {
+    const article = document.createElement("article");
+    const information = document.createElement("div");
+    const meta = document.createElement("p");
+    const opponent = document.createElement("a");
+    const details = document.createElement("p");
+    const score = document.createElement("strong");
+    const watchLink = document.createElement("a");
+
+    article.className = "recorded-match";
+    information.className = "recorded-match-information";
+    meta.className = "recorded-match-meta";
+    meta.textContent = [
+        formatDate(match.tournament_date),
+        `Table ${match.table_number}`,
+        match.round ? `${match.round} #${match.match_number}` : "",
+    ].filter(Boolean).join(" · ");
+    opponent.className = "recorded-opponent";
+    opponent.href = RankingYears.playerUrl(match.opponent_id);
+    opponent.textContent = `vs ${match.opponent_name}`;
+    details.className = "recorded-match-details";
+    details.textContent = [
+        match.tournament_name,
+        formatDuration(match.duration_seconds),
+    ].filter(Boolean).join(" · ");
+    score.className = "recorded-score";
+    score.textContent = `${match.score_for}–${match.score_against}`;
+    watchLink.className = "watch-match-link";
+    watchLink.href = match.video_url;
+    watchLink.target = "_blank";
+    watchLink.rel = "noopener noreferrer";
+    watchLink.textContent = "Watch match";
+    information.append(meta, opponent, details);
+    article.append(information, score, watchLink);
+    return article;
+}
+
+
+function displayRecordedMatches(matches) {
+    if (!Array.isArray(matches) || matches.length === 0) {
+        recordedMatchesCard.hidden = true;
+        recordedMatches.replaceChildren();
+        return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    for (const match of matches) {
+        fragment.append(createRecordedMatch(match));
+    }
+
+    recordedMatches.replaceChildren(fragment);
+    recordedMatchesCard.hidden = false;
+}
+
+
 function displayProfile(profile) {
     document.title = `${profile.player_name} — Złota Bila`;
     document.querySelector("#player-name").textContent =
@@ -132,6 +198,7 @@ function displayProfile(profile) {
         "#discipline-breakdown",
         profile.disciplines,
     );
+    displayRecordedMatches(profile.recorded_matches);
 
     const fragment = document.createDocumentFragment();
 
