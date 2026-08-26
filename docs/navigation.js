@@ -10,7 +10,8 @@ function closeNavigation() {
 }
 
 
-menuButton.addEventListener("click", () => {
+menuButton.addEventListener("click", (event) => {
+    event.stopPropagation();
     const willOpen = navigationMenu.hidden;
 
     navigationMenu.hidden = !willOpen;
@@ -21,7 +22,7 @@ menuButton.addEventListener("click", () => {
 document.addEventListener("click", (event) => {
     if (
         !navigationMenu.hidden
-        && !event.target.closest(".site-navigation")
+        && !navigationMenu.contains(event.target)
     ) {
         closeNavigation();
     }

@@ -949,8 +949,10 @@ footer {
         padding-inline: 7px;
     }
 
-    .ranking-table .rank,
-    .seasonal-table .rank {
+    .ranking-table th:first-child,
+    .ranking-table td:first-child,
+    .seasonal-table th:first-child,
+    .seasonal-table td:first-child {
         width: 48px;
     }
 
