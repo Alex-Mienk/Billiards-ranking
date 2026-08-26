@@ -512,7 +512,9 @@ def attach_player_matches(
             video_url = ""
             offset_seconds = None
 
-            if stream is not None and not override.get("hidden"):
+            if override.get("video_url") and not override.get("hidden"):
+                video_url = str(override["video_url"])
+            elif stream is not None and not override.get("hidden"):
                 try:
                     stream_start = parse_timestamp(stream["started_at"])
 

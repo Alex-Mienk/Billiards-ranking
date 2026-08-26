@@ -13,7 +13,7 @@ will read YouTube's `liveStreamingDetails.actualStartTime` value.
 
 The generated `streams/<tournament_id>.json` file may include a
 `match_overrides` object for corrections. An override can supply an exact
-video offset or hide a match:
+video offset, a direct recording URL, or hide a match:
 
 ```json
 {
@@ -21,6 +21,9 @@ video offset or hide a match:
     "2919078": {
       "offset_seconds": 925,
       "hidden": false
+    },
+    "2869454": {
+      "video_url": "https://www.youtube.com/watch?v=VIDEO_ID"
     }
   }
 }

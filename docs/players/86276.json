@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T10:31:48.210074+00:00",
+  "updated_at": "2026-08-26T10:57:44.647857+00:00",
   "annual": {
     "rank": 41,
     "tournaments": 3,
@@ -82,7 +82,7 @@
       "started_at": "2026-04-25T14:15:39+00:00",
       "ended_at": "2026-04-25T16:01:44+00:00",
       "duration_seconds": 6365,
-      "video_url": "",
+      "video_url": "https://www.youtube.com/watch?v=xerf93LAyJc",
       "video_offset_seconds": null,
       "opponent_id": 17811,
       "opponent_name": "Dementii Danylo",

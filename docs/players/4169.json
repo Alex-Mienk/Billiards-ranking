@@ -4,7 +4,7 @@
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T10:31:48.210074+00:00",
+  "updated_at": "2026-08-26T10:57:44.647857+00:00",
   "annual": {
     "rank": 66,
     "tournaments": 1,
@@ -54,7 +54,7 @@
       "started_at": "2026-04-26T08:28:16+00:00",
       "ended_at": "2026-04-26T10:40:04+00:00",
       "duration_seconds": 7908,
-      "video_url": "",
+      "video_url": "https://www.youtube.com/watch?v=xYpwQAgzlb4",
       "video_offset_seconds": null,
       "opponent_id": 45956,
       "opponent_name": "Bikmetov Maxim",
