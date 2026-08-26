@@ -42,14 +42,39 @@ function createRankCell(rank) {
 
 function createPlayerCell(player) {
     const cell = document.createElement("td");
+    const movement = document.createElement("span");
     const link = document.createElement("a");
+    const rankChange = Number(player.rank_change) || 0;
 
     cell.className = "player";
+    movement.className = "rank-movement";
+
+    if (rankChange > 0) {
+        movement.classList.add("rank-movement-up");
+        movement.textContent = "↑";
+        movement.setAttribute(
+            "aria-label",
+            `Up ${rankChange} position${rankChange === 1 ? "" : "s"}`,
+        );
+    } else if (rankChange < 0) {
+        movement.classList.add("rank-movement-down");
+        movement.textContent = "↓";
+        movement.setAttribute(
+            "aria-label",
+            `Down ${Math.abs(rankChange)} position`
+            + `${rankChange === -1 ? "" : "s"}`,
+        );
+    } else {
+        movement.classList.add("rank-movement-same");
+        movement.textContent = "=";
+        movement.setAttribute("aria-label", "Position unchanged");
+    }
+
     link.className = "player-link";
     link.href = RankingYears.playerUrl(player.player_id);
     link.textContent =
         player.player_name || `Player ${player.player_id}`;
-    cell.append(link);
+    cell.append(movement, link);
 
     return cell;
 }

@@ -377,6 +377,11 @@ def build_ranking(season_year: int) -> None:
             reverse=True,
         )
 
+    annotate_rank_movement(
+        ranking=ranking,
+        tournaments=list(included_tournaments.values()),
+    )
+
     attach_player_matches(
         ranking=ranking,
         tournaments=list(included_tournaments.values()),
@@ -852,6 +857,66 @@ def build_discipline_rankings(
     return disciplines
 
 
+def annotate_rank_movement(
+    ranking: list[dict],
+    tournaments: list[dict],
+) -> None:
+    """Compare current ranks with standings before the latest event."""
+    if not tournaments:
+        return
+
+    latest_tournament = max(
+        tournaments,
+        key=lambda tournament: (
+            tournament["tournament_date"],
+            str(tournament["tournament_id"]),
+        ),
+    )
+    latest_id = str(latest_tournament["tournament_id"])
+    previous_players = []
+
+    for player in ranking:
+        earlier_results = [
+            result
+            for result in player["results"]
+            if str(result["tournament_id"]) != latest_id
+        ]
+
+        if earlier_results:
+            previous_players.append(
+                {
+                    "player_id": player["player_id"],
+                    "player_name": player["player_name"],
+                    "tournaments": len(earlier_results),
+                    "total_points": round(
+                        sum(result["points"] for result in earlier_results),
+                        2,
+                    ),
+                }
+            )
+
+    previous_players.sort(
+        key=lambda player: (
+            -player["total_points"],
+            -player["tournaments"],
+            player["player_name"].casefold(),
+        )
+    )
+    previous_ranks = {
+        player["player_id"]: position
+        for position, player in enumerate(previous_players, start=1)
+    }
+
+    for player in ranking:
+        previous_rank = previous_ranks.get(player["player_id"])
+        player["previous_rank"] = previous_rank
+        player["rank_change"] = (
+            previous_rank - player["rank"]
+            if previous_rank is not None
+            else 0
+        )
+
+
 def ranking_player_summary(player: dict) -> dict:
     return {
         key: player[key]
@@ -862,6 +927,8 @@ def ranking_player_summary(player: dict) -> dict:
             "country",
             "tournaments",
             "total_points",
+            "previous_rank",
+            "rank_change",
         )
     }
 

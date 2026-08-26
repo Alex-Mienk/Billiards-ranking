@@ -815,6 +815,29 @@ tbody tr:last-child td {
     font-weight: 600;
 }
 
+.rank-movement {
+    display: inline-grid;
+    width: 15px;
+    margin-right: 7px;
+    place-items: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: 0.08em;
+}
+
+.rank-movement-up {
+    color: #56c98a;
+}
+
+.rank-movement-down {
+    color: #ed6b72;
+}
+
+.rank-movement-same {
+    color: #8f9aaa;
+}
+
 .player-link {
     color: inherit;
     text-decoration-color: rgb(208 168 94 / 45%);

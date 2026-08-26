@@ -4,7 +4,7 @@
   "season": "01.01.2026–31.12.2026",
   "season_start": "2026-01-01",
   "season_end": "2026-12-31",
-  "updated_at": "2026-08-26T10:59:26.738505+00:00",
+  "updated_at": "2026-08-26T14:57:47.781648+00:00",
   "tournament_count": 13,
   "player_count": 116,
   "players": [
@@ -14,7 +14,9 @@
       "player_name": "Trachuk Kirill",
       "country": "UKR",
       "tournaments": 11,
-      "total_points": 187.0
+      "total_points": 187.0,
+      "previous_rank": 1,
+      "rank_change": 0
     },
     {
       "rank": 2,
@@ -22,7 +24,9 @@
       "player_name": "Sobachinskii Vladislav",
       "country": "UKR",
       "tournaments": 11,
-      "total_points": 158.5
+      "total_points": 158.5,
+      "previous_rank": 3,
+      "rank_change": 1
     },
     {
       "rank": 3,
@@ -30,7 +34,9 @@
       "player_name": "Kurchevskyi Daniil",
       "country": "POL",
       "tournaments": 10,
-      "total_points": 151.5
+      "total_points": 151.5,
+      "previous_rank": 2,
+      "rank_change": -1
     },
     {
       "rank": 4,
@@ -38,7 +44,9 @@
       "player_name": "Babliuk Yevhenii",
       "country": "UKR",
       "tournaments": 11,
-      "total_points": 127.5
+      "total_points": 127.5,
+      "previous_rank": 4,
+      "rank_change": 0
     },
     {
       "rank": 5,
@@ -46,7 +54,9 @@
       "player_name": "Talanenko Oleksandr",
       "country": "POL",
       "tournaments": 9,
-      "total_points": 125.0
+      "total_points": 125.0,
+      "previous_rank": 8,
+      "rank_change": 3
     },
     {
       "rank": 6,
@@ -54,7 +64,9 @@
       "player_name": "Klubkov Dmytro",
       "country": "POL",
       "tournaments": 9,
-      "total_points": 114.5
+      "total_points": 114.5,
+      "previous_rank": 5,
+      "rank_change": -1
     },
     {
       "rank": 7,
@@ -62,7 +74,9 @@
       "player_name": "Oleksii Miienko",
       "country": "UKR",
       "tournaments": 8,
-      "total_points": 113.5
+      "total_points": 113.5,
+      "previous_rank": 7,
+      "rank_change": 0
     },
     {
       "rank": 8,
@@ -70,7 +84,9 @@
       "player_name": "Skukis Volodymyr",
       "country": "POL",
       "tournaments": 8,
-      "total_points": 110.0
+      "total_points": 110.0,
+      "previous_rank": 6,
+      "rank_change": -2
     },
     {
       "rank": 9,
@@ -78,7 +94,9 @@
       "player_name": "Bugayets Roman",
       "country": "POL",
       "tournaments": 11,
-      "total_points": 92.5
+      "total_points": 92.5,
+      "previous_rank": 10,
+      "rank_change": 1
     },
     {
       "rank": 10,
@@ -86,7 +104,9 @@
       "player_name": "Lobov Maksym",
       "country": "CYP",
       "tournaments": 9,
-      "total_points": 89.0
+      "total_points": 89.0,
+      "previous_rank": 9,
+      "rank_change": -1
     },
     {
       "rank": 11,
@@ -94,7 +114,9 @@
       "player_name": "Burlaka Valerii",
       "country": "UKR",
       "tournaments": 6,
-      "total_points": 83.5
+      "total_points": 83.5,
+      "previous_rank": 11,
+      "rank_change": 0
     },
     {
       "rank": 12,
@@ -102,7 +124,9 @@
       "player_name": "Polovko Volodymyr",
       "country": "POL",
       "tournaments": 10,
-      "total_points": 83.0
+      "total_points": 83.0,
+      "previous_rank": 13,
+      "rank_change": 1
     },
     {
       "rank": 13,
@@ -110,7 +134,9 @@
       "player_name": "Tikhonov Roman",
       "country": "POL",
       "tournaments": 10,
-      "total_points": 82.5
+      "total_points": 82.5,
+      "previous_rank": 14,
+      "rank_change": 1
     },
     {
       "rank": 14,
@@ -118,7 +144,9 @@
       "player_name": "Zhygimont Aleh",
       "country": "POL",
       "tournaments": 5,
-      "total_points": 82.5
+      "total_points": 82.5,
+      "previous_rank": 12,
+      "rank_change": -2
     },
     {
       "rank": 15,
@@ -126,7 +154,9 @@
       "player_name": "Dmytriuk Andrii",
       "country": "POL",
       "tournaments": 11,
-      "total_points": 78.5
+      "total_points": 78.5,
+      "previous_rank": 15,
+      "rank_change": 0
     },
     {
       "rank": 16,
@@ -134,7 +164,9 @@
       "player_name": "Popov Oleksandr",
       "country": "UKR",
       "tournaments": 5,
-      "total_points": 72.0
+      "total_points": 72.0,
+      "previous_rank": 16,
+      "rank_change": 0
     },
     {
       "rank": 17,
@@ -142,7 +174,9 @@
       "player_name": "Vishnevskii Denis",
       "country": "UKR",
       "tournaments": 4,
-      "total_points": 66.5
+      "total_points": 66.5,
+      "previous_rank": 17,
+      "rank_change": 0
     },
     {
       "rank": 18,
@@ -150,7 +184,9 @@
       "player_name": "Bikmetov Maxim",
       "country": "UKR",
       "tournaments": 4,
-      "total_points": 64.5
+      "total_points": 64.5,
+      "previous_rank": 18,
+      "rank_change": 0
     },
     {
       "rank": 19,
@@ -158,7 +194,9 @@
       "player_name": "Lavryk Yevgen",
       "country": "POL",
       "tournaments": 8,
-      "total_points": 60.0
+      "total_points": 60.0,
+      "previous_rank": 19,
+      "rank_change": 0
     },
     {
       "rank": 20,
@@ -166,7 +204,9 @@
       "player_name": "Slivinskii Andrei",
       "country": "POL",
       "tournaments": 5,
-      "total_points": 54.5
+      "total_points": 54.5,
+      "previous_rank": 23,
+      "rank_change": 3
     },
     {
       "rank": 21,
@@ -174,7 +214,9 @@
       "player_name": "Dementii Danylo",
       "country": "POL",
       "tournaments": 3,
-      "total_points": 51.0
+      "total_points": 51.0,
+      "previous_rank": 20,
+      "rank_change": -1
     },
     {
       "rank": 22,
@@ -182,7 +224,9 @@
       "player_name": "Odaryuk Mikhail",
       "country": "ESP",
       "tournaments": 3,
-      "total_points": 48.5
+      "total_points": 48.5,
+      "previous_rank": 21,
+      "rank_change": -1
     },
     {
       "rank": 23,
@@ -190,7 +234,9 @@
       "player_name": "Kepich Taras",
       "country": "POL",
       "tournaments": 8,
-      "total_points": 48.0
+      "total_points": 48.0,
+      "previous_rank": 29,
+      "rank_change": 6
     },
     {
       "rank": 24,
@@ -198,7 +244,9 @@
       "player_name": "Lapko Aleksei",
       "country": "POL",
       "tournaments": 6,
-      "total_points": 48.0
+      "total_points": 48.0,
+      "previous_rank": 33,
+      "rank_change": 9
     },
     {
       "rank": 25,
@@ -206,7 +254,9 @@
       "player_name": "Konishev Nikita",
       "country": "POL",
       "tournaments": 5,
-      "total_points": 46.5
+      "total_points": 46.5,
+      "previous_rank": 22,
+      "rank_change": -3
     },
     {
       "rank": 26,
@@ -214,7 +264,9 @@
       "player_name": "Didenko Genadii",
       "country": "POL",
       "tournaments": 8,
-      "total_points": 45.0
+      "total_points": 45.0,
+      "previous_rank": 27,
+      "rank_change": 1
     },
     {
       "rank": 27,
@@ -222,7 +274,9 @@
       "player_name": "Chernyi Roman",
       "country": "UKR",
       "tournaments": 9,
-      "total_points": 44.0
+      "total_points": 44.0,
+      "previous_rank": 34,
+      "rank_change": 7
     },
     {
       "rank": 28,
@@ -230,7 +284,9 @@
       "player_name": "Bilyi Lyubomir",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 43.5
+      "total_points": 43.5,
+      "previous_rank": 24,
+      "rank_change": -4
     },
     {
       "rank": 29,
@@ -238,7 +294,9 @@
       "player_name": "Voronko Daniil",
       "country": "TBA",
       "tournaments": 2,
-      "total_points": 43.0
+      "total_points": 43.0,
+      "previous_rank": 25,
+      "rank_change": -4
     },
     {
       "rank": 30,
@@ -246,7 +304,9 @@
       "player_name": "Rodionov Vladislav",
       "country": "TBA",
       "tournaments": 1,
-      "total_points": 41.5
+      "total_points": 41.5,
+      "previous_rank": 26,
+      "rank_change": -4
     },
     {
       "rank": 31,
@@ -254,7 +314,9 @@
       "player_name": "Grankin Yaroslav",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 41.0
+      "total_points": 41.0,
+      "previous_rank": 28,
+      "rank_change": -3
     },
     {
       "rank": 32,
@@ -262,7 +324,9 @@
       "player_name": "Krutov Aleksei",
       "country": "UKR",
       "tournaments": 10,
-      "total_points": 39.0
+      "total_points": 39.0,
+      "previous_rank": 35,
+      "rank_change": 3
     },
     {
       "rank": 33,
@@ -270,7 +334,9 @@
       "player_name": "Aksen Vladislav",
       "country": "TBA",
       "tournaments": 2,
-      "total_points": 39.0
+      "total_points": 39.0,
+      "previous_rank": 30,
+      "rank_change": -3
     },
     {
       "rank": 34,
@@ -278,7 +344,9 @@
       "player_name": "Mishchenko Adrian",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 39.0
+      "total_points": 39.0,
+      "previous_rank": 31,
+      "rank_change": -3
     },
     {
       "rank": 35,
@@ -286,7 +354,9 @@
       "player_name": "Pleshko Mark",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 39.0
+      "total_points": 39.0,
+      "previous_rank": 32,
+      "rank_change": -3
     },
     {
       "rank": 36,
@@ -294,7 +364,9 @@
       "player_name": "Danov Ilya",
       "country": "UKR",
       "tournaments": 6,
-      "total_points": 37.0
+      "total_points": 37.0,
+      "previous_rank": 39,
+      "rank_change": 3
     },
     {
       "rank": 37,
@@ -302,7 +374,9 @@
       "player_name": "Desyatnik Vitalii",
       "country": "UKR",
       "tournaments": 3,
-      "total_points": 32.0
+      "total_points": 32.0,
+      "previous_rank": 56,
+      "rank_change": 19
     },
     {
       "rank": 38,
@@ -310,7 +384,9 @@
       "player_name": "Denisenko Igor",
       "country": "ARE",
       "tournaments": 2,
-      "total_points": 31.0
+      "total_points": 31.0,
+      "previous_rank": 36,
+      "rank_change": -2
     },
     {
       "rank": 39,
@@ -318,7 +394,9 @@
       "player_name": "Efanenkov Anatolii",
       "country": "POL",
       "tournaments": 7,
-      "total_points": 29.5
+      "total_points": 29.5,
+      "previous_rank": 37,
+      "rank_change": -2
     },
     {
       "rank": 40,
@@ -326,7 +404,9 @@
       "player_name": "Gomenyuk Nikita",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 29.5
+      "total_points": 29.5,
+      "previous_rank": 38,
+      "rank_change": -2
     },
     {
       "rank": 41,
@@ -334,7 +414,9 @@
       "player_name": "Levochkin Volodimir",
       "country": "POL",
       "tournaments": 3,
-      "total_points": 28.5
+      "total_points": 28.5,
+      "previous_rank": 40,
+      "rank_change": -1
     },
     {
       "rank": 42,
@@ -342,7 +424,9 @@
       "player_name": "Oleinik Ivan",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 28.5
+      "total_points": 28.5,
+      "previous_rank": 41,
+      "rank_change": -1
     },
     {
       "rank": 43,
@@ -350,7 +434,9 @@
       "player_name": "Gaiderov Maksim",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 28.0
+      "total_points": 28.0,
+      "previous_rank": 85,
+      "rank_change": 42
     },
     {
       "rank": 44,
@@ -358,7 +444,9 @@
       "player_name": "Singayevskii Yevgenii",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 27.0
+      "total_points": 27.0,
+      "previous_rank": 42,
+      "rank_change": -2
     },
     {
       "rank": 45,
@@ -366,7 +454,9 @@
       "player_name": "Yefremov Oleksii",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 26.5
+      "total_points": 26.5,
+      "previous_rank": 43,
+      "rank_change": -2
     },
     {
       "rank": 46,
@@ -374,7 +464,9 @@
       "player_name": "Shumelyuk Aleksandr",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 26.0
+      "total_points": 26.0,
+      "previous_rank": 44,
+      "rank_change": -2
     },
     {
       "rank": 47,
@@ -382,7 +474,9 @@
       "player_name": "Cherevatyi Denis",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 25.0
+      "total_points": 25.0,
+      "previous_rank": 45,
+      "rank_change": -2
     },
     {
       "rank": 48,
@@ -390,7 +484,9 @@
       "player_name": "Boiko Dmitro",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 24.5
+      "total_points": 24.5,
+      "previous_rank": 46,
+      "rank_change": -2
     },
     {
       "rank": 49,
@@ -398,7 +494,9 @@
       "player_name": "Mardanov Khusein",
       "country": "POL",
       "tournaments": 6,
-      "total_points": 24.0
+      "total_points": 24.0,
+      "previous_rank": 53,
+      "rank_change": 4
     },
     {
       "rank": 50,
@@ -406,7 +504,9 @@
       "player_name": "Mikailov Kenan",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 23.5
+      "total_points": 23.5,
+      "previous_rank": 47,
+      "rank_change": -3
     },
     {
       "rank": 51,
@@ -414,7 +514,9 @@
       "player_name": "Karakai Valerii",
       "country": "LAT",
       "tournaments": 1,
-      "total_points": 23.5
+      "total_points": 23.5,
+      "previous_rank": 48,
+      "rank_change": -3
     },
     {
       "rank": 52,
@@ -422,7 +524,9 @@
       "player_name": "Pavlovich Timofey",
       "country": "TBA",
       "tournaments": 1,
-      "total_points": 21.5
+      "total_points": 21.5,
+      "previous_rank": 49,
+      "rank_change": -3
     },
     {
       "rank": 53,
@@ -430,7 +534,9 @@
       "player_name": "Shmyrko Bohdan",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 21.5
+      "total_points": 21.5,
+      "previous_rank": 50,
+      "rank_change": -3
     },
     {
       "rank": 54,
@@ -438,7 +544,9 @@
       "player_name": "Aguzov Igor",
       "country": "ESP",
       "tournaments": 2,
-      "total_points": 21.0
+      "total_points": 21.0,
+      "previous_rank": 51,
+      "rank_change": -3
     },
     {
       "rank": 55,
@@ -446,7 +554,9 @@
       "player_name": "Bagatskii Denis",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 21.0
+      "total_points": 21.0,
+      "previous_rank": 52,
+      "rank_change": -3
     },
     {
       "rank": 56,
@@ -454,7 +564,9 @@
       "player_name": "Yelenich Vladislav",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 19.5
+      "total_points": 19.5,
+      "previous_rank": 54,
+      "rank_change": -2
     },
     {
       "rank": 57,
@@ -462,7 +574,9 @@
       "player_name": "Yanchenko Artem",
       "country": "POL",
       "tournaments": 5,
-      "total_points": 19.0
+      "total_points": 19.0,
+      "previous_rank": 65,
+      "rank_change": 8
     },
     {
       "rank": 58,
@@ -470,7 +584,9 @@
       "player_name": "Kondratiuk Alexandr",
       "country": "POL",
       "tournaments": 4,
-      "total_points": 19.0
+      "total_points": 19.0,
+      "previous_rank": 55,
+      "rank_change": -3
     },
     {
       "rank": 59,
@@ -478,7 +594,9 @@
       "player_name": "Krupitskii Aleksandr",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 17.5
+      "total_points": 17.5,
+      "previous_rank": 57,
+      "rank_change": -2
     },
     {
       "rank": 60,
@@ -486,7 +604,9 @@
       "player_name": "Kotik Igor",
       "country": "ESP",
       "tournaments": 1,
-      "total_points": 17.5
+      "total_points": 17.5,
+      "previous_rank": 58,
+      "rank_change": -2
     },
     {
       "rank": 61,
@@ -494,7 +614,9 @@
       "player_name": "Havadziuk Serhii",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 17.0
+      "total_points": 17.0,
+      "previous_rank": 59,
+      "rank_change": -2
     },
     {
       "rank": 62,
@@ -502,7 +624,9 @@
       "player_name": "Rupaevskii Adik",
       "country": "ESP",
       "tournaments": 2,
-      "total_points": 17.0
+      "total_points": 17.0,
+      "previous_rank": 60,
+      "rank_change": -2
     },
     {
       "rank": 63,
@@ -510,7 +634,9 @@
       "player_name": "Bezuglyi Maksim",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 15.5
+      "total_points": 15.5,
+      "previous_rank": 87,
+      "rank_change": 24
     },
     {
       "rank": 64,
@@ -518,7 +644,9 @@
       "player_name": "Gidrat Anton",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 15.5
+      "total_points": 15.5,
+      "previous_rank": 61,
+      "rank_change": -3
     },
     {
       "rank": 65,
@@ -526,7 +654,9 @@
       "player_name": "Kusen Mikhailo",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 15.5
+      "total_points": 15.5,
+      "previous_rank": 62,
+      "rank_change": -3
     },
     {
       "rank": 66,
@@ -534,7 +664,9 @@
       "player_name": "Lebid Dmitro",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 15.5
+      "total_points": 15.5,
+      "previous_rank": 63,
+      "rank_change": -3
     },
     {
       "rank": 67,
@@ -542,7 +674,9 @@
       "player_name": "Svitkovskyi Yurii",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 15.5
+      "total_points": 15.5,
+      "previous_rank": 64,
+      "rank_change": -3
     },
     {
       "rank": 68,
@@ -550,7 +684,9 @@
       "player_name": "Demidov Maksim",
       "country": "POL",
       "tournaments": 3,
-      "total_points": 15.0
+      "total_points": 15.0,
+      "previous_rank": 66,
+      "rank_change": -2
     },
     {
       "rank": 69,
@@ -558,7 +694,9 @@
       "player_name": "Stelmakh Daniil",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 15.0
+      "total_points": 15.0,
+      "previous_rank": 98,
+      "rank_change": 29
     },
     {
       "rank": 70,
@@ -566,7 +704,9 @@
       "player_name": "Krivoruchko Andrei",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 14.5
+      "total_points": 14.5,
+      "previous_rank": 67,
+      "rank_change": -3
     },
     {
       "rank": 71,
@@ -574,7 +714,9 @@
       "player_name": "Tivanov Matvii",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 14.0
+      "total_points": 14.0,
+      "previous_rank": 68,
+      "rank_change": -3
     },
     {
       "rank": 72,
@@ -582,7 +724,9 @@
       "player_name": "Yarchevskii Eduard",
       "country": "POL",
       "tournaments": 4,
-      "total_points": 13.5
+      "total_points": 13.5,
+      "previous_rank": 69,
+      "rank_change": -3
     },
     {
       "rank": 73,
@@ -590,7 +734,9 @@
       "player_name": "Dubenko Ihor",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 13.5
+      "total_points": 13.5,
+      "previous_rank": 70,
+      "rank_change": -3
     },
     {
       "rank": 74,
@@ -598,7 +744,9 @@
       "player_name": "Paulau Vitali",
       "country": "LIT",
       "tournaments": 1,
-      "total_points": 13.5
+      "total_points": 13.5,
+      "previous_rank": 71,
+      "rank_change": -3
     },
     {
       "rank": 75,
@@ -606,7 +754,9 @@
       "player_name": "Sergeyev Sergiy",
       "country": "LAT",
       "tournaments": 1,
-      "total_points": 13.5
+      "total_points": 13.5,
+      "previous_rank": 72,
+      "rank_change": -3
     },
     {
       "rank": 76,
@@ -614,7 +764,9 @@
       "player_name": "Yurochkin Petro",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 13.5
+      "total_points": 13.5,
+      "previous_rank": 73,
+      "rank_change": -3
     },
     {
       "rank": 77,
@@ -622,7 +774,9 @@
       "player_name": "Sidorov Aleksei",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 12.0
+      "total_points": 12.0,
+      "previous_rank": 74,
+      "rank_change": -3
     },
     {
       "rank": 78,
@@ -630,7 +784,9 @@
       "player_name": "Papou Vladimir",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 11.5
+      "total_points": 11.5,
+      "previous_rank": 94,
+      "rank_change": 16
     },
     {
       "rank": 79,
@@ -638,7 +794,9 @@
       "player_name": "Garashchuk Sergei",
       "country": "ESP",
       "tournaments": 1,
-      "total_points": 11.5
+      "total_points": 11.5,
+      "previous_rank": 75,
+      "rank_change": -4
     },
     {
       "rank": 80,
@@ -646,7 +804,9 @@
       "player_name": "Ivan Attila",
       "country": "GER",
       "tournaments": 1,
-      "total_points": 11.5
+      "total_points": 11.5,
+      "previous_rank": 76,
+      "rank_change": -4
     },
     {
       "rank": 81,
@@ -654,7 +814,9 @@
       "player_name": "Juszip Jaromir",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 11.5
+      "total_points": 11.5,
+      "previous_rank": 77,
+      "rank_change": -4
     },
     {
       "rank": 82,
@@ -662,7 +824,9 @@
       "player_name": "Tymets Maksym",
       "country": "GER",
       "tournaments": 1,
-      "total_points": 11.5
+      "total_points": 11.5,
+      "previous_rank": 78,
+      "rank_change": -4
     },
     {
       "rank": 83,
@@ -670,7 +834,9 @@
       "player_name": "Vechtomov Aleksandr",
       "country": "UKR",
       "tournaments": 3,
-      "total_points": 11.0
+      "total_points": 11.0,
+      "previous_rank": 97,
+      "rank_change": 14
     },
     {
       "rank": 84,
@@ -678,7 +844,9 @@
       "player_name": "Komar Evgenii",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 10.0
+      "total_points": 10.0,
+      "previous_rank": 79,
+      "rank_change": -5
     },
     {
       "rank": 85,
@@ -686,7 +854,9 @@
       "player_name": "Korobchinskii Igor",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 10.0
+      "total_points": 10.0,
+      "previous_rank": 80,
+      "rank_change": -5
     },
     {
       "rank": 86,
@@ -694,7 +864,9 @@
       "player_name": "Knysh Andrii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 9.5
+      "total_points": 9.5,
+      "previous_rank": 81,
+      "rank_change": -5
     },
     {
       "rank": 87,
@@ -702,7 +874,9 @@
       "player_name": "Zayanchkouski Anton",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 9.5
+      "total_points": 9.5,
+      "previous_rank": 82,
+      "rank_change": -5
     },
     {
       "rank": 88,
@@ -710,7 +884,9 @@
       "player_name": "Gezun Nikolai",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 8.5
+      "total_points": 8.5,
+      "previous_rank": 83,
+      "rank_change": -5
     },
     {
       "rank": 89,
@@ -718,7 +894,9 @@
       "player_name": "Minenko Daniil",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 8.5
+      "total_points": 8.5,
+      "previous_rank": 84,
+      "rank_change": -5
     },
     {
       "rank": 90,
@@ -726,7 +904,9 @@
       "player_name": "Bariev Anatoliy",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 86,
+      "rank_change": -4
     },
     {
       "rank": 91,
@@ -734,7 +914,9 @@
       "player_name": "Boiko Semen",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 88,
+      "rank_change": -3
     },
     {
       "rank": 92,
@@ -742,7 +924,9 @@
       "player_name": "Bondarenko Anton",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 89,
+      "rank_change": -3
     },
     {
       "rank": 93,
@@ -750,7 +934,9 @@
       "player_name": "Fomin Eduard",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 90,
+      "rank_change": -3
     },
     {
       "rank": 94,
@@ -758,7 +944,9 @@
       "player_name": "Klimenko Daniil",
       "country": "CZE",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 91,
+      "rank_change": -3
     },
     {
       "rank": 95,
@@ -766,7 +954,9 @@
       "player_name": "Kyselov Yevhenii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 92,
+      "rank_change": -3
     },
     {
       "rank": 96,
@@ -774,7 +964,9 @@
       "player_name": "Markotsinskii Yanush",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 93,
+      "rank_change": -3
     },
     {
       "rank": 97,
@@ -782,7 +974,9 @@
       "player_name": "Varasyan Karen",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 95,
+      "rank_change": -2
     },
     {
       "rank": 98,
@@ -790,7 +984,9 @@
       "player_name": "Zhdanov Danilo",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 7.5
+      "total_points": 7.5,
+      "previous_rank": 96,
+      "rank_change": -2
     },
     {
       "rank": 99,
@@ -798,7 +994,9 @@
       "player_name": "Kvyatkovskii David",
       "country": "POL",
       "tournaments": 2,
-      "total_points": 6.5
+      "total_points": 6.5,
+      "previous_rank": 99,
+      "rank_change": 0
     },
     {
       "rank": 100,
@@ -806,7 +1004,9 @@
       "player_name": "Budantsev Artem",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 6.5
+      "total_points": 6.5,
+      "previous_rank": 100,
+      "rank_change": 0
     },
     {
       "rank": 101,
@@ -814,7 +1014,9 @@
       "player_name": "Lishchinskii Vladislav",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 6.5
+      "total_points": 6.5,
+      "previous_rank": 101,
+      "rank_change": 0
     },
     {
       "rank": 102,
@@ -822,7 +1024,9 @@
       "player_name": "Stayanovich David",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 6.5
+      "total_points": 6.5,
+      "previous_rank": 102,
+      "rank_change": 0
     },
     {
       "rank": 103,
@@ -830,7 +1034,9 @@
       "player_name": "Talanenko Yurii",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 6.0
+      "total_points": 6.0,
+      "previous_rank": 103,
+      "rank_change": 0
     },
     {
       "rank": 104,
@@ -838,7 +1044,9 @@
       "player_name": "Binyuk Nikolai",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 104,
+      "rank_change": 0
     },
     {
       "rank": 105,
@@ -846,7 +1054,9 @@
       "player_name": "Borovskyi Andrii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 105,
+      "rank_change": 0
     },
     {
       "rank": 106,
@@ -854,7 +1064,9 @@
       "player_name": "Dzinhel Vitalii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 106,
+      "rank_change": 0
     },
     {
       "rank": 107,
@@ -862,7 +1074,9 @@
       "player_name": "Leletskii Pilip",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 107,
+      "rank_change": 0
     },
     {
       "rank": 108,
@@ -870,7 +1084,9 @@
       "player_name": "Sterpul Illya",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 108,
+      "rank_change": 0
     },
     {
       "rank": 109,
@@ -878,7 +1094,9 @@
       "player_name": "Stratu Oleg",
       "country": "MDA",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 109,
+      "rank_change": 0
     },
     {
       "rank": 110,
@@ -886,7 +1104,9 @@
       "player_name": "Tomin Anatolii",
       "country": "ESP",
       "tournaments": 1,
-      "total_points": 5.5
+      "total_points": 5.5,
+      "previous_rank": 110,
+      "rank_change": 0
     },
     {
       "rank": 111,
@@ -894,7 +1114,9 @@
       "player_name": "Novikov Maksim",
       "country": "UKR",
       "tournaments": 2,
-      "total_points": 5.0
+      "total_points": 5.0,
+      "previous_rank": 111,
+      "rank_change": 0
     },
     {
       "rank": 112,
@@ -902,7 +1124,9 @@
       "player_name": "Kravchuk Evgenii",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 4.5
+      "total_points": 4.5,
+      "previous_rank": 112,
+      "rank_change": 0
     },
     {
       "rank": 113,
@@ -910,7 +1134,9 @@
       "player_name": "Chernyavskii Aleksandr",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 3.5
+      "total_points": 3.5,
+      "previous_rank": 113,
+      "rank_change": 0
     },
     {
       "rank": 114,
@@ -918,7 +1144,9 @@
       "player_name": "Gaponenko Egor",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 3.5
+      "total_points": 3.5,
+      "previous_rank": 114,
+      "rank_change": 0
     },
     {
       "rank": 115,
@@ -926,7 +1154,9 @@
       "player_name": "Kalachinskii Leonid",
       "country": "UKR",
       "tournaments": 1,
-      "total_points": 3.5
+      "total_points": 3.5,
+      "previous_rank": 115,
+      "rank_change": 0
     },
     {
       "rank": 116,
@@ -934,7 +1164,9 @@
       "player_name": "Mazur Sergei",
       "country": "POL",
       "tournaments": 1,
-      "total_points": 2.5
+      "total_points": 2.5,
+      "previous_rank": 116,
+      "rank_change": 0
     }
   ],
   "periods": [
