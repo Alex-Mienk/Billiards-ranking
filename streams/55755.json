@@ -1,0 +1,41 @@
+{
+  "tournament_id": "55755",
+  "streams": [
+    {
+      "table_number": "2",
+      "video_url": "https://www.youtube.com/watch?v=tFRCA9qFgX4",
+      "started_at": "2026-08-09T11:00:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "3",
+      "video_url": "https://www.youtube.com/watch?v=cocFkfe39es",
+      "started_at": "2026-08-09T11:00:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "4",
+      "video_url": "https://www.youtube.com/watch?v=FjLtihHSTsI",
+      "started_at": "2026-08-09T11:00:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "5",
+      "video_url": "https://www.youtube.com/watch?v=LeeawlNtVe8",
+      "started_at": "2026-08-09T11:00:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "6",
+      "video_url": "https://www.youtube.com/watch?v=kBdfDmicEAA",
+      "started_at": "2026-08-09T11:00:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    }
+  ],
+  "match_overrides": {}
+}
