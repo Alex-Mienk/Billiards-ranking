@@ -936,6 +936,55 @@ footer {
         min-width: 500px;
     }
 
+    .ranking-table,
+    .seasonal-table {
+        min-width: 0;
+        table-layout: fixed;
+    }
+
+    .ranking-table th,
+    .ranking-table td,
+    .seasonal-table th,
+    .seasonal-table td {
+        padding-inline: 7px;
+    }
+
+    .ranking-table .rank,
+    .seasonal-table .rank {
+        width: 48px;
+    }
+
+    .ranking-table th:nth-child(4),
+    .ranking-table td:nth-child(4),
+    .seasonal-table th:nth-child(4),
+    .seasonal-table td:nth-child(4) {
+        width: 56px;
+    }
+
+    .ranking-table th:nth-child(5),
+    .ranking-table td:nth-child(5),
+    .seasonal-table th:nth-child(5),
+    .seasonal-table td:nth-child(5) {
+        width: 64px;
+    }
+
+    .ranking-table .player,
+    .seasonal-table .player {
+        width: auto;
+    }
+
+    .ranking-table .player-link,
+    .seasonal-table .player-link {
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+    .ranking-table th,
+    .seasonal-table th {
+        font-size: 0.68rem;
+        letter-spacing: 0.04em;
+    }
+
     th:nth-child(3),
     td:nth-child(3) {
         display: none;
