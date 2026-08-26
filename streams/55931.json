@@ -1,0 +1,41 @@
+{
+  "tournament_id": "55931",
+  "streams": [
+    {
+      "table_number": "2",
+      "video_url": "https://www.youtube.com/live/WfGc58WDsPc?is=LjCC8rL2f5KBIWA3",
+      "started_at": "2026-08-23T10:23:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "3",
+      "video_url": "https://www.youtube.com/live/By9MD670oI0?is=PF35seB0OqeTZLZV",
+      "started_at": "2026-08-23T10:23:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "4",
+      "video_url": "https://www.youtube.com/live/Apwpq-1y3sQ?is=VLkThpyfljIblmFx",
+      "started_at": "2026-08-23T10:23:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "5",
+      "video_url": "https://www.youtube.com/live/1vU6L9IDf9c?is=9zGpkJNSYISrb6tg",
+      "started_at": "2026-08-23T10:23:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    },
+    {
+      "table_number": "6",
+      "video_url": "https://www.youtube.com/live/q3gQxDhewBI?is=3EUGVzq0SQmbdcRk",
+      "started_at": "2026-08-23T10:23:00+02:00",
+      "lead_in_seconds": 30,
+      "adjustment_seconds": 0
+    }
+  ],
+  "match_overrides": {}
+}

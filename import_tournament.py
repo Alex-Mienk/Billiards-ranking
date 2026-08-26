@@ -2,6 +2,7 @@ import argparse
 import csv
 
 from scrape_tournament import parse_date, save_results, scrape_tournament
+from scrape_matches import save_matches, scrape_matches
 from yearly_ranking import build_ranking
 
 
@@ -38,6 +39,16 @@ def main() -> None:
             arguments.tournament_date,
         )
         print(f"Saved: {output_path}")
+        matches = scrape_matches(
+            arguments.tournament_id,
+            arguments.tournament_date,
+        )
+        matches_path = save_matches(
+            matches,
+            arguments.tournament_id,
+            arguments.tournament_date,
+        )
+        print(f"Saved: {matches_path} ({len(matches)} matches)")
         print(f"Rebuilding {arguments.tournament_date.year} rankings...")
         build_ranking(arguments.tournament_date.year)
     except (OSError, csv.Error, RuntimeError) as error:

@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T08:28:36.468515+00:00",
+  "updated_at": "2026-08-26T08:57:17.263003+00:00",
   "annual": {
     "rank": 77,
     "tournaments": 2,
@@ -65,5 +65,6 @@
       "points": 4.5,
       "source_url": "https://tournamentservice.net/embed/54379/standing"
     }
-  ]
+  ],
+  "recorded_matches": []
 }
