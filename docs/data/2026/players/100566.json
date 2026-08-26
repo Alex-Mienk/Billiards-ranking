@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 87,
     "tournaments": 1,
@@ -41,5 +41,63 @@
       "source_url": "https://tournamentservice.net/embed/53955/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2821241",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "LB3",
+      "round_name": "Нижняя сетка, тур 3",
+      "match_number": "94",
+      "table_number": "01",
+      "started_at": "2026-01-24T17:59:33+00:00",
+      "ended_at": "2026-01-24T19:47:14+00:00",
+      "duration_seconds": 6461,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 41351,
+      "opponent_name": "Bagatskii Denis",
+      "score_for": "38",
+      "score_against": "45"
+    },
+    {
+      "match_id": "2821254",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "75",
+      "table_number": "3",
+      "started_at": "2026-01-24T14:37:40+00:00",
+      "ended_at": "2026-01-24T15:56:21+00:00",
+      "duration_seconds": 4721,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 87815,
+      "opponent_name": "Klubkov Dmytro",
+      "score_for": "40",
+      "score_against": "31"
+    },
+    {
+      "match_id": "2821313",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "38",
+      "table_number": "01",
+      "started_at": "2026-01-24T12:20:41+00:00",
+      "ended_at": "2026-01-24T14:08:50+00:00",
+      "duration_seconds": 6489,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 1632,
+      "opponent_name": "Shumelyuk Aleksandr",
+      "score_for": "25",
+      "score_against": "40"
+    }
+  ]
 }

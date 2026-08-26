@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 102,
     "tournaments": 1,
@@ -41,5 +41,63 @@
       "source_url": "https://tournamentservice.net/embed/55159/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2882289",
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "34",
+      "table_number": "6",
+      "started_at": "2026-05-24T14:12:17+00:00",
+      "ended_at": "2026-05-24T15:05:52+00:00",
+      "duration_seconds": 3215,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 87671,
+      "opponent_name": "Skukis Volodymyr",
+      "score_for": "1",
+      "score_against": "2"
+    },
+    {
+      "match_id": "2882297",
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "round": "LB1",
+      "round_name": "Нижняя сетка, тур 1",
+      "match_number": "26",
+      "table_number": "4",
+      "started_at": "2026-05-24T11:19:22+00:00",
+      "ended_at": "2026-05-24T12:56:43+00:00",
+      "duration_seconds": 5841,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 103427,
+      "opponent_name": "Yanchenko Artem",
+      "score_for": "2",
+      "score_against": "0"
+    },
+    {
+      "match_id": "2882307",
+      "tournament_id": "55159",
+      "tournament_name": "Złota Biła",
+      "tournament_date": "2026-05-24",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "4",
+      "table_number": "02",
+      "started_at": "2026-05-24T09:59:17+00:00",
+      "ended_at": "2026-05-24T11:02:34+00:00",
+      "duration_seconds": 3797,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 1134,
+      "opponent_name": "Budantsev Artem",
+      "score_for": "1",
+      "score_against": "3"
+    }
+  ]
 }

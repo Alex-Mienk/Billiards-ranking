@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 95,
     "tournaments": 1,
@@ -41,5 +41,44 @@
       "source_url": "https://tournamentservice.net/embed/54767/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2869361",
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "74",
+      "table_number": "6",
+      "started_at": "2026-04-25T13:34:08+00:00",
+      "ended_at": "2026-04-25T15:31:10+00:00",
+      "duration_seconds": 7022,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 97675,
+      "opponent_name": "Bugayets Roman",
+      "score_for": "37",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2869402",
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "19",
+      "table_number": "01",
+      "started_at": "2026-04-25T09:41:50+00:00",
+      "ended_at": "2026-04-25T10:53:59+00:00",
+      "duration_seconds": 4329,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 68408,
+      "opponent_name": "Trachuk Kirill",
+      "score_for": "21",
+      "score_against": "50"
+    }
+  ]
 }

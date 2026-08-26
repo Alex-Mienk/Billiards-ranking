@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 69,
     "tournaments": 2,
@@ -51,13 +51,33 @@
       "source_url": "https://tournamentservice.net/embed/55565/standing"
     }
   ],
-  "recorded_matches": [
+  "matches": [
+    {
+      "match_id": "2919106",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "8F",
+      "round_name": "1/8 финала",
+      "match_number": "46",
+      "table_number": "10",
+      "started_at": "2026-08-23T13:00:50+00:00",
+      "ended_at": "2026-08-23T15:00:58+00:00",
+      "duration_seconds": 7208,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 87908,
+      "opponent_name": "Tikhonov Roman",
+      "score_for": "2",
+      "score_against": "3"
+    },
     {
       "match_id": "2919098",
       "tournament_id": "55931",
       "tournament_name": "Zlota Bila",
       "tournament_date": "2026-08-23",
       "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
       "match_number": "22",
       "table_number": "6",
       "started_at": "2026-08-23T10:43:56+00:00",
@@ -69,6 +89,63 @@
       "opponent_name": "Danov Ilya",
       "score_for": "3",
       "score_against": "2"
+    },
+    {
+      "match_id": "2902852",
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "36",
+      "table_number": "6",
+      "started_at": "2026-07-12T14:11:38+00:00",
+      "ended_at": "2026-07-12T15:08:46+00:00",
+      "duration_seconds": 3428,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 53373,
+      "opponent_name": "Oleksii Miienko",
+      "score_for": "0",
+      "score_against": "2"
+    },
+    {
+      "match_id": "2902860",
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "round": "LB1",
+      "round_name": "Нижняя сетка, тур 1",
+      "match_number": "28",
+      "table_number": "9",
+      "started_at": "2026-07-12T11:32:35+00:00",
+      "ended_at": "2026-07-12T12:58:34+00:00",
+      "duration_seconds": 5159,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 88077,
+      "opponent_name": "Yarchevskii Eduard",
+      "score_for": "2",
+      "score_against": "1"
+    },
+    {
+      "match_id": "2902871",
+      "tournament_id": "55565",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-07-12",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "7",
+      "table_number": "6",
+      "started_at": "2026-07-12T09:06:37+00:00",
+      "ended_at": "2026-07-12T11:04:05+00:00",
+      "duration_seconds": 7048,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 94439,
+      "opponent_name": "Dmytriuk Andrii",
+      "score_for": "2",
+      "score_against": "3"
     }
   ]
 }

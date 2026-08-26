@@ -4,7 +4,7 @@
   "country": "LAT",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 75,
     "tournaments": 1,
@@ -41,5 +41,82 @@
       "source_url": "https://tournamentservice.net/embed/53955/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2821230",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "LB4",
+      "round_name": "Нижняя сетка, тур 4",
+      "match_number": "99",
+      "table_number": "3",
+      "started_at": "2026-01-25T07:35:19+00:00",
+      "ended_at": "2026-01-25T11:07:53+00:00",
+      "duration_seconds": 12754,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 91311,
+      "opponent_name": "Mishchenko Adrian",
+      "score_for": "36",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2821325",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB2",
+      "round_name": "Верхняя сетка, тур 2",
+      "match_number": "82",
+      "table_number": "5",
+      "started_at": "2026-01-24T18:45:07+00:00",
+      "ended_at": "2026-01-24T20:08:47+00:00",
+      "duration_seconds": 5020,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 68408,
+      "opponent_name": "Trachuk Kirill",
+      "score_for": "16",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2821310",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "35",
+      "table_number": "01",
+      "started_at": "2026-01-24T14:11:11+00:00",
+      "ended_at": "2026-01-24T15:30:53+00:00",
+      "duration_seconds": 4782,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 87813,
+      "opponent_name": "Polovko Volodymyr",
+      "score_for": "40",
+      "score_against": "27"
+    },
+    {
+      "match_id": "2821281",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "6",
+      "table_number": "02",
+      "started_at": "2026-01-24T11:00:01+00:00",
+      "ended_at": "2026-01-24T12:46:07+00:00",
+      "duration_seconds": 6366,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 16530,
+      "opponent_name": "Yelenich Vladislav",
+      "score_for": "50",
+      "score_against": "46"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 114,
     "tournaments": 1,
@@ -41,5 +41,44 @@
       "source_url": "https://tournamentservice.net/embed/54257/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2832217",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "39",
+      "table_number": "02",
+      "started_at": "2026-02-08T12:46:45+00:00",
+      "ended_at": "2026-02-08T14:35:30+00:00",
+      "duration_seconds": 6525,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 97445,
+      "opponent_name": "Kepich Taras",
+      "score_for": "2",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2832240",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "14",
+      "table_number": "9",
+      "started_at": "2026-02-08T11:11:29+00:00",
+      "ended_at": "2026-02-08T12:46:25+00:00",
+      "duration_seconds": 5696,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 10481,
+      "opponent_name": "Babliuk Yevhenii",
+      "score_for": "0",
+      "score_against": "3"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 113,
     "tournaments": 1,
@@ -41,5 +41,44 @@
       "source_url": "https://tournamentservice.net/embed/54257/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2832218",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "40",
+      "table_number": "VIP",
+      "started_at": "2026-02-08T12:46:51+00:00",
+      "ended_at": "2026-02-08T14:13:56+00:00",
+      "duration_seconds": 5225,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 92409,
+      "opponent_name": "Konishev Nikita",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2832241",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "15",
+      "table_number": "010",
+      "started_at": "2026-02-08T11:11:35+00:00",
+      "ended_at": "2026-02-08T12:05:18+00:00",
+      "duration_seconds": 3223,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 88077,
+      "opponent_name": "Yarchevskii Eduard",
+      "score_for": "1",
+      "score_against": "3"
+    }
+  ]
 }

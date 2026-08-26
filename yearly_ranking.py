@@ -377,7 +377,7 @@ def build_ranking(season_year: int) -> None:
             reverse=True,
         )
 
-    attach_recorded_matches(
+    attach_player_matches(
         ranking=ranking,
         tournaments=list(included_tournaments.values()),
         season_year=season_year,
@@ -426,7 +426,7 @@ def build_ranking(season_year: int) -> None:
     )
 
 
-def attach_recorded_matches(
+def attach_player_matches(
     ranking: list[dict],
     tournaments: list[dict],
     season_year: int,
@@ -442,7 +442,7 @@ def attach_recorded_matches(
     stream_configs = {}
 
     for player in ranking:
-        player["recorded_matches"] = []
+        player["matches"] = []
 
     for matches_path in sorted(
         (Path("data") / str(season_year)).glob("matches_*.csv")
@@ -472,9 +472,6 @@ def attach_recorded_matches(
                 {},
             )
 
-            if override.get("hidden"):
-                continue
-
             table_number = str(
                 override.get(
                     "table_number",
@@ -482,37 +479,6 @@ def attach_recorded_matches(
                 )
             )
             stream = streams_by_table.get(table_number)
-
-            if stream is None:
-                continue
-
-            try:
-                match_start = parse_timestamp(row["started_at"])
-                match_end = parse_timestamp(row["ended_at"])
-                stream_start = parse_timestamp(stream["started_at"])
-            except (KeyError, ValueError):
-                print(
-                    f"Warning: skipped invalid video timing for match "
-                    f"{match_id} in {matches_path}."
-                )
-                continue
-
-            if "offset_seconds" in override:
-                offset_seconds = int(override["offset_seconds"])
-            else:
-                offset_seconds = round(
-                    (match_start - stream_start).total_seconds()
-                )
-                offset_seconds += int(
-                    stream.get("adjustment_seconds", 0)
-                )
-                offset_seconds -= int(stream.get("lead_in_seconds", 30))
-
-            offset_seconds = max(0, offset_seconds)
-            video_url = timestamped_video_url(
-                stream["video_url"],
-                offset_seconds,
-            )
 
             try:
                 raw_player_a_id = int(row["player_a_id"])
@@ -534,24 +500,73 @@ def attach_recorded_matches(
             if player_a is None or player_b is None:
                 continue
 
+            match_start = None
+            match_end = None
+
+            try:
+                match_start = parse_timestamp(row["started_at"])
+                match_end = parse_timestamp(row["ended_at"])
+            except (KeyError, ValueError):
+                pass
+
+            video_url = ""
+            offset_seconds = None
+
+            if stream is not None and not override.get("hidden"):
+                try:
+                    stream_start = parse_timestamp(stream["started_at"])
+
+                    if match_start is None:
+                        raise ValueError("Match start time is unavailable.")
+
+                    if "offset_seconds" in override:
+                        offset_seconds = int(override["offset_seconds"])
+                    else:
+                        offset_seconds = round(
+                            (match_start - stream_start).total_seconds()
+                        )
+                        offset_seconds += int(
+                            stream.get("adjustment_seconds", 0)
+                        )
+                        offset_seconds -= int(
+                            stream.get("lead_in_seconds", 30)
+                        )
+
+                    offset_seconds = max(0, offset_seconds)
+                    video_url = timestamped_video_url(
+                        stream["video_url"],
+                        offset_seconds,
+                    )
+                except (KeyError, TypeError, ValueError):
+                    print(
+                        f"Warning: no video link created for match "
+                        f"{match_id} in {matches_path}; its timing "
+                        "or stream configuration is invalid."
+                    )
+
             common = {
                 "match_id": match_id,
                 "tournament_id": tournament_id,
                 "tournament_name": tournament["tournament_name"],
                 "tournament_date": tournament["tournament_date"],
                 "round": row.get("round", ""),
+                "round_name": row.get("round_name", ""),
                 "match_number": row.get("match_number", ""),
                 "table_number": table_number,
-                "started_at": row["started_at"],
-                "ended_at": row["ended_at"],
-                "duration_seconds": max(
-                    0,
-                    round((match_end - match_start).total_seconds()),
+                "started_at": row.get("started_at", ""),
+                "ended_at": row.get("ended_at", ""),
+                "duration_seconds": (
+                    max(
+                        0,
+                        round((match_end - match_start).total_seconds()),
+                    )
+                    if match_start is not None and match_end is not None
+                    else None
                 ),
                 "video_url": video_url,
                 "video_offset_seconds": offset_seconds,
             }
-            player_a["recorded_matches"].append(
+            player_a["matches"].append(
                 {
                     **common,
                     "opponent_id": player_b_id,
@@ -560,7 +575,7 @@ def attach_recorded_matches(
                     "score_against": row.get("player_b_score", ""),
                 }
             )
-            player_b["recorded_matches"].append(
+            player_b["matches"].append(
                 {
                     **common,
                     "opponent_id": player_a_id,
@@ -571,7 +586,7 @@ def attach_recorded_matches(
             )
 
     for player in ranking:
-        player["recorded_matches"].sort(
+        player["matches"].sort(
             key=lambda match: (
                 match["started_at"],
                 match["match_id"],
@@ -932,7 +947,7 @@ def save_player_profiles(
             "periods": periods_by_player.get(player_id, []),
             "disciplines": disciplines_by_player.get(player_id, []),
             "results": player["results"],
-            "recorded_matches": player.get("recorded_matches", []),
+            "matches": player.get("matches", []),
         }
         write_json_atomic(
             players_directory / f"{player_id}.json",

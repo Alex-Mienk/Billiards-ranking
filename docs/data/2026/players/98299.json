@@ -4,7 +4,7 @@
   "country": "ESP",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 60,
     "tournaments": 1,
@@ -41,5 +41,63 @@
       "source_url": "https://tournamentservice.net/embed/53955/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2821337",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "8F",
+      "round_name": "1/8 финала",
+      "match_number": "110",
+      "table_number": "02",
+      "started_at": "2026-01-25T10:10:23+00:00",
+      "ended_at": "2026-01-25T12:40:12+00:00",
+      "duration_seconds": 8989,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 16530,
+      "opponent_name": "Yelenich Vladislav",
+      "score_for": "39",
+      "score_against": "50"
+    },
+    {
+      "match_id": "2821329",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB2",
+      "round_name": "Верхняя сетка, тур 2",
+      "match_number": "86",
+      "table_number": "010",
+      "started_at": "2026-01-24T18:02:56+00:00",
+      "ended_at": "2026-01-24T19:45:26+00:00",
+      "duration_seconds": 6150,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 1188,
+      "opponent_name": "Karakai Valerii",
+      "score_for": "40",
+      "score_against": "20"
+    },
+    {
+      "match_id": "2821318",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "43",
+      "table_number": "5",
+      "started_at": "2026-01-24T13:34:26+00:00",
+      "ended_at": "2026-01-24T15:40:39+00:00",
+      "duration_seconds": 7573,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 91311,
+      "opponent_name": "Mishchenko Adrian",
+      "score_for": "40",
+      "score_against": "36"
+    }
+  ]
 }

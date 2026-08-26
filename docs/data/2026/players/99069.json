@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 77,
     "tournaments": 2,
@@ -66,5 +66,82 @@
       "source_url": "https://tournamentservice.net/embed/54379/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2849821",
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "33",
+      "table_number": "VIP",
+      "started_at": "2026-03-15T15:00:47+00:00",
+      "ended_at": "2026-03-15T15:01:10+00:00",
+      "duration_seconds": 23,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 64943,
+      "opponent_name": "Sobachinskii Vladislav",
+      "score_for": "29",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2849838",
+      "tournament_id": "54570",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-03-15",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "2",
+      "table_number": "01",
+      "started_at": "2026-03-15T11:05:07+00:00",
+      "ended_at": "2026-03-15T12:09:37+00:00",
+      "duration_seconds": 3870,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 68408,
+      "opponent_name": "Trachuk Kirill",
+      "score_for": "19",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2839830",
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "36",
+      "table_number": "6",
+      "started_at": "2026-02-22T13:02:37+00:00",
+      "ended_at": "2026-02-22T14:33:38+00:00",
+      "duration_seconds": 5461,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 94439,
+      "opponent_name": "Dmytriuk Andrii",
+      "score_for": "1",
+      "score_against": "2"
+    },
+    {
+      "match_id": "2839849",
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "7",
+      "table_number": "4",
+      "started_at": "2026-02-22T11:07:15+00:00",
+      "ended_at": "2026-02-22T12:31:54+00:00",
+      "duration_seconds": 5079,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 87908,
+      "opponent_name": "Tikhonov Roman",
+      "score_for": "1",
+      "score_against": "2"
+    }
+  ]
 }

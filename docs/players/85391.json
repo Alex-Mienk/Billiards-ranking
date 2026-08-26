@@ -4,7 +4,7 @@
   "country": "ESP",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 79,
     "tournaments": 1,
@@ -41,5 +41,44 @@
       "source_url": "https://tournamentservice.net/embed/54767/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2869344",
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "round": "LB3",
+      "round_name": "Нижняя сетка, тур 3",
+      "match_number": "89",
+      "table_number": "01",
+      "started_at": "2026-04-25T16:41:11+00:00",
+      "ended_at": "2026-04-25T18:00:32+00:00",
+      "duration_seconds": 4761,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 90817,
+      "opponent_name": "Denisenko Igor",
+      "score_for": "24",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2869430",
+      "tournament_id": "54767",
+      "tournament_name": "Denisenko Cup. VI открытый турнир Zlota Bila. Призовой фонд 100% от взносов!!!",
+      "tournament_date": "2026-04-25",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "47",
+      "table_number": "6",
+      "started_at": "2026-04-25T12:36:52+00:00",
+      "ended_at": "2026-04-25T13:28:00+00:00",
+      "duration_seconds": 3068,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 45956,
+      "opponent_name": "Bikmetov Maxim",
+      "score_for": "12",
+      "score_against": "40"
+    }
+  ]
 }

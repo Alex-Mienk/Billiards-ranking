@@ -4,7 +4,7 @@
   "country": "UKR",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 76,
     "tournaments": 1,
@@ -41,5 +41,63 @@
       "source_url": "https://tournamentservice.net/embed/53955/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2821235",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "LB4",
+      "round_name": "Нижняя сетка, тур 4",
+      "match_number": "104",
+      "table_number": "010",
+      "started_at": "2026-01-25T07:37:42+00:00",
+      "ended_at": "2026-01-25T10:11:34+00:00",
+      "duration_seconds": 9232,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 5321,
+      "opponent_name": "Singayevskii Yevgenii",
+      "score_for": "17",
+      "score_against": "40"
+    },
+    {
+      "match_id": "2821328",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB2",
+      "round_name": "Верхняя сетка, тур 2",
+      "match_number": "85",
+      "table_number": "3",
+      "started_at": "2026-01-24T18:42:40+00:00",
+      "ended_at": "2026-01-24T19:41:46+00:00",
+      "duration_seconds": 3546,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 100954,
+      "opponent_name": "Rodionov Vladislav",
+      "score_for": "25",
+      "score_against": "50"
+    },
+    {
+      "match_id": "2821317",
+      "tournament_id": "53955",
+      "tournament_name": "Denisenko Cup. V открытый любительский турнир Zlota Bila.",
+      "tournament_date": "2026-01-24",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "42",
+      "table_number": "010",
+      "started_at": "2026-01-24T12:31:01+00:00",
+      "ended_at": "2026-01-24T13:57:21+00:00",
+      "duration_seconds": 5180,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 85159,
+      "opponent_name": "Knysh Andrii",
+      "score_for": "40",
+      "score_against": "29"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 78,
     "tournaments": 2,
@@ -66,13 +66,14 @@
       "source_url": "https://tournamentservice.net/embed/54257/standing"
     }
   ],
-  "recorded_matches": [
+  "matches": [
     {
       "match_id": "2919061",
       "tournament_id": "55931",
       "tournament_name": "Zlota Bila",
       "tournament_date": "2026-08-23",
       "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
       "match_number": "33",
       "table_number": "3",
       "started_at": "2026-08-23T11:51:32+00:00",
@@ -84,6 +85,82 @@
       "opponent_name": "Oleksii Miienko",
       "score_for": "0",
       "score_against": "2"
+    },
+    {
+      "match_id": "2919078",
+      "tournament_id": "55931",
+      "tournament_name": "Zlota Bila",
+      "tournament_date": "2026-08-23",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "2",
+      "table_number": "1",
+      "started_at": "2026-08-23T09:09:45+00:00",
+      "ended_at": "2026-08-23T10:47:42+00:00",
+      "duration_seconds": 5877,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 26032,
+      "opponent_name": "Popov Oleksandr",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2832204",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "LB4",
+      "round_name": "Нижняя сетка, тур 4",
+      "match_number": "50",
+      "table_number": "5",
+      "started_at": "2026-02-08T16:39:25+00:00",
+      "ended_at": "2026-02-08T17:24:24+00:00",
+      "duration_seconds": 2699,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 55740,
+      "opponent_name": "Boiko Dmitro",
+      "score_for": "0",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2832251",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "WB2",
+      "round_name": "Верхняя сетка, тур 2",
+      "match_number": "41",
+      "table_number": "4",
+      "started_at": "2026-02-08T13:06:00+00:00",
+      "ended_at": "2026-02-08T13:43:31+00:00",
+      "duration_seconds": 2251,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 43938,
+      "opponent_name": "Talanenko Oleksandr",
+      "score_for": "1",
+      "score_against": "3"
+    },
+    {
+      "match_id": "2832244",
+      "tournament_id": "54257",
+      "tournament_name": "Клубный турнир Zlota Bila",
+      "tournament_date": "2026-02-08",
+      "round": "WB1",
+      "round_name": "Верхняя сетка, тур 1",
+      "match_number": "18",
+      "table_number": "02",
+      "started_at": "2026-02-08T11:10:38+00:00",
+      "ended_at": "2026-02-08T12:34:32+00:00",
+      "duration_seconds": 5034,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 97445,
+      "opponent_name": "Kepich Taras",
+      "score_for": "3",
+      "score_against": "1"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "country": "POL",
   "year": 2026,
   "season": "01.01.2026–31.12.2026",
-  "updated_at": "2026-08-26T09:15:06.916174+00:00",
+  "updated_at": "2026-08-26T10:01:38.238279+00:00",
   "annual": {
     "rank": 112,
     "tournaments": 1,
@@ -41,5 +41,44 @@
       "source_url": "https://tournamentservice.net/embed/54379/standing"
     }
   ],
-  "recorded_matches": []
+  "matches": [
+    {
+      "match_id": "2839834",
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "round": "LB2",
+      "round_name": "Нижняя сетка, тур 2",
+      "match_number": "40",
+      "table_number": "01",
+      "started_at": "2026-02-22T12:22:44+00:00",
+      "ended_at": "2026-02-22T13:15:58+00:00",
+      "duration_seconds": 3194,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 43938,
+      "opponent_name": "Talanenko Oleksandr",
+      "score_for": "0",
+      "score_against": "2"
+    },
+    {
+      "match_id": "2839857",
+      "tournament_id": "54379",
+      "tournament_name": "Турнир Zlota Bila",
+      "tournament_date": "2026-02-22",
+      "round": "R1",
+      "round_name": "Первый тур",
+      "match_number": "15",
+      "table_number": "010",
+      "started_at": "2026-02-22T11:07:55+00:00",
+      "ended_at": "2026-02-22T11:51:01+00:00",
+      "duration_seconds": 2586,
+      "video_url": "",
+      "video_offset_seconds": null,
+      "opponent_id": 96995,
+      "opponent_name": "Lobov Maksym",
+      "score_for": "0",
+      "score_against": "2"
+    }
+  ]
 }
