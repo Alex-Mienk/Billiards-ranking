@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+        name="description"
+        content="Compare Złota Bila player rankings and match records"
+    >
+    <meta name="theme-color" content="#001b3e">
+    <title>Head-2-Head — Złota Bila</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Heebo:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
+    <script src="year-navigation.js" defer></script>
+    <script src="head-to-head.js" defer></script>
+</head>
+
+<body>
+    <header class="hero head-to-head-hero">
+        <div class="container">
+            <div class="brand-bar">
+                <a
+                    class="brand"
+                    href="https://zlotabila.com/"
+                    aria-label="Złota Bila home page"
+                >
+                    <img class="brand-logo" src="zlota.svg" alt="Złota Bila">
+                </a>
+                <a class="club-link" href="https://zlotabila.com/">
+                    ZLOTABILA.COM
+                </a>
+            </div>
+
+            <div class="ranking-navigation-row">
+                <div class="site-navigation">
+                    <button
+                        class="menu-button"
+                        type="button"
+                        aria-label="Open ranking navigation"
+                        aria-expanded="false"
+                        aria-controls="ranking-menu"
+                    >
+                        <span></span><span></span><span></span>
+                    </button>
+                    <nav
+                        id="ranking-menu"
+                        class="navigation-menu"
+                        aria-label="Ranking pages"
+                        hidden
+                    >
+                        <a href="index.html">Annual ranking</a>
+                        <a href="seasons.html">Seasonal rankings</a>
+                        <a href="disciplines.html">Discipline rankings</a>
+                        <a href="head-to-head.html" aria-current="page">
+                            Head-2-Head
+                        </a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow">Player comparison</p>
+                <h1>Head-2-Head</h1>
+                <p id="season" class="season">Loading players…</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content head-to-head-content">
+        <section class="ranking-card comparison-card">
+            <div class="gold-line"></div>
+            <form id="comparison-form" class="comparison-form">
+                <label>
+                    <span>First player</span>
+                    <select id="player-one" required></select>
+                </label>
+                <span class="versus-mark" aria-hidden="true">VS</span>
+                <label>
+                    <span>Second player</span>
+                    <select id="player-two" required></select>
+                </label>
+                <button class="compare-button" type="submit">Compare</button>
+            </form>
+
+            <div
+                id="error-message"
+                class="message error-message"
+                role="alert"
+                hidden
+            ></div>
+        </section>
+
+        <section id="comparison-results" hidden>
+            <div id="annual-comparison" class="player-comparison-grid"></div>
+
+            <section class="ranking-card discipline-comparison-card">
+                <div class="gold-line"></div>
+                <div class="toolbar">
+                    <div>
+                        <p class="section-label">By game format</p>
+                        <h2>Discipline comparison</h2>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table class="head-to-head-table">
+                        <thead>
+                            <tr>
+                                <th>Discipline</th>
+                                <th id="discipline-player-one">Player 1</th>
+                                <th id="discipline-player-two">Player 2</th>
+                            </tr>
+                        </thead>
+                        <tbody id="discipline-body"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="ranking-card meetings-card">
+                <div class="gold-line"></div>
+                <div class="toolbar">
+                    <div>
+                        <p class="section-label">Direct meetings</p>
+                        <h2>Matches together</h2>
+                        <p id="meeting-summary" class="updated"></p>
+                    </div>
+                </div>
+                <div id="meeting-list" class="meeting-list"></div>
+                <p id="no-meetings" class="message" hidden>
+                    These players have no imported matches together.
+                </p>
+            </section>
+        </section>
+
+        <noscript>
+            <p class="message noscript-message">
+                JavaScript must be enabled to compare players.
+            </p>
+        </noscript>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <img class="footer-logo" src="zlota.svg" alt="">
+            <p>Comparisons use imported club tournament results.</p>
+        </div>
+    </footer>
+</body>
+</html>
