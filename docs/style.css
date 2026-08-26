@@ -946,14 +946,14 @@ footer {
     .ranking-table td,
     .seasonal-table th,
     .seasonal-table td {
-        padding-inline: 7px;
+        padding-inline: 4px;
     }
 
     .ranking-table th:first-child,
     .ranking-table td:first-child,
     .seasonal-table th:first-child,
     .seasonal-table td:first-child {
-        width: 48px;
+        width: 40px;
     }
 
     .ranking-table th:nth-child(4),
@@ -973,6 +973,13 @@ footer {
     .ranking-table .player,
     .seasonal-table .player {
         width: auto;
+        padding-left: 1px;
+    }
+
+    .ranking-table .medal,
+    .seasonal-table .medal {
+        width: 30px;
+        height: 30px;
     }
 
     .ranking-table .player-link,
